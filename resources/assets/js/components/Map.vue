@@ -51,7 +51,7 @@ export default {
   name: "Map",
   data() {
     return {
-      width: 711,
+      width: 675,
       chartMargin: { top: -35, right: 37, bottom: 21, left: 10 },
       mapGeojson: mapGeojson,
       ahecGeojson: ahecGeojson,

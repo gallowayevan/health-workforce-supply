@@ -11,6 +11,7 @@
 </g>
 <g :transform="`translate(${chartMargin.left}, ${chartMargin.top})`" v-show="region != 'North Carolina'">
     <path class="ncLine" :d="linePath"></path>
+  <text :x="variable.indexOf('percent') > -1 ? ncPosition[0] + 17 : ncPosition[0] + 8" :y="ncPosition[1] + 5" style="fill: #007fae; opacity: 0.5; font-size: 1em;">{{ncText}}</text>
 </g>
 <g :transform="`translate(${chartMargin.left}, ${chartMargin.top})`">
     <bar-text 
@@ -40,7 +41,8 @@ export default {
     return {
       width: 240,
       chartMargin: { top: 15, right: 17, bottom: 21, left: 10 },
-      linePath: ""
+      linePath: "",
+      ncPosition: [0,0]
     };
   },
   props: ["variable"],
@@ -110,6 +112,8 @@ export default {
           return yScale(+d.value);
         });
       this.linePath = linePathGenerator(this.ncData);
+      // console.log(yScale(this.ncData[this.ncData.length - 1].value))
+      this.ncPosition = [xLinear.range()[1], yScale(this.ncData[this.ncData.length - 1].value)];
       return this.chartData.map(function(d, i) {
         //first and last elements are default annotations
         let defaultAnnotation = i == 0 || i == arrayLength - 1;
@@ -128,7 +132,15 @@ export default {
     },
     valueFormatter: function() {
       return formatter(this.variable);
-    }
+    },
+     ncText() {
+      let txt = "State ";
+      txt = this.variable == "providerRate"
+        ? txt + "Rate"
+        : this.variable == "total" ? txt + "Median" : txt + "%";
+
+        return txt
+    },
   },
   methods: {
     calculateYMax: function() {
@@ -175,7 +187,7 @@ p {
   stroke-width: 2;
   stroke-linejoin: round;
   stroke-linecap: round;
-  stroke-opacity: 0.8;
+  stroke-opacity: 0.5;
 }
 
 .title {

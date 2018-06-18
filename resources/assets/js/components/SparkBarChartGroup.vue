@@ -1,12 +1,12 @@
 <template>
-<g transform="translate(722, 90)" id="bar-chart-group">
+<g transform="translate(648, 90)" id="bar-chart-group">
     <text class="barChartHeader" transform="translate(0,-65)" v-html="barChartHeader"></text>
-    <transition name="fade">
+    <!-- <transition name="fade">
     <g class="ncLineLegend" transform="translate(0,-35)" v-if="region != 'North Carolina'">
     <line x1="0"  x2="40" />
     <text dx=45 dy=3 >Rate / Median / Percent for State</text>
     </g>
-     </transition>
+     </transition> -->
     <SparkBarChart 
     v-for="(variable, index) in variables" 
     :key="variable" 

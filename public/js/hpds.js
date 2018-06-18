@@ -20205,7 +20205,7 @@ exports = module.exports = __webpack_require__(5)(false);
 
 
 // module
-exports.push([module.i, "\np[data-v-0605463e] {\r\n  margin: 0;\n}\n.ncLine[data-v-0605463e] {\r\n  fill: none;\r\n  stroke: #007FAE;\r\n  stroke-width: 2;\r\n  stroke-linejoin: round;\r\n  stroke-linecap: round;\r\n  stroke-opacity: 0.8;\n}\n.title[data-v-0605463e] {\r\n  font-size: 1em;\r\n  text-align: center;\n}\n.fade-enter-active[data-v-0605463e],\r\n.fade-leave-active[data-v-0605463e] {\r\n  transition: opacity 0.5s;\n}\n.fade-enter[data-v-0605463e],\r\n.fade-leave-to[data-v-0605463e] {\r\n  opacity: 0;\n}\r\n", ""]);
+exports.push([module.i, "\np[data-v-0605463e] {\r\n  margin: 0;\n}\n.ncLine[data-v-0605463e] {\r\n  fill: none;\r\n  stroke: #007FAE;\r\n  stroke-width: 2;\r\n  stroke-linejoin: round;\r\n  stroke-linecap: round;\r\n  stroke-opacity: 0.5;\n}\n.title[data-v-0605463e] {\r\n  font-size: 1em;\r\n  text-align: center;\n}\n.fade-enter-active[data-v-0605463e],\r\n.fade-leave-active[data-v-0605463e] {\r\n  transition: opacity 0.5s;\n}\n.fade-enter[data-v-0605463e],\r\n.fade-leave-to[data-v-0605463e] {\r\n  opacity: 0;\n}\r\n", ""]);
 
 // exports
 
@@ -20249,6 +20249,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
 
 
 
@@ -20266,7 +20267,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     return {
       width: 240,
       chartMargin: { top: 15, right: 17, bottom: 21, left: 10 },
-      linePath: ""
+      linePath: "",
+      ncPosition: [0, 0]
     };
   },
 
@@ -20327,6 +20329,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         return yScale(+d.value);
       });
       this.linePath = linePathGenerator(this.ncData);
+      // console.log(yScale(this.ncData[this.ncData.length - 1].value))
+      this.ncPosition = [xLinear.range()[1], yScale(this.ncData[this.ncData.length - 1].value)];
       return this.chartData.map(function (d, i) {
         //first and last elements are default annotations
         var defaultAnnotation = i == 0 || i == arrayLength - 1;
@@ -20345,6 +20349,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     },
     valueFormatter: function valueFormatter() {
       return Object(__WEBPACK_IMPORTED_MODULE_3__utility__["a" /* formatter */])(this.variable);
+    },
+    ncText: function ncText() {
+      var txt = "State ";
+      txt = this.variable == "providerRate" ? txt + "Rate" : this.variable == "total" ? txt + "Median" : txt + "%";
+
+      return txt;
     }
   },
   methods: {
@@ -24980,7 +24990,28 @@ var render = function() {
               ")"
           }
         },
-        [_c("path", { staticClass: "ncLine", attrs: { d: _vm.linePath } })]
+        [
+          _c("path", { staticClass: "ncLine", attrs: { d: _vm.linePath } }),
+          _vm._v(" "),
+          _c(
+            "text",
+            {
+              staticStyle: {
+                fill: "#007fae",
+                opacity: "0.5",
+                "font-size": "1em"
+              },
+              attrs: {
+                x:
+                  _vm.variable.indexOf("percent") > -1
+                    ? _vm.ncPosition[0] + 17
+                    : _vm.ncPosition[0] + 8,
+                y: _vm.ncPosition[1] + 5
+              }
+            },
+            [_vm._v(_vm._s(_vm.ncText))]
+          )
+        ]
       ),
       _vm._v(" "),
       _c(
@@ -25025,32 +25056,13 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "g",
-    { attrs: { transform: "translate(722, 90)", id: "bar-chart-group" } },
+    { attrs: { transform: "translate(648, 90)", id: "bar-chart-group" } },
     [
       _c("text", {
         staticClass: "barChartHeader",
         attrs: { transform: "translate(0,-65)" },
         domProps: { innerHTML: _vm._s(_vm.barChartHeader) }
       }),
-      _vm._v(" "),
-      _c("transition", { attrs: { name: "fade" } }, [
-        _vm.region != "North Carolina"
-          ? _c(
-              "g",
-              {
-                staticClass: "ncLineLegend",
-                attrs: { transform: "translate(0,-35)" }
-              },
-              [
-                _c("line", { attrs: { x1: "0", x2: "40" } }),
-                _vm._v(" "),
-                _c("text", { attrs: { dx: "45", dy: "3" } }, [
-                  _vm._v("Rate / Median / Percent for State")
-                ])
-              ]
-            )
-          : _vm._e()
-      ]),
       _vm._v(" "),
       _vm._l(_vm.variables, function(variable, index) {
         return _c("SparkBarChart", {
@@ -26538,7 +26550,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
   name: "Map",
   data: function data() {
     return {
-      width: 711,
+      width: 675,
       chartMargin: { top: -35, right: 37, bottom: 21, left: 10 },
       mapGeojson: __WEBPACK_IMPORTED_MODULE_5__data_ncMap__["a" /* default */],
       ahecGeojson: __WEBPACK_IMPORTED_MODULE_6__data_ahec__["a" /* default */],
