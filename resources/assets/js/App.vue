@@ -33,6 +33,8 @@
           <div class="row">
             <div class="notes u-full-width"><hr>
                 <p class="notes-text" v-html="noteText"></p></div></div>
+
+                <v-tour name="userTour" :steps="steps"></v-tour>
     </div>
 </template>
 
@@ -42,7 +44,7 @@ import SpecialtySelect from "./components/SpecialtySelect";
 import DownloadImageButton from "./components/DownloadImageButton";
 import DownloadDataButton from "./components/DownloadDataButton";
 import Map from "./components/Map";
-import {getSourceText, getPhysicianGroupText} from "./chart-text"
+import { getSourceText, getPhysicianGroupText } from "./chart-text";
 // import debounce from "lodash/debounce";
 
 export default {
@@ -55,7 +57,42 @@ export default {
     DownloadDataButton
   },
   data: function() {
-    return {};
+    return {
+      steps: [
+        {
+          target: ".profession-select",
+          content: `Welcome! To begin, you can select a health profession. For some professions, you can also select a specialty or primary area of practice.`
+        },
+        {
+          target: ".counties",
+          content: `The map shows all the counties in North Carolina. Darker shades of green indicate higher values.`
+        },
+        {
+          target: ".histogram-legend",
+          content:
+            "The histogram summarizes the data in the map and also shows the relationship between the colors and values for the map.",
+          params: {
+            placement: "top"
+          }
+        },
+        {
+          target: "#bar-chart-group",
+          content:
+            "These mini charts show longitudinal demographic data for the selected profession and region. For instance, you can see the longitudinal trends for a given county by clicking on the map.",
+          params: {
+            placement: "left"
+          }
+        },
+        {
+          target: "#download-buttons",
+          content:
+            "Down here you can change the mapped year of data, download the dashboard as an image, download the data for the dashboard, or change the unit of geography from county to AHEC.",
+          params: {
+            placement: "top"
+          }
+        }
+      ]
+    };
   },
   computed: {
     loadFailed() {
@@ -77,12 +114,17 @@ export default {
     yearExtent() {
       return this.$store.state.yearExtent;
     },
-    noteText(){
-        const sourceText = getSourceText(this.$store.state.specialty.profession);
-        const professionGroupText = getPhysicianGroupText(this.$store.state.specialty);
+    noteText() {
+      const sourceText = getSourceText(this.$store.state.specialty.profession);
+      const professionGroupText = getPhysicianGroupText(
+        this.$store.state.specialty
+      );
 
-        return professionGroupText + sourceText; 
+      return professionGroupText + sourceText;
     }
+  },
+  mounted() {
+    this.$tours["userTour"].start();
   },
   methods: {
     changeAggregation() {
@@ -105,6 +147,14 @@ export default {
 </script>
 
 <style>
+.v-step {
+  background: #006837 !important;
+}
+
+.v-step__button {
+    font-size: 1.2rem !important;
+}
+
 #yearSlider {
   display: inline-block;
   margin-bottom: 1rem;
@@ -151,18 +201,18 @@ export default {
 }
 
 .notes-text {
-    margin-top: 1rem;
-    color: #333;
-    font-size: 1.2rem;
+  margin-top: 1rem;
+  color: #333;
+  font-size: 1.2rem;
 }
 
 .paop-note {
   margin-bottom: 1.5rem;
   font-size: 1.2rem;
-/* background-color: #d9f0a3; */
-/* color: #000; */
-padding: 10px;
-border: 3px solid #31a354;
-border-radius: 15px;
+  /* background-color: #d9f0a3; */
+  /* color: #000; */
+  padding: 10px;
+  border: 3px solid #31a354;
+  border-radius: 15px;
 }
 </style>

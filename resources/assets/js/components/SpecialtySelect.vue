@@ -1,6 +1,6 @@
 <template>        
         <div class="row">
-            <div class="five columns">
+            <div class="five columns profession-select">
                 <label>Choose a profession</label>
                 <!-- <select class="u-full-width" id="profession"> -->
                  <multiselect :value="value" :options="professions" track-by="code" label="profession" @input="changeSpecialty"></multiselect>

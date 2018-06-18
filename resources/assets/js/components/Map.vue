@@ -25,7 +25,7 @@
           <title v-html="`${item.properties.ahec}: ${valueFormatter(mapData.get(item.properties[aggregationLevel]))}`"></title>
           </path>
 </g>
-<histogram-legend transform="translate(40,325)" :colorScale="colorScale" :histogramData="histogramData" :mapData="mapData" v-if="aggregationLevel=='county'"></histogram-legend>
+<histogram-legend class="histogram-legend" transform="translate(40,325)" :colorScale="colorScale" :histogramData="histogramData" :mapData="mapData" v-if="aggregationLevel=='county'"></histogram-legend>
 <row-chart v-else transform="translate(200,325)" :colorScale="colorScale" :mapData="mapData"></row-chart>
 </g>
 
