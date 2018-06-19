@@ -96,11 +96,11 @@ export default {
       const currDomain = this.histogramData.map(d => d.x1).slice(0, -1);
       // const currExtent = [this.histogramData[0].x0, this.histogramData[this.histogramData.length - 1]];
       const binWidth = max(this.histogramData, d => d.x1 - d.x0);
-      console.log( [
-        Math.max(0, currDomain[0] - binWidth),
-        ...currDomain,
-        currDomain[currDomain.length - 1] + binWidth
-      ])
+      // console.log( [
+      //   Math.max(0, currDomain[0] - binWidth),
+      //   ...currDomain,
+      //   currDomain[currDomain.length - 1] + binWidth
+      // ])
       return [
         Math.max(0, currDomain[0] - binWidth),
         ...currDomain,
@@ -186,15 +186,9 @@ export default {
       let formatted = currValue;
       if (this.variable.indexOf("percent") > -1) {
         formatted = Math.round(currValue * 100) + "%";
-      } else if(this.variable == "total"){
+      } else {
         formatted = this.valueFormatter(currValue)
-      }// else {
-      //   if(currValue < 1){
-      //   formatted = format(".1r")(currValue)
-      //   } else {
-      //   formatted = format(".2r")(currValue)
-      //   }
-      // }
+      } 
       return formatted;
     }
   }

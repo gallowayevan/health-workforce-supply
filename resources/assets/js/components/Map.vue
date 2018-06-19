@@ -148,7 +148,7 @@ export default {
         .thresholds(ticks(...currentExtent,10)); //thresholdSturges(currentDomain)));
 
       const currBins = currHistogram(currentDomain);
-      console.log(currBins)
+      // console.log(currBins)
       return currBins;
     },
     colorScale() {

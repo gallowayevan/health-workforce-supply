@@ -27,6 +27,7 @@
                 <download-image-button></download-image-button>
                 <download-data-button></download-data-button>
                 <button type="button" class="aggregate" id="aggregate" @click="changeAggregation">{{aggregationText}}</button>
+                <button type="button" @click="runTutorial">Tutorial</button>
             </div>
 
         </div>
@@ -45,6 +46,7 @@ import DownloadImageButton from "./components/DownloadImageButton";
 import DownloadDataButton from "./components/DownloadDataButton";
 import Map from "./components/Map";
 import { getSourceText, getPhysicianGroupText } from "./chart-text";
+// import { cookie, createCookie } from "./cookie-manager";
 // import debounce from "lodash/debounce";
 
 export default {
@@ -124,7 +126,12 @@ export default {
     }
   },
   mounted() {
-    this.$tours["userTour"].start();
+    const currIntro = localStorage.getItem("intro");
+  
+    if(currIntro != "seen"){
+      this.$tours["userTour"].start();
+      localStorage.setItem("intro", "seen");
+    }
   },
   methods: {
     changeAggregation() {
@@ -132,6 +139,9 @@ export default {
     },
     updateYear(e) {
       this.$store.commit("changeYear", e.target.value);
+    }, 
+    runTutorial(){
+       this.$tours["userTour"].start();
     }
   }
   //   mounted() {
