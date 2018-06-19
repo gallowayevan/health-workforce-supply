@@ -93,7 +93,7 @@ export default {
     title: function() {
       let title = `${professionChartTitle(this.variable, this.specialty)}, North Carolina, ${this.year}`;
       // console.log(wrap(title))
-      return wrap({text: title, maxCharsPerLine: 95});
+      return wrap({text: title, maxCharsPerLine: 85});
     },
     mapData() {
       return new Map(

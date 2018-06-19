@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 131);
+/******/ 	return __webpack_require__(__webpack_require__.s = 132);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -159,63 +159,63 @@ function haversin(x) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_bisect__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_bisect__ = __webpack_require__(69);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__src_bisect__["a"]; });
 /* unused harmony reexport bisectRight */
 /* unused harmony reexport bisectLeft */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_ascending__ = __webpack_require__(17);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__src_ascending__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_bisector__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_bisector__ = __webpack_require__(70);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__src_bisector__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_cross__ = __webpack_require__(149);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_cross__ = __webpack_require__(150);
 /* unused harmony reexport cross */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_descending__ = __webpack_require__(150);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_descending__ = __webpack_require__(151);
 /* unused harmony reexport descending */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_deviation__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_deviation__ = __webpack_require__(72);
 /* unused harmony reexport deviation */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_extent__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_extent__ = __webpack_require__(74);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_6__src_extent__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_histogram__ = __webpack_require__(151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_histogram__ = __webpack_require__(152);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_7__src_histogram__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_threshold_freedmanDiaconis__ = __webpack_require__(154);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_threshold_freedmanDiaconis__ = __webpack_require__(155);
 /* unused harmony reexport thresholdFreedmanDiaconis */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_threshold_scott__ = __webpack_require__(155);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_threshold_scott__ = __webpack_require__(156);
 /* unused harmony reexport thresholdScott */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_threshold_sturges__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_threshold_sturges__ = __webpack_require__(78);
 /* unused harmony reexport thresholdSturges */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_max__ = __webpack_require__(156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_max__ = __webpack_require__(157);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_11__src_max__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_mean__ = __webpack_require__(157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_mean__ = __webpack_require__(158);
 /* unused harmony reexport mean */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_median__ = __webpack_require__(158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_median__ = __webpack_require__(159);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_13__src_median__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_merge__ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_merge__ = __webpack_require__(160);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_14__src_merge__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_min__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_min__ = __webpack_require__(79);
 /* unused harmony reexport min */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_pairs__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_pairs__ = __webpack_require__(71);
 /* unused harmony reexport pairs */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_permute__ = __webpack_require__(160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_permute__ = __webpack_require__(161);
 /* unused harmony reexport permute */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_quantile__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_quantile__ = __webpack_require__(44);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_18__src_quantile__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__src_range__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__src_range__ = __webpack_require__(76);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_19__src_range__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__src_scan__ = __webpack_require__(161);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__src_scan__ = __webpack_require__(162);
 /* unused harmony reexport scan */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__src_shuffle__ = __webpack_require__(162);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__src_shuffle__ = __webpack_require__(163);
 /* unused harmony reexport shuffle */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__src_sum__ = __webpack_require__(163);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__src_sum__ = __webpack_require__(164);
 /* unused harmony reexport sum */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__src_ticks__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__src_ticks__ = __webpack_require__(77);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_23__src_ticks__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_23__src_ticks__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_23__src_ticks__["c"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__src_transpose__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__src_transpose__ = __webpack_require__(80);
 /* unused harmony reexport transpose */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__src_variance__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__src_variance__ = __webpack_require__(73);
 /* unused harmony reexport variance */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__src_zip__ = __webpack_require__(164);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__src_zip__ = __webpack_require__(165);
 /* unused harmony reexport zip */
 
 
@@ -424,7 +424,7 @@ if (typeof DEBUG !== 'undefined' && DEBUG) {
   ) }
 }
 
-var listToStyles = __webpack_require__(139)
+var listToStyles = __webpack_require__(140)
 
 /*
 type StyleObject = {
@@ -746,14 +746,14 @@ module.exports = function normalizeComponent (
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_color__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_color__ = __webpack_require__(47);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_color__["e"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_0__src_color__["g"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_0__src_color__["f"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_lab__ = __webpack_require__(172);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_lab__ = __webpack_require__(173);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_1__src_lab__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__src_lab__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_cubehelix__ = __webpack_require__(173);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_cubehelix__ = __webpack_require__(174);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_2__src_cubehelix__["a"]; });
 
 
@@ -767,16 +767,16 @@ module.exports = function normalizeComponent (
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = projection;
 /* harmony export (immutable) */ __webpack_exports__["b"] = projectionMutator;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__clip_antimeridian__ = __webpack_require__(118);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__clip_circle__ = __webpack_require__(124);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__clip_rectangle__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__compose__ = __webpack_require__(117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__identity__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__clip_antimeridian__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__clip_circle__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__clip_rectangle__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__compose__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__identity__ = __webpack_require__(63);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__math__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__rotation__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__transform__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__fit__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__resample__ = __webpack_require__(309);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__rotation__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__transform__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__fit__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__resample__ = __webpack_require__(317);
 
 
 
@@ -932,45 +932,45 @@ var durationWeek = 6048e5;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_value__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_value__ = __webpack_require__(46);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_value__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_array__ = __webpack_require__(86);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_array__ = __webpack_require__(87);
 /* unused harmony reexport interpolateArray */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_basis__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_basis__ = __webpack_require__(49);
 /* unused harmony reexport interpolateBasis */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_basisClosed__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_basisClosed__ = __webpack_require__(85);
 /* unused harmony reexport interpolateBasisClosed */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_date__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_date__ = __webpack_require__(88);
 /* unused harmony reexport interpolateDate */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_number__ = __webpack_require__(30);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_5__src_number__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_object__ = __webpack_require__(88);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_object__ = __webpack_require__(89);
 /* unused harmony reexport interpolateObject */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_round__ = __webpack_require__(174);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_round__ = __webpack_require__(175);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_7__src_round__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_string__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_string__ = __webpack_require__(90);
 /* unused harmony reexport interpolateString */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_transform_index__ = __webpack_require__(175);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_transform_index__ = __webpack_require__(176);
 /* unused harmony reexport interpolateTransformCss */
 /* unused harmony reexport interpolateTransformSvg */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_zoom__ = __webpack_require__(178);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_zoom__ = __webpack_require__(179);
 /* unused harmony reexport interpolateZoom */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_rgb__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_rgb__ = __webpack_require__(84);
 /* unused harmony reexport interpolateRgb */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_11__src_rgb__["b"]; });
 /* unused harmony reexport interpolateRgbBasisClosed */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_hsl__ = __webpack_require__(179);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_hsl__ = __webpack_require__(180);
 /* unused harmony reexport interpolateHsl */
 /* unused harmony reexport interpolateHslLong */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_lab__ = __webpack_require__(180);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_lab__ = __webpack_require__(181);
 /* unused harmony reexport interpolateLab */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_hcl__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_hcl__ = __webpack_require__(182);
 /* unused harmony reexport interpolateHcl */
 /* unused harmony reexport interpolateHclLong */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__ = __webpack_require__(182);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__ = __webpack_require__(183);
 /* unused harmony reexport interpolateCubehelix */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_quantize__ = __webpack_require__(183);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_quantize__ = __webpack_require__(184);
 /* unused harmony reexport quantize */
 
 
@@ -1265,7 +1265,7 @@ function add(adder, a, b) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__continuous__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tickFormat__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tickFormat__ = __webpack_require__(185);
 
 
 
@@ -1345,7 +1345,7 @@ function linear() {
 /* harmony export (immutable) */ __webpack_exports__["c"] = hue;
 /* harmony export (immutable) */ __webpack_exports__["b"] = gamma;
 /* harmony export (immutable) */ __webpack_exports__["a"] = nogamma;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(86);
 
 
 function linear(a, d) {
@@ -1394,7 +1394,7 @@ function nogamma(a, b) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_path__ = __webpack_require__(225);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_path__ = __webpack_require__(226);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_path__["a"]; });
 
 
@@ -1556,51 +1556,51 @@ function azimuthalInvert(angle) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_band__ = __webpack_require__(165);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_band__ = __webpack_require__(166);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_band__["a"]; });
 /* unused harmony reexport scalePoint */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_identity__ = __webpack_require__(171);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_identity__ = __webpack_require__(172);
 /* unused harmony reexport scaleIdentity */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_linear__ = __webpack_require__(20);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_2__src_linear__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_log__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_log__ = __webpack_require__(195);
 /* unused harmony reexport scaleLog */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_ordinal__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_ordinal__ = __webpack_require__(81);
 /* unused harmony reexport scaleOrdinal */
 /* unused harmony reexport scaleImplicit */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_pow__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_pow__ = __webpack_require__(196);
 /* unused harmony reexport scalePow */
 /* unused harmony reexport scaleSqrt */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_quantile__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_quantile__ = __webpack_require__(197);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_6__src_quantile__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_quantize__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_quantize__ = __webpack_require__(198);
 /* unused harmony reexport scaleQuantize */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_threshold__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_threshold__ = __webpack_require__(199);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_8__src_threshold__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_time__ = __webpack_require__(96);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_time__ = __webpack_require__(97);
 /* unused harmony reexport scaleTime */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_utcTime__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_utcTime__ = __webpack_require__(215);
 /* unused harmony reexport scaleUtc */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_category10__ = __webpack_require__(215);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_category10__ = __webpack_require__(216);
 /* unused harmony reexport schemeCategory10 */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_category20b__ = __webpack_require__(216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_category20b__ = __webpack_require__(217);
 /* unused harmony reexport schemeCategory20b */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_category20c__ = __webpack_require__(217);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_category20c__ = __webpack_require__(218);
 /* unused harmony reexport schemeCategory20c */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_category20__ = __webpack_require__(218);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_category20__ = __webpack_require__(219);
 /* unused harmony reexport schemeCategory20 */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__ = __webpack_require__(219);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__ = __webpack_require__(220);
 /* unused harmony reexport interpolateCubehelixDefault */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_rainbow__ = __webpack_require__(220);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_rainbow__ = __webpack_require__(221);
 /* unused harmony reexport interpolateRainbow */
 /* unused harmony reexport interpolateWarm */
 /* unused harmony reexport interpolateCool */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_viridis__ = __webpack_require__(221);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_viridis__ = __webpack_require__(222);
 /* unused harmony reexport interpolateViridis */
 /* unused harmony reexport interpolateMagma */
 /* unused harmony reexport interpolateInferno */
 /* unused harmony reexport interpolatePlasma */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_sequential__ = __webpack_require__(222);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_sequential__ = __webpack_require__(223);
 /* unused harmony reexport scaleSequential */
 
 
@@ -1664,8 +1664,8 @@ function azimuthalInvert(angle) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__array__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__constant__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__number__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__constant__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__number__ = __webpack_require__(91);
 
 
 
@@ -1786,19 +1786,19 @@ function continuous(deinterpolate, reinterpolate) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__ = __webpack_require__(186);
 /* unused harmony reexport formatDefaultLocale */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_locale__ = __webpack_require__(91);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_locale__ = __webpack_require__(92);
 /* unused harmony reexport formatLocale */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_formatSpecifier__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_formatSpecifier__ = __webpack_require__(93);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__src_formatSpecifier__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_precisionFixed__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_precisionFixed__ = __webpack_require__(192);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_3__src_precisionFixed__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_precisionPrefix__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_precisionPrefix__ = __webpack_require__(193);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_4__src_precisionPrefix__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_precisionRound__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_precisionRound__ = __webpack_require__(194);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_5__src_precisionRound__["a"]; });
 
 
@@ -1813,7 +1813,7 @@ function continuous(deinterpolate, reinterpolate) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatDecimal__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatDecimal__ = __webpack_require__(51);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(x) {
@@ -2002,7 +2002,7 @@ Cardinal.prototype = {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__request__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__request__ = __webpack_require__(60);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(defaultMimeType, response) {
@@ -2022,8 +2022,30 @@ Cardinal.prototype = {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_dsv__ = __webpack_require__(61);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_0__src_dsv__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_csv__ = __webpack_require__(276);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__src_csv__["b"]; });
+/* unused harmony reexport csvParseRows */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__src_csv__["a"]; });
+/* unused harmony reexport csvFormatRows */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_tsv__ = __webpack_require__(277);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_2__src_tsv__["a"]; });
+/* unused harmony reexport tsvParseRows */
+/* unused harmony reexport tsvFormat */
+/* unused harmony reexport tsvFormatRows */
+
+
+
+
+
+/***/ }),
+/* 40 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = rotateRadians;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__compose__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__compose__ = __webpack_require__(118);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__math__ = __webpack_require__(0);
 
 
@@ -2104,15 +2126,15 @@ function rotationPhiGamma(deltaPhi, deltaGamma) {
 
 
 /***/ }),
-/* 40 */
+/* 41 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = clipRectangle;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__buffer__ = __webpack_require__(120);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__line__ = __webpack_require__(299);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__rejoin__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__buffer__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__line__ = __webpack_require__(307);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__rejoin__ = __webpack_require__(122);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_d3_array__ = __webpack_require__(3);
 
 
@@ -2285,7 +2307,7 @@ function clipRectangle(x0, y0, x1, y1) {
 
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2319,7 +2341,7 @@ TransformStream.prototype = {
 
 
 /***/ }),
-/* 42 */
+/* 43 */
 /***/ (function(module, exports) {
 
 var g;
@@ -2346,7 +2368,7 @@ module.exports = g;
 
 
 /***/ }),
-/* 43 */
+/* 44 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2368,7 +2390,7 @@ module.exports = g;
 
 
 /***/ }),
-/* 44 */
+/* 45 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2451,18 +2473,18 @@ function map(object, f) {
 
 
 /***/ }),
-/* 45 */
+/* 46 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__rgb__ = __webpack_require__(83);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__array__ = __webpack_require__(86);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__date__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__rgb__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__array__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__date__ = __webpack_require__(88);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__number__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__object__ = __webpack_require__(88);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__string__ = __webpack_require__(89);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__constant__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__object__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__string__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__constant__ = __webpack_require__(86);
 
 
 
@@ -2486,7 +2508,7 @@ function map(object, f) {
 
 
 /***/ }),
-/* 46 */
+/* 47 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2499,7 +2521,7 @@ function map(object, f) {
 /* harmony export (immutable) */ __webpack_exports__["b"] = Rgb;
 /* unused harmony export hslConvert */
 /* harmony export (immutable) */ __webpack_exports__["f"] = hsl;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__define__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__define__ = __webpack_require__(48);
 
 
 function Color() {}
@@ -2833,7 +2855,7 @@ function hsl2rgb(h, m1, m2) {
 
 
 /***/ }),
-/* 47 */
+/* 48 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2851,7 +2873,7 @@ function extend(parent, definition) {
 
 
 /***/ }),
-/* 48 */
+/* 49 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2878,7 +2900,7 @@ function basis(t1, v0, v1, v2, v3) {
 
 
 /***/ }),
-/* 49 */
+/* 50 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2890,7 +2912,7 @@ function basis(t1, v0, v1, v2, v3) {
 
 
 /***/ }),
-/* 50 */
+/* 51 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2911,32 +2933,32 @@ function basis(t1, v0, v1, v2, v3) {
 
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_interval__ = __webpack_require__(4);
 /* unused harmony reexport timeInterval */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_millisecond__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_millisecond__ = __webpack_require__(200);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__src_millisecond__["a"]; });
 /* unused harmony reexport timeMilliseconds */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_1__src_millisecond__["a"]; });
 /* unused harmony reexport utcMilliseconds */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_second__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_second__ = __webpack_require__(201);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_2__src_second__["a"]; });
 /* unused harmony reexport timeSeconds */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_2__src_second__["a"]; });
 /* unused harmony reexport utcSeconds */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_minute__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_minute__ = __webpack_require__(202);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_3__src_minute__["a"]; });
 /* unused harmony reexport timeMinutes */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_hour__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_hour__ = __webpack_require__(203);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_4__src_hour__["a"]; });
 /* unused harmony reexport timeHours */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_day__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_day__ = __webpack_require__(204);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_5__src_day__["a"]; });
 /* unused harmony reexport timeDays */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_week__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_week__ = __webpack_require__(205);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_6__src_week__["b"]; });
 /* unused harmony reexport timeWeeks */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_6__src_week__["b"]; });
@@ -2953,22 +2975,22 @@ function basis(t1, v0, v1, v2, v3) {
 /* unused harmony reexport timeFridays */
 /* unused harmony reexport timeSaturday */
 /* unused harmony reexport timeSaturdays */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_month__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_month__ = __webpack_require__(206);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_7__src_month__["a"]; });
 /* unused harmony reexport timeMonths */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_year__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_year__ = __webpack_require__(207);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_8__src_year__["a"]; });
 /* unused harmony reexport timeYears */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_utcMinute__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_utcMinute__ = __webpack_require__(208);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_9__src_utcMinute__["a"]; });
 /* unused harmony reexport utcMinutes */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_utcHour__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_utcHour__ = __webpack_require__(209);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_10__src_utcHour__["a"]; });
 /* unused harmony reexport utcHours */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_utcDay__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_utcDay__ = __webpack_require__(210);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_11__src_utcDay__["a"]; });
 /* unused harmony reexport utcDays */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_utcWeek__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_utcWeek__ = __webpack_require__(211);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return __WEBPACK_IMPORTED_MODULE_12__src_utcWeek__["b"]; });
 /* unused harmony reexport utcWeeks */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_12__src_utcWeek__["b"]; });
@@ -2985,10 +3007,10 @@ function basis(t1, v0, v1, v2, v3) {
 /* unused harmony reexport utcFridays */
 /* unused harmony reexport utcSaturday */
 /* unused harmony reexport utcSaturdays */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_utcMonth__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_utcMonth__ = __webpack_require__(212);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_13__src_utcMonth__["a"]; });
 /* unused harmony reexport utcMonths */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_utcYear__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_utcYear__ = __webpack_require__(213);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_14__src_utcYear__["a"]; });
 /* unused harmony reexport utcYears */
 
@@ -3023,21 +3045,21 @@ function basis(t1, v0, v1, v2, v3) {
 
 
 /***/ }),
-/* 52 */
+/* 53 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__ = __webpack_require__(54);
 /* unused harmony reexport timeFormatDefaultLocale */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__["a"]; });
 /* unused harmony reexport timeParse */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__["b"]; });
 /* unused harmony reexport utcParse */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_locale__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_locale__ = __webpack_require__(98);
 /* unused harmony reexport timeFormatLocale */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_isoFormat__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_isoFormat__ = __webpack_require__(99);
 /* unused harmony reexport isoFormat */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_isoParse__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_isoParse__ = __webpack_require__(214);
 /* unused harmony reexport isoParse */
 
 
@@ -3046,7 +3068,7 @@ function basis(t1, v0, v1, v2, v3) {
 
 
 /***/ }),
-/* 53 */
+/* 54 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3055,7 +3077,7 @@ function basis(t1, v0, v1, v2, v3) {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return utcFormat; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return utcParse; });
 /* unused harmony export default */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__locale__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__locale__ = __webpack_require__(98);
 
 
 var locale;
@@ -3086,14 +3108,14 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 54 */
+/* 55 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_path__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__constant__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__curve_linear__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__point__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__point__ = __webpack_require__(56);
 
 
 
@@ -3152,7 +3174,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 55 */
+/* 56 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3168,7 +3190,7 @@ function y(p) {
 
 
 /***/ }),
-/* 56 */
+/* 57 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3266,7 +3288,7 @@ CatmullRom.prototype = {
 
 
 /***/ }),
-/* 57 */
+/* 58 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3287,7 +3309,7 @@ function sum(series) {
 
 
 /***/ }),
-/* 58 */
+/* 59 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4232,12 +4254,12 @@ var index_esm = {
 
 
 /***/ }),
-/* 59 */
+/* 60 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_collection__ = __webpack_require__(81);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_dispatch__ = __webpack_require__(268);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_collection__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_dispatch__ = __webpack_require__(269);
 
 
 
@@ -4392,28 +4414,6 @@ function hasResponse(xhr) {
 
 
 /***/ }),
-/* 60 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_dsv__ = __webpack_require__(61);
-/* unused harmony reexport dsvFormat */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_csv__ = __webpack_require__(275);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__src_csv__["b"]; });
-/* unused harmony reexport csvParseRows */
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__src_csv__["a"]; });
-/* unused harmony reexport csvFormatRows */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_tsv__ = __webpack_require__(276);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__src_tsv__["a"]; });
-/* unused harmony reexport tsvParseRows */
-/* unused harmony reexport tsvFormat */
-/* unused harmony reexport tsvFormatRows */
-
-
-
-
-
-/***/ }),
 /* 61 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -4552,8 +4552,13 @@ function inferColumns(rows) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony default export */ __webpack_exports__["a"] = (function(x) {
-  return x;
+function responseText(response) {
+  if (!response.ok) throw new Error(response.status + " " + response.statusText);
+  return response.text();
+}
+
+/* harmony default export */ __webpack_exports__["a"] = (function(input, init) {
+  return fetch(input, init).then(responseText);
 });
 
 
@@ -4562,10 +4567,20 @@ function inferColumns(rows) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony default export */ __webpack_exports__["a"] = (function(x) {
+  return x;
+});
+
+
+/***/ }),
+/* 64 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* unused harmony export conicEqualAreaRaw */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__conic__ = __webpack_require__(64);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cylindricalEqualArea__ = __webpack_require__(310);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__conic__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cylindricalEqualArea__ = __webpack_require__(318);
 
 
 
@@ -4599,7 +4614,7 @@ function conicEqualAreaRaw(y0, y1) {
 
 
 /***/ }),
-/* 64 */
+/* 65 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4624,7 +4639,7 @@ function conicProjection(projectAt) {
 
 
 /***/ }),
-/* 65 */
+/* 66 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4633,7 +4648,7 @@ function conicProjection(projectAt) {
 /* harmony export (immutable) */ __webpack_exports__["d"] = fitWidth;
 /* harmony export (immutable) */ __webpack_exports__["b"] = fitHeight;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__stream__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__path_bounds__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__path_bounds__ = __webpack_require__(128);
 
 
 
@@ -4684,14 +4699,14 @@ function fitHeight(projection, height, object) {
 
 
 /***/ }),
-/* 66 */
+/* 67 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = mercatorRaw;
 /* harmony export (immutable) */ __webpack_exports__["a"] = mercatorProjection;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__rotation__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__rotation__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index__ = __webpack_require__(9);
 
 
@@ -4748,7 +4763,7 @@ function mercatorProjection(project) {
 
 
 /***/ }),
-/* 67 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15711,17 +15726,17 @@ Vue.compile = compileToFunctions;
 
 module.exports = Vue;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(42), __webpack_require__(133).setImmediate))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(43), __webpack_require__(134).setImmediate))
 
 /***/ }),
-/* 68 */
+/* 69 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* unused harmony export bisectRight */
 /* unused harmony export bisectLeft */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ascending__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__bisector__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__bisector__ = __webpack_require__(70);
 
 
 
@@ -15732,7 +15747,7 @@ var bisectLeft = ascendingBisect.left;
 
 
 /***/ }),
-/* 69 */
+/* 70 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15773,7 +15788,7 @@ function ascendingComparator(f) {
 
 
 /***/ }),
-/* 70 */
+/* 71 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15791,11 +15806,11 @@ function pair(a, b) {
 
 
 /***/ }),
-/* 71 */
+/* 72 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__variance__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__variance__ = __webpack_require__(73);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(array, f) {
@@ -15805,7 +15820,7 @@ function pair(a, b) {
 
 
 /***/ }),
-/* 72 */
+/* 73 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15846,7 +15861,7 @@ function pair(a, b) {
 
 
 /***/ }),
-/* 73 */
+/* 74 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15890,7 +15905,7 @@ function pair(a, b) {
 
 
 /***/ }),
-/* 74 */
+/* 75 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15903,7 +15918,7 @@ var map = array.map;
 
 
 /***/ }),
-/* 75 */
+/* 76 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15923,7 +15938,7 @@ var map = array.map;
 
 
 /***/ }),
-/* 76 */
+/* 77 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15983,7 +15998,7 @@ function tickStep(start, stop, count) {
 
 
 /***/ }),
-/* 77 */
+/* 78 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15993,7 +16008,7 @@ function tickStep(start, stop, count) {
 
 
 /***/ }),
-/* 78 */
+/* 79 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16034,11 +16049,11 @@ function tickStep(start, stop, count) {
 
 
 /***/ }),
-/* 79 */
+/* 80 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__min__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__min__ = __webpack_require__(79);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(matrix) {
@@ -16057,13 +16072,13 @@ function length(d) {
 
 
 /***/ }),
-/* 80 */
+/* 81 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* unused harmony export implicit */
 /* harmony export (immutable) */ __webpack_exports__["a"] = ordinal;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_collection__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_collection__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__array__ = __webpack_require__(13);
 
 
@@ -16114,21 +16129,21 @@ function ordinal(range) {
 
 
 /***/ }),
-/* 81 */
+/* 82 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_nest__ = __webpack_require__(166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_nest__ = __webpack_require__(167);
 /* unused harmony reexport nest */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_set__ = __webpack_require__(167);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_set__ = __webpack_require__(168);
 /* unused harmony reexport set */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_map__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_map__ = __webpack_require__(45);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_2__src_map__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_keys__ = __webpack_require__(168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_keys__ = __webpack_require__(169);
 /* unused harmony reexport keys */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_values__ = __webpack_require__(169);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_values__ = __webpack_require__(170);
 /* unused harmony reexport values */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_entries__ = __webpack_require__(170);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_entries__ = __webpack_require__(171);
 /* unused harmony reexport entries */
 
 
@@ -16139,7 +16154,7 @@ function ordinal(range) {
 
 
 /***/ }),
-/* 82 */
+/* 83 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16150,15 +16165,15 @@ var rad2deg = 180 / Math.PI;
 
 
 /***/ }),
-/* 83 */
+/* 84 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return rgbBasis; });
 /* unused harmony export rgbBasisClosed */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__basis__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__basisClosed__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__basis__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__basisClosed__ = __webpack_require__(85);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__color__ = __webpack_require__(21);
 
 
@@ -16218,11 +16233,11 @@ var rgbBasisClosed = rgbSpline(__WEBPACK_IMPORTED_MODULE_2__basisClosed__["a" /*
 
 
 /***/ }),
-/* 84 */
+/* 85 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__basis__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__basis__ = __webpack_require__(49);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(values) {
@@ -16239,7 +16254,7 @@ var rgbBasisClosed = rgbSpline(__WEBPACK_IMPORTED_MODULE_2__basisClosed__["a" /*
 
 
 /***/ }),
-/* 85 */
+/* 86 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16251,11 +16266,11 @@ var rgbBasisClosed = rgbSpline(__WEBPACK_IMPORTED_MODULE_2__basisClosed__["a" /*
 
 
 /***/ }),
-/* 86 */
+/* 87 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__value__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__value__ = __webpack_require__(46);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(a, b) {
@@ -16276,7 +16291,7 @@ var rgbBasisClosed = rgbSpline(__WEBPACK_IMPORTED_MODULE_2__basisClosed__["a" /*
 
 
 /***/ }),
-/* 87 */
+/* 88 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16289,11 +16304,11 @@ var rgbBasisClosed = rgbSpline(__WEBPACK_IMPORTED_MODULE_2__basisClosed__["a" /*
 
 
 /***/ }),
-/* 88 */
+/* 89 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__value__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__value__ = __webpack_require__(46);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(a, b) {
@@ -16320,7 +16335,7 @@ var rgbBasisClosed = rgbSpline(__WEBPACK_IMPORTED_MODULE_2__basisClosed__["a" /*
 
 
 /***/ }),
-/* 89 */
+/* 90 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16392,7 +16407,7 @@ function one(b) {
 
 
 /***/ }),
-/* 90 */
+/* 91 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16402,17 +16417,17 @@ function one(b) {
 
 
 /***/ }),
-/* 91 */
+/* 92 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__exponent__ = __webpack_require__(33);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__formatGroup__ = __webpack_require__(186);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__formatNumerals__ = __webpack_require__(187);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__formatSpecifier__ = __webpack_require__(92);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__formatTypes__ = __webpack_require__(93);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__formatPrefixAuto__ = __webpack_require__(94);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__identity__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__formatGroup__ = __webpack_require__(187);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__formatNumerals__ = __webpack_require__(188);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__formatSpecifier__ = __webpack_require__(93);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__formatTypes__ = __webpack_require__(94);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__formatPrefixAuto__ = __webpack_require__(95);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__identity__ = __webpack_require__(191);
 
 
 
@@ -16544,12 +16559,12 @@ var prefixes = ["y","z","a","f","p","n","µ","m","","k","M","G","T","P","E","Z",
 
 
 /***/ }),
-/* 92 */
+/* 93 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = formatSpecifier;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatTypes__ = __webpack_require__(93);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatTypes__ = __webpack_require__(94);
 
 
 // [[fill]align][sign][symbol][0][width][,][.precision][type]
@@ -16609,13 +16624,13 @@ FormatSpecifier.prototype.toString = function() {
 
 
 /***/ }),
-/* 93 */
+/* 94 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatDefault__ = __webpack_require__(188);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__formatPrefixAuto__ = __webpack_require__(94);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__formatRounded__ = __webpack_require__(189);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatDefault__ = __webpack_require__(189);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__formatPrefixAuto__ = __webpack_require__(95);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__formatRounded__ = __webpack_require__(190);
 
 
 
@@ -16639,12 +16654,12 @@ FormatSpecifier.prototype.toString = function() {
 
 
 /***/ }),
-/* 94 */
+/* 95 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return prefixExponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatDecimal__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatDecimal__ = __webpack_require__(51);
 
 
 var prefixExponent;
@@ -16664,7 +16679,7 @@ var prefixExponent;
 
 
 /***/ }),
-/* 95 */
+/* 96 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16689,18 +16704,18 @@ var prefixExponent;
 
 
 /***/ }),
-/* 96 */
+/* 97 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = calendar;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_time__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_d3_time_format__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_time__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_d3_time_format__ = __webpack_require__(53);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__array__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__continuous__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__nice__ = __webpack_require__(95);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__nice__ = __webpack_require__(96);
 
 
 
@@ -16839,12 +16854,12 @@ function calendar(year, month, week, day, hour, minute, second, millisecond, for
 
 
 /***/ }),
-/* 97 */
+/* 98 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = formatLocale;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_time__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_time__ = __webpack_require__(52);
 
 
 function localDate(d) {
@@ -17477,12 +17492,12 @@ function formatUnixTimestampSeconds(d) {
 
 
 /***/ }),
-/* 98 */
+/* 99 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return isoSpecifier; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__defaultLocale__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__defaultLocale__ = __webpack_require__(54);
 
 
 var isoSpecifier = "%Y-%m-%dT%H:%M:%S.%LZ";
@@ -17499,15 +17514,15 @@ var formatIso = Date.prototype.toISOString
 
 
 /***/ }),
-/* 99 */
+/* 100 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_path__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__constant__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__curve_linear__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__line__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__point__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__line__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__point__ = __webpack_require__(56);
 
 
 
@@ -17620,7 +17635,7 @@ var formatIso = Date.prototype.toISOString
 
 
 /***/ }),
-/* 100 */
+/* 101 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17666,13 +17681,13 @@ function curveRadial(curve) {
 
 
 /***/ }),
-/* 101 */
+/* 102 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = lineRadial;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__curve_radial__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__line__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__curve_radial__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__line__ = __webpack_require__(55);
 
 
 
@@ -17695,7 +17710,7 @@ function lineRadial(l) {
 
 
 /***/ }),
-/* 102 */
+/* 103 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17705,7 +17720,7 @@ function lineRadial(l) {
 
 
 /***/ }),
-/* 103 */
+/* 104 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17714,7 +17729,7 @@ var slice = Array.prototype.slice;
 
 
 /***/ }),
-/* 104 */
+/* 105 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17731,7 +17746,7 @@ var slice = Array.prototype.slice;
 
 
 /***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17756,7 +17771,7 @@ var slice = Array.prototype.slice;
 
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17777,7 +17792,7 @@ var tan30 = Math.sqrt(1 / 3),
 
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17809,7 +17824,7 @@ var ka = 0.89081309152928522810,
 
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17823,7 +17838,7 @@ var ka = 0.89081309152928522810,
 
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17841,7 +17856,7 @@ var sqrt3 = Math.sqrt(3);
 
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17874,7 +17889,7 @@ var c = -0.5,
 
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17945,7 +17960,7 @@ CardinalClosed.prototype = {
 
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18003,23 +18018,23 @@ CardinalOpen.prototype = {
 
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_request__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_request__ = __webpack_require__(60);
 /* unused harmony reexport request */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_html__ = __webpack_require__(270);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_html__ = __webpack_require__(271);
 /* unused harmony reexport html */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_json__ = __webpack_require__(271);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_json__ = __webpack_require__(272);
 /* unused harmony reexport json */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_text__ = __webpack_require__(272);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_text__ = __webpack_require__(273);
 /* unused harmony reexport text */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_xml__ = __webpack_require__(273);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_xml__ = __webpack_require__(274);
 /* unused harmony reexport xml */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_csv__ = __webpack_require__(274);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_csv__ = __webpack_require__(275);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_5__src_csv__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_tsv__ = __webpack_require__(277);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_tsv__ = __webpack_require__(278);
 /* unused harmony reexport tsv */
 
 
@@ -18031,11 +18046,11 @@ CardinalOpen.prototype = {
 
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__request__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__request__ = __webpack_require__(60);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(defaultMimeType, parse) {
@@ -18056,7 +18071,7 @@ function responseOf(parse, row) {
 
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18143,15 +18158,15 @@ function areaPoint(lambda, phi) {
 
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = circleStream;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cartesian__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__constant__ = __webpack_require__(297);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__constant__ = __webpack_require__(305);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__rotation__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__rotation__ = __webpack_require__(40);
 
 
 
@@ -18227,7 +18242,7 @@ function circleRadius(cosRadius, point) {
 
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18246,11 +18261,11 @@ function circleRadius(cosRadius, point) {
 
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index__ = __webpack_require__(120);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__math__ = __webpack_require__(0);
 
 
@@ -18347,14 +18362,14 @@ function clipAntimeridianInterpolate(from, to, direction, stream) {
 
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__buffer__ = __webpack_require__(120);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__rejoin__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__buffer__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__rejoin__ = __webpack_require__(122);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__polygonContains__ = __webpack_require__(123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__polygonContains__ = __webpack_require__(124);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_d3_array__ = __webpack_require__(3);
 
 
@@ -18490,7 +18505,7 @@ function compareIntersection(a, b) {
 
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18522,11 +18537,11 @@ function compareIntersection(a, b) {
 
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pointEqual__ = __webpack_require__(122);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pointEqual__ = __webpack_require__(123);
 
 
 function Intersection(point, points, other, entry) {
@@ -18631,7 +18646,7 @@ function link(array) {
 
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18644,7 +18659,7 @@ function link(array) {
 
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18722,15 +18737,15 @@ var sum = Object(__WEBPACK_IMPORTED_MODULE_0__adder__["a" /* default */])();
 
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cartesian__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__circle__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__circle__ = __webpack_require__(117);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pointEqual__ = __webpack_require__(122);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__index__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pointEqual__ = __webpack_require__(123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__index__ = __webpack_require__(120);
 
 
 
@@ -18916,11 +18931,11 @@ var sum = Object(__WEBPACK_IMPORTED_MODULE_0__adder__["a" /* default */])();
 
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__length__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__length__ = __webpack_require__(127);
 
 
 var coordinates = [null, null],
@@ -18934,7 +18949,7 @@ var coordinates = [null, null],
 
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18998,7 +19013,7 @@ function lengthPoint(lambda, phi) {
 
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -19034,11 +19049,11 @@ function boundsPoint(x, y) {
 
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__conicEqualArea__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__conicEqualArea__ = __webpack_require__(64);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function() {
@@ -19052,7 +19067,7 @@ function boundsPoint(x, y) {
 
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -19073,15 +19088,15 @@ equirectangularRaw.invert = equirectangularRaw;
 
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["c"] = professionChartTitle;
 /* harmony export (immutable) */ __webpack_exports__["b"] = getSourceText;
 /* harmony export (immutable) */ __webpack_exports__["a"] = getPhysicianGroupText;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_time_format__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__data_physicianGroups__ = __webpack_require__(365);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_time_format__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__data_physicianGroups__ = __webpack_require__(373);
 
 
 
@@ -19242,25 +19257,25 @@ function getPhysicianGroupText(specialtyObject) {
 }
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(132);
+module.exports = __webpack_require__(133);
 
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(68);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__App_vue__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__App_vue__ = __webpack_require__(137);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__App_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__App_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vue_tour__ = __webpack_require__(381);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vue_tour__ = __webpack_require__(388);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vue_tour___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_vue_tour__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__store__ = __webpack_require__(382);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__store__ = __webpack_require__(389);
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 
@@ -19268,7 +19283,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(383);
+__webpack_require__(390);
 
 __WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_2_vue_tour___default.a);
 
@@ -19283,7 +19298,7 @@ new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
 });
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {var scope = (typeof global !== "undefined" && global) ||
@@ -19339,7 +19354,7 @@ exports._unrefActive = exports.active = function(item) {
 };
 
 // setimmediate attaches itself to the global object
-__webpack_require__(134);
+__webpack_require__(135);
 // On some exotic environments, it's not clear which object `setimmediate` was
 // able to install onto.  Search each possibility in the same order as the
 // `setimmediate` library.
@@ -19350,10 +19365,10 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
                          (typeof global !== "undefined" && global.clearImmediate) ||
                          (this && this.clearImmediate);
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(42)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(43)))
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, process) {(function (global, undefined) {
@@ -19543,10 +19558,10 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
     attachTo.clearImmediate = clearImmediate;
 }(typeof self === "undefined" ? typeof global === "undefined" ? this : global : self));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(42), __webpack_require__(135)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(43), __webpack_require__(136)))
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -19736,19 +19751,19 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(137)
+  __webpack_require__(138)
 }
 var normalizeComponent = __webpack_require__(7)
 /* script */
-var __vue_script__ = __webpack_require__(140)
+var __vue_script__ = __webpack_require__(141)
 /* template */
-var __vue_template__ = __webpack_require__(380)
+var __vue_template__ = __webpack_require__(387)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -19787,13 +19802,13 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(138);
+var content = __webpack_require__(139);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -19813,7 +19828,7 @@ if(false) {
 }
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(5)(false);
@@ -19827,7 +19842,7 @@ exports.push([module.i, "\n.v-step {\n  background: #006837 !important;\n}\n.v-s
 
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports) {
 
 /**
@@ -19860,22 +19875,22 @@ module.exports = function listToStyles (parentId, list) {
 
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_SparkBarChartGroup__ = __webpack_require__(141);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_SparkBarChartGroup__ = __webpack_require__(142);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_SparkBarChartGroup___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__components_SparkBarChartGroup__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_SpecialtySelect__ = __webpack_require__(261);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_SpecialtySelect__ = __webpack_require__(262);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_SpecialtySelect___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__components_SpecialtySelect__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_DownloadImageButton__ = __webpack_require__(279);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_DownloadImageButton__ = __webpack_require__(280);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_DownloadImageButton___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__components_DownloadImageButton__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_DownloadDataButton__ = __webpack_require__(285);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_DownloadDataButton__ = __webpack_require__(293);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_DownloadDataButton___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__components_DownloadDataButton__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_Map__ = __webpack_require__(290);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_Map__ = __webpack_require__(298);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_Map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__components_Map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__chart_text__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__chart_text__ = __webpack_require__(131);
 //
 //
 //
@@ -20024,19 +20039,19 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(142)
+  __webpack_require__(143)
 }
 var normalizeComponent = __webpack_require__(7)
 /* script */
-var __vue_script__ = __webpack_require__(144)
+var __vue_script__ = __webpack_require__(145)
 /* template */
-var __vue_template__ = __webpack_require__(260)
+var __vue_template__ = __webpack_require__(261)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -20075,13 +20090,13 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(143);
+var content = __webpack_require__(144);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -20101,7 +20116,7 @@ if(false) {
 }
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(5)(false);
@@ -20115,15 +20130,15 @@ exports.push([module.i, "\n.ncLineLegend text[data-v-537c6664]{\r\n    font-size
 
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__SparkBarChart__ = __webpack_require__(145);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__SparkBarChart__ = __webpack_require__(146);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__SparkBarChart___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__SparkBarChart__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utility__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vuex__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vuex__ = __webpack_require__(59);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 //
@@ -20168,19 +20183,19 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 });
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(146)
+  __webpack_require__(147)
 }
 var normalizeComponent = __webpack_require__(7)
 /* script */
-var __vue_script__ = __webpack_require__(148)
+var __vue_script__ = __webpack_require__(149)
 /* template */
-var __vue_template__ = __webpack_require__(259)
+var __vue_template__ = __webpack_require__(260)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -20219,13 +20234,13 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(147);
+var content = __webpack_require__(148);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -20245,7 +20260,7 @@ if(false) {
 }
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(5)(false);
@@ -20259,18 +20274,18 @@ exports.push([module.i, "\np[data-v-0605463e] {\r\n  margin: 0;\n}\n.ncLine[data
 
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_scale__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_shape__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_shape__ = __webpack_require__(224);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utility__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__BarRect__ = __webpack_require__(249);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__BarRect__ = __webpack_require__(250);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__BarRect___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__BarRect__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__BarText__ = __webpack_require__(254);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__BarText__ = __webpack_require__(255);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__BarText___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__BarText__);
 //
 //
@@ -20439,11 +20454,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pairs__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pairs__ = __webpack_require__(71);
 
 
 /* unused harmony default export */ var _unused_webpack_default_export = (function(values0, values1, reduce) {
@@ -20468,7 +20483,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -20478,18 +20493,18 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__bisect__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constant__ = __webpack_require__(152);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__extent__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__identity__ = __webpack_require__(153);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__range__ = __webpack_require__(75);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ticks__ = __webpack_require__(76);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__threshold_sturges__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__bisect__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constant__ = __webpack_require__(153);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__extent__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__identity__ = __webpack_require__(154);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__range__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ticks__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__threshold_sturges__ = __webpack_require__(78);
 
 
 
@@ -20568,7 +20583,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -20580,7 +20595,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -20590,14 +20605,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(75);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ascending__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__number__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__quantile__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__quantile__ = __webpack_require__(44);
 
 
 
@@ -20610,11 +20625,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__deviation__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__deviation__ = __webpack_require__(72);
 
 
 /* unused harmony default export */ var _unused_webpack_default_export = (function(values, min, max) {
@@ -20623,7 +20638,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -20664,7 +20679,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -20697,13 +20712,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ascending__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__number__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__quantile__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__quantile__ = __webpack_require__(44);
 
 
 
@@ -20735,7 +20750,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -20763,7 +20778,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -20775,7 +20790,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -20803,7 +20818,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -20824,7 +20839,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -20851,11 +20866,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__transpose__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__transpose__ = __webpack_require__(80);
 
 
 /* unused harmony default export */ var _unused_webpack_default_export = (function() {
@@ -20864,14 +20879,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = band;
 /* unused harmony export point */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ordinal__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ordinal__ = __webpack_require__(81);
 
 
 
@@ -20976,11 +20991,11 @@ function point() {
 
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__map__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__map__ = __webpack_require__(45);
 
 
 /* unused harmony default export */ var _unused_webpack_default_export = (function() {
@@ -21057,11 +21072,11 @@ function setMap(map, key, value) {
 
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__map__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__map__ = __webpack_require__(45);
 
 
 function Set() {}
@@ -21104,7 +21119,7 @@ function set(object, f) {
 
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21116,7 +21131,7 @@ function set(object, f) {
 
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21128,7 +21143,7 @@ function set(object, f) {
 
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21140,14 +21155,14 @@ function set(object, f) {
 
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* unused harmony export default */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__linear__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__number__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__number__ = __webpack_require__(91);
 
 
 
@@ -21174,7 +21189,7 @@ function identity() {
 
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21182,9 +21197,9 @@ function identity() {
 /* unused harmony export Lab */
 /* harmony export (immutable) */ __webpack_exports__["b"] = hcl;
 /* unused harmony export Hcl */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__define__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__define__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(83);
 
 
 
@@ -21296,15 +21311,15 @@ Object(__WEBPACK_IMPORTED_MODULE_0__define__["a" /* default */])(Hcl, hcl, Objec
 
 
 /***/ }),
-/* 173 */
+/* 174 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = cubehelix;
 /* unused harmony export Cubehelix */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__define__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__define__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(83);
 
 
 
@@ -21369,7 +21384,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__define__["a" /* default */])(Cubehelix, cube
 
 
 /***/ }),
-/* 174 */
+/* 175 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21381,14 +21396,14 @@ Object(__WEBPACK_IMPORTED_MODULE_0__define__["a" /* default */])(Cubehelix, cube
 
 
 /***/ }),
-/* 175 */
+/* 176 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* unused harmony export interpolateTransformCss */
 /* unused harmony export interpolateTransformSvg */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__number__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__parse__ = __webpack_require__(176);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__parse__ = __webpack_require__(177);
 
 
 
@@ -21455,13 +21470,13 @@ var interpolateTransformSvg = interpolateTransform(__WEBPACK_IMPORTED_MODULE_1__
 
 
 /***/ }),
-/* 176 */
+/* 177 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = parseCss;
 /* harmony export (immutable) */ __webpack_exports__["b"] = parseSvg;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__decompose__ = __webpack_require__(177);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__decompose__ = __webpack_require__(178);
 
 
 var cssNode,
@@ -21490,7 +21505,7 @@ function parseSvg(value) {
 
 
 /***/ }),
-/* 177 */
+/* 178 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21524,7 +21539,7 @@ var identity = {
 
 
 /***/ }),
-/* 178 */
+/* 179 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21595,7 +21610,7 @@ function tanh(x) {
 
 
 /***/ }),
-/* 179 */
+/* 180 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21626,7 +21641,7 @@ var hslLong = hsl(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* default */]);
 
 
 /***/ }),
-/* 180 */
+/* 181 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21652,7 +21667,7 @@ function lab(start, end) {
 
 
 /***/ }),
-/* 181 */
+/* 182 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21683,7 +21698,7 @@ var hclLong = hcl(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* default */]);
 
 
 /***/ }),
-/* 182 */
+/* 183 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21722,7 +21737,7 @@ var cubehelixLong = cubehelix(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* defaul
 
 
 /***/ }),
-/* 183 */
+/* 184 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21734,7 +21749,7 @@ var cubehelixLong = cubehelix(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* defaul
 
 
 /***/ }),
-/* 184 */
+/* 185 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21774,14 +21789,14 @@ var cubehelixLong = cubehelix(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* defaul
 
 
 /***/ }),
-/* 185 */
+/* 186 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return format; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return formatPrefix; });
 /* unused harmony export default */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__locale__ = __webpack_require__(91);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__locale__ = __webpack_require__(92);
 
 
 var locale;
@@ -21804,7 +21819,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 186 */
+/* 187 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21829,7 +21844,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 187 */
+/* 188 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21843,7 +21858,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 188 */
+/* 189 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21864,11 +21879,11 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 189 */
+/* 190 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatDecimal__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatDecimal__ = __webpack_require__(51);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(x, p) {
@@ -21883,7 +21898,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 190 */
+/* 191 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21893,7 +21908,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 191 */
+/* 192 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21906,7 +21921,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 192 */
+/* 193 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21919,7 +21934,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 193 */
+/* 194 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21933,15 +21948,15 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 194 */
+/* 195 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* unused harmony export default */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_format__ = __webpack_require__(32);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constant__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__nice__ = __webpack_require__(95);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constant__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__nice__ = __webpack_require__(96);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__continuous__ = __webpack_require__(31);
 
 
@@ -22074,13 +22089,13 @@ function log() {
 
 
 /***/ }),
-/* 195 */
+/* 196 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* unused harmony export default */
 /* unused harmony export sqrt */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(50);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__linear__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__continuous__ = __webpack_require__(31);
 
@@ -22124,7 +22139,7 @@ function sqrt() {
 
 
 /***/ }),
-/* 196 */
+/* 197 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22185,7 +22200,7 @@ function quantile() {
 
 
 /***/ }),
-/* 197 */
+/* 198 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22242,7 +22257,7 @@ function quantize() {
 
 
 /***/ }),
-/* 198 */
+/* 199 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22285,7 +22300,7 @@ function threshold() {
 
 
 /***/ }),
-/* 199 */
+/* 200 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22320,7 +22335,7 @@ var milliseconds = millisecond.range;
 
 
 /***/ }),
-/* 200 */
+/* 201 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22345,7 +22360,7 @@ var seconds = second.range;
 
 
 /***/ }),
-/* 201 */
+/* 202 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22370,7 +22385,7 @@ var minutes = minute.range;
 
 
 /***/ }),
-/* 202 */
+/* 203 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22397,7 +22412,7 @@ var hours = hour.range;
 
 
 /***/ }),
-/* 203 */
+/* 204 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22422,7 +22437,7 @@ var days = day.range;
 
 
 /***/ }),
-/* 204 */
+/* 205 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22474,7 +22489,7 @@ var saturdays = saturday.range;
 
 
 /***/ }),
-/* 205 */
+/* 206 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22498,7 +22513,7 @@ var months = month.range;
 
 
 /***/ }),
-/* 206 */
+/* 207 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22533,7 +22548,7 @@ var years = year.range;
 
 
 /***/ }),
-/* 207 */
+/* 208 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22558,7 +22573,7 @@ var utcMinutes = utcMinute.range;
 
 
 /***/ }),
-/* 208 */
+/* 209 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22583,7 +22598,7 @@ var utcHours = utcHour.range;
 
 
 /***/ }),
-/* 209 */
+/* 210 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22608,7 +22623,7 @@ var utcDays = utcDay.range;
 
 
 /***/ }),
-/* 210 */
+/* 211 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22660,7 +22675,7 @@ var utcSaturdays = utcSaturday.range;
 
 
 /***/ }),
-/* 211 */
+/* 212 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22684,7 +22699,7 @@ var utcMonths = utcMonth.range;
 
 
 /***/ }),
-/* 212 */
+/* 213 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22719,12 +22734,12 @@ var utcYears = utcYear.range;
 
 
 /***/ }),
-/* 213 */
+/* 214 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__isoFormat__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__defaultLocale__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__isoFormat__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__defaultLocale__ = __webpack_require__(54);
 
 
 
@@ -22741,13 +22756,13 @@ var parseIso = +new Date("2000-01-01T00:00:00.000Z")
 
 
 /***/ }),
-/* 214 */
+/* 215 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__time__ = __webpack_require__(96);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_time_format__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_time__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__time__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_time_format__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_time__ = __webpack_require__(52);
 
 
 
@@ -22758,7 +22773,7 @@ var parseIso = +new Date("2000-01-01T00:00:00.000Z")
 
 
 /***/ }),
-/* 215 */
+/* 216 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22769,7 +22784,7 @@ var parseIso = +new Date("2000-01-01T00:00:00.000Z")
 
 
 /***/ }),
-/* 216 */
+/* 217 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22780,7 +22795,7 @@ var parseIso = +new Date("2000-01-01T00:00:00.000Z")
 
 
 /***/ }),
-/* 217 */
+/* 218 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22791,7 +22806,7 @@ var parseIso = +new Date("2000-01-01T00:00:00.000Z")
 
 
 /***/ }),
-/* 218 */
+/* 219 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22802,7 +22817,7 @@ var parseIso = +new Date("2000-01-01T00:00:00.000Z")
 
 
 /***/ }),
-/* 219 */
+/* 220 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22815,7 +22830,7 @@ var parseIso = +new Date("2000-01-01T00:00:00.000Z")
 
 
 /***/ }),
-/* 220 */
+/* 221 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22843,7 +22858,7 @@ var rainbow = Object(__WEBPACK_IMPORTED_MODULE_0_d3_color__["b" /* cubehelix */]
 
 
 /***/ }),
-/* 221 */
+/* 222 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22870,7 +22885,7 @@ var plasma = ramp(Object(__WEBPACK_IMPORTED_MODULE_0__colors__["a" /* default */
 
 
 /***/ }),
-/* 222 */
+/* 223 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22909,101 +22924,101 @@ function sequential(interpolator) {
 
 
 /***/ }),
-/* 223 */
+/* 224 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_arc__ = __webpack_require__(224);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_arc__ = __webpack_require__(225);
 /* unused harmony reexport arc */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_area__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_area__ = __webpack_require__(100);
 /* unused harmony reexport area */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_line__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_line__ = __webpack_require__(55);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_2__src_line__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_pie__ = __webpack_require__(226);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_pie__ = __webpack_require__(227);
 /* unused harmony reexport pie */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_areaRadial__ = __webpack_require__(229);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_areaRadial__ = __webpack_require__(230);
 /* unused harmony reexport areaRadial */
 /* unused harmony reexport radialArea */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_lineRadial__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_lineRadial__ = __webpack_require__(102);
 /* unused harmony reexport lineRadial */
 /* unused harmony reexport radialLine */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_pointRadial__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_pointRadial__ = __webpack_require__(103);
 /* unused harmony reexport pointRadial */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_link_index__ = __webpack_require__(230);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_link_index__ = __webpack_require__(231);
 /* unused harmony reexport linkHorizontal */
 /* unused harmony reexport linkVertical */
 /* unused harmony reexport linkRadial */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_symbol__ = __webpack_require__(231);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_symbol__ = __webpack_require__(232);
 /* unused harmony reexport symbol */
 /* unused harmony reexport symbols */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_symbol_circle__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_symbol_circle__ = __webpack_require__(105);
 /* unused harmony reexport symbolCircle */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_symbol_cross__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_symbol_cross__ = __webpack_require__(106);
 /* unused harmony reexport symbolCross */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_symbol_diamond__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_symbol_diamond__ = __webpack_require__(107);
 /* unused harmony reexport symbolDiamond */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_symbol_square__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_symbol_square__ = __webpack_require__(109);
 /* unused harmony reexport symbolSquare */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_symbol_star__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_symbol_star__ = __webpack_require__(108);
 /* unused harmony reexport symbolStar */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_symbol_triangle__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_symbol_triangle__ = __webpack_require__(110);
 /* unused harmony reexport symbolTriangle */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_symbol_wye__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_symbol_wye__ = __webpack_require__(111);
 /* unused harmony reexport symbolWye */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_curve_basisClosed__ = __webpack_require__(232);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_curve_basisClosed__ = __webpack_require__(233);
 /* unused harmony reexport curveBasisClosed */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_curve_basisOpen__ = __webpack_require__(233);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_curve_basisOpen__ = __webpack_require__(234);
 /* unused harmony reexport curveBasisOpen */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_curve_basis__ = __webpack_require__(36);
 /* unused harmony reexport curveBasis */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__src_curve_bundle__ = __webpack_require__(234);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__src_curve_bundle__ = __webpack_require__(235);
 /* unused harmony reexport curveBundle */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__src_curve_cardinalClosed__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__src_curve_cardinalClosed__ = __webpack_require__(112);
 /* unused harmony reexport curveCardinalClosed */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__src_curve_cardinalOpen__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__src_curve_cardinalOpen__ = __webpack_require__(113);
 /* unused harmony reexport curveCardinalOpen */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__src_curve_cardinal__ = __webpack_require__(37);
 /* unused harmony reexport curveCardinal */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__src_curve_catmullRomClosed__ = __webpack_require__(235);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__src_curve_catmullRomClosed__ = __webpack_require__(236);
 /* unused harmony reexport curveCatmullRomClosed */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__src_curve_catmullRomOpen__ = __webpack_require__(236);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__src_curve_catmullRomOpen__ = __webpack_require__(237);
 /* unused harmony reexport curveCatmullRomOpen */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__src_curve_catmullRom__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__src_curve_catmullRom__ = __webpack_require__(57);
 /* unused harmony reexport curveCatmullRom */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__src_curve_linearClosed__ = __webpack_require__(237);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__src_curve_linearClosed__ = __webpack_require__(238);
 /* unused harmony reexport curveLinearClosed */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__src_curve_linear__ = __webpack_require__(34);
 /* unused harmony reexport curveLinear */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__src_curve_monotone__ = __webpack_require__(238);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__src_curve_monotone__ = __webpack_require__(239);
 /* unused harmony reexport curveMonotoneX */
 /* unused harmony reexport curveMonotoneY */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__src_curve_natural__ = __webpack_require__(239);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__src_curve_natural__ = __webpack_require__(240);
 /* unused harmony reexport curveNatural */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__src_curve_step__ = __webpack_require__(240);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__src_curve_step__ = __webpack_require__(241);
 /* unused harmony reexport curveStep */
 /* unused harmony reexport curveStepAfter */
 /* unused harmony reexport curveStepBefore */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__src_stack__ = __webpack_require__(241);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__src_stack__ = __webpack_require__(242);
 /* unused harmony reexport stack */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__src_offset_expand__ = __webpack_require__(242);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__src_offset_expand__ = __webpack_require__(243);
 /* unused harmony reexport stackOffsetExpand */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__src_offset_diverging__ = __webpack_require__(243);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__src_offset_diverging__ = __webpack_require__(244);
 /* unused harmony reexport stackOffsetDiverging */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__src_offset_none__ = __webpack_require__(25);
 /* unused harmony reexport stackOffsetNone */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__src_offset_silhouette__ = __webpack_require__(244);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__src_offset_silhouette__ = __webpack_require__(245);
 /* unused harmony reexport stackOffsetSilhouette */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__src_offset_wiggle__ = __webpack_require__(245);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__src_offset_wiggle__ = __webpack_require__(246);
 /* unused harmony reexport stackOffsetWiggle */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__src_order_ascending__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__src_order_ascending__ = __webpack_require__(58);
 /* unused harmony reexport stackOrderAscending */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__src_order_descending__ = __webpack_require__(246);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__src_order_descending__ = __webpack_require__(247);
 /* unused harmony reexport stackOrderDescending */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__src_order_insideOut__ = __webpack_require__(247);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__src_order_insideOut__ = __webpack_require__(248);
 /* unused harmony reexport stackOrderInsideOut */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__src_order_none__ = __webpack_require__(26);
 /* unused harmony reexport stackOrderNone */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__src_order_reverse__ = __webpack_require__(248);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__src_order_reverse__ = __webpack_require__(249);
 /* unused harmony reexport stackOrderReverse */
 
 
@@ -23053,7 +23068,7 @@ function sequential(interpolator) {
 
 
 /***/ }),
-/* 224 */
+/* 225 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23322,7 +23337,7 @@ function cornerTangents(x0, y0, x1, y1, r1, rc, cw) {
 
 
 /***/ }),
-/* 225 */
+/* 226 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23459,13 +23474,13 @@ Path.prototype = path.prototype = {
 
 
 /***/ }),
-/* 226 */
+/* 227 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__descending__ = __webpack_require__(227);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__identity__ = __webpack_require__(228);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__descending__ = __webpack_require__(228);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__identity__ = __webpack_require__(229);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__math__ = __webpack_require__(24);
 
 
@@ -23549,7 +23564,7 @@ Path.prototype = path.prototype = {
 
 
 /***/ }),
-/* 227 */
+/* 228 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23559,7 +23574,7 @@ Path.prototype = path.prototype = {
 
 
 /***/ }),
-/* 228 */
+/* 229 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23569,13 +23584,13 @@ Path.prototype = path.prototype = {
 
 
 /***/ }),
-/* 229 */
+/* 230 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__curve_radial__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__area__ = __webpack_require__(99);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__lineRadial__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__curve_radial__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__area__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__lineRadial__ = __webpack_require__(102);
 
 
 
@@ -23608,7 +23623,7 @@ Path.prototype = path.prototype = {
 
 
 /***/ }),
-/* 230 */
+/* 231 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23616,10 +23631,10 @@ Path.prototype = path.prototype = {
 /* unused harmony export linkVertical */
 /* unused harmony export linkRadial */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_path__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__array__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__array__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constant__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__point__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pointRadial__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__point__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pointRadial__ = __webpack_require__(103);
 
 
 
@@ -23707,19 +23722,19 @@ function linkRadial() {
 
 
 /***/ }),
-/* 231 */
+/* 232 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* unused harmony export symbols */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_path__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__symbol_circle__ = __webpack_require__(104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__symbol_cross__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__symbol_diamond__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__symbol_star__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__symbol_square__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__symbol_triangle__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__symbol_wye__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__symbol_circle__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__symbol_cross__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__symbol_diamond__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__symbol_star__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__symbol_square__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__symbol_triangle__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__symbol_wye__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__constant__ = __webpack_require__(14);
 
 
@@ -23770,7 +23785,7 @@ var symbols = [
 
 
 /***/ }),
-/* 232 */
+/* 233 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23831,7 +23846,7 @@ BasisClosed.prototype = {
 
 
 /***/ }),
-/* 233 */
+/* 234 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23878,7 +23893,7 @@ BasisOpen.prototype = {
 
 
 /***/ }),
-/* 234 */
+/* 235 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23942,13 +23957,13 @@ Bundle.prototype = {
 
 
 /***/ }),
-/* 235 */
+/* 236 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cardinalClosed__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cardinalClosed__ = __webpack_require__(112);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__noop__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__catmullRom__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__catmullRom__ = __webpack_require__(57);
 
 
 
@@ -24026,12 +24041,12 @@ CatmullRomClosed.prototype = {
 
 
 /***/ }),
-/* 236 */
+/* 237 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cardinalOpen__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__catmullRom__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cardinalOpen__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__catmullRom__ = __webpack_require__(57);
 
 
 
@@ -24097,7 +24112,7 @@ CatmullRomOpen.prototype = {
 
 
 /***/ }),
-/* 237 */
+/* 238 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -24130,7 +24145,7 @@ LinearClosed.prototype = {
 
 
 /***/ }),
-/* 238 */
+/* 239 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -24243,7 +24258,7 @@ function monotoneY(context) {
 
 
 /***/ }),
-/* 239 */
+/* 240 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -24315,7 +24330,7 @@ function controlPoints(x) {
 
 
 /***/ }),
-/* 240 */
+/* 241 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -24377,11 +24392,11 @@ function stepAfter(context) {
 
 
 /***/ }),
-/* 241 */
+/* 242 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__constant__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__offset_none__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__order_none__ = __webpack_require__(26);
@@ -24445,7 +24460,7 @@ function stackValue(d, key) {
 
 
 /***/ }),
-/* 242 */
+/* 243 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -24463,7 +24478,7 @@ function stackValue(d, key) {
 
 
 /***/ }),
-/* 243 */
+/* 244 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -24484,7 +24499,7 @@ function stackValue(d, key) {
 
 
 /***/ }),
-/* 244 */
+/* 245 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -24502,7 +24517,7 @@ function stackValue(d, key) {
 
 
 /***/ }),
-/* 245 */
+/* 246 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -24534,11 +24549,11 @@ function stackValue(d, key) {
 
 
 /***/ }),
-/* 246 */
+/* 247 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ascending__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ascending__ = __webpack_require__(58);
 
 
 /* unused harmony default export */ var _unused_webpack_default_export = (function(series) {
@@ -24547,12 +24562,12 @@ function stackValue(d, key) {
 
 
 /***/ }),
-/* 247 */
+/* 248 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__none__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ascending__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ascending__ = __webpack_require__(58);
 
 
 
@@ -24583,7 +24598,7 @@ function stackValue(d, key) {
 
 
 /***/ }),
-/* 248 */
+/* 249 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -24596,19 +24611,19 @@ function stackValue(d, key) {
 
 
 /***/ }),
-/* 249 */
+/* 250 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(250)
+  __webpack_require__(251)
 }
 var normalizeComponent = __webpack_require__(7)
 /* script */
-var __vue_script__ = __webpack_require__(252)
+var __vue_script__ = __webpack_require__(253)
 /* template */
-var __vue_template__ = __webpack_require__(253)
+var __vue_template__ = __webpack_require__(254)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -24647,13 +24662,13 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 250 */
+/* 251 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(251);
+var content = __webpack_require__(252);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -24673,7 +24688,7 @@ if(false) {
 }
 
 /***/ }),
-/* 251 */
+/* 252 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(5)(false);
@@ -24687,7 +24702,7 @@ exports.push([module.i, "\nrect[data-v-a8dffda0] {\n  fill: rgb(173, 221, 142); 
 
 
 /***/ }),
-/* 252 */
+/* 253 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -24755,7 +24770,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 253 */
+/* 254 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -24785,19 +24800,19 @@ if (false) {
 }
 
 /***/ }),
-/* 254 */
+/* 255 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(255)
+  __webpack_require__(256)
 }
 var normalizeComponent = __webpack_require__(7)
 /* script */
-var __vue_script__ = __webpack_require__(257)
+var __vue_script__ = __webpack_require__(258)
 /* template */
-var __vue_template__ = __webpack_require__(258)
+var __vue_template__ = __webpack_require__(259)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -24836,13 +24851,13 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 255 */
+/* 256 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(256);
+var content = __webpack_require__(257);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -24862,7 +24877,7 @@ if(false) {
 }
 
 /***/ }),
-/* 256 */
+/* 257 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(5)(false);
@@ -24876,7 +24891,7 @@ exports.push([module.i, "\ntext[data-v-c1afc00e] {\n  font-size: 1em; \n  text-a
 
 
 /***/ }),
-/* 257 */
+/* 258 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -24924,7 +24939,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 258 */
+/* 259 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -24983,7 +24998,7 @@ if (false) {
 }
 
 /***/ }),
-/* 259 */
+/* 260 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -25095,7 +25110,7 @@ if (false) {
 }
 
 /***/ }),
-/* 260 */
+/* 261 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -25136,20 +25151,20 @@ if (false) {
 }
 
 /***/ }),
-/* 261 */
+/* 262 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(262)
-  __webpack_require__(264)
+  __webpack_require__(263)
+  __webpack_require__(265)
 }
 var normalizeComponent = __webpack_require__(7)
 /* script */
-var __vue_script__ = __webpack_require__(266)
+var __vue_script__ = __webpack_require__(267)
 /* template */
-var __vue_template__ = __webpack_require__(278)
+var __vue_template__ = __webpack_require__(279)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -25188,13 +25203,13 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 262 */
+/* 263 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(263);
+var content = __webpack_require__(264);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -25214,7 +25229,7 @@ if(false) {
 }
 
 /***/ }),
-/* 263 */
+/* 264 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(5)(false);
@@ -25228,13 +25243,13 @@ exports.push([module.i, "\nfieldset[disabled] .multiselect{pointer-events:none\n
 
 
 /***/ }),
-/* 264 */
+/* 265 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(265);
+var content = __webpack_require__(266);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -25254,7 +25269,7 @@ if(false) {
 }
 
 /***/ }),
-/* 265 */
+/* 266 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(5)(false);
@@ -25268,15 +25283,15 @@ exports.push([module.i, "\n.v-enter-active[data-v-34179db3], .v-leave-active[dat
 
 
 /***/ }),
-/* 266 */
+/* 267 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue_multiselect__ = __webpack_require__(267);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue_multiselect__ = __webpack_require__(268);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue_multiselect___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue_multiselect__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utility__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_request__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_request__ = __webpack_require__(114);
 //
 //
 //
@@ -25358,23 +25373,23 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 267 */
+/* 268 */
 /***/ (function(module, exports, __webpack_require__) {
 
 !function(t,e){ true?module.exports=e():"function"==typeof define&&define.amd?define([],e):"object"==typeof exports?exports.VueMultiselect=e():t.VueMultiselect=e()}(this,function(){return function(t){function e(i){if(n[i])return n[i].exports;var r=n[i]={i:i,l:!1,exports:{}};return t[i].call(r.exports,r,r.exports,e),r.l=!0,r.exports}var n={};return e.m=t,e.c=n,e.i=function(t){return t},e.d=function(t,n,i){e.o(t,n)||Object.defineProperty(t,n,{configurable:!1,enumerable:!0,get:i})},e.n=function(t){var n=t&&t.__esModule?function(){return t.default}:function(){return t};return e.d(n,"a",n),n},e.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},e.p="/",e(e.s=66)}([function(t,e){var n=t.exports="undefined"!=typeof window&&window.Math==Math?window:"undefined"!=typeof self&&self.Math==Math?self:Function("return this")();"number"==typeof __g&&(__g=n)},function(t,e,n){t.exports=!n(12)(function(){return 7!=Object.defineProperty({},"a",{get:function(){return 7}}).a})},function(t,e){var n={}.hasOwnProperty;t.exports=function(t,e){return n.call(t,e)}},function(t,e,n){var i=n(10),r=n(43),o=n(31),s=Object.defineProperty;e.f=n(1)?Object.defineProperty:function(t,e,n){if(i(t),e=o(e,!0),i(n),r)try{return s(t,e,n)}catch(t){}if("get"in n||"set"in n)throw TypeError("Accessors not supported!");return"value"in n&&(t[e]=n.value),t}},function(t,e,n){var i=n(77),r=n(21);t.exports=function(t){return i(r(t))}},function(t,e,n){var i=n(9),r=n(52),o=n(18),s=n(55),u=n(53),a=function(t,e,n){var l,c,f,p,h=t&a.F,d=t&a.G,v=t&a.S,y=t&a.P,g=t&a.B,b=d?i:v?i[e]||(i[e]={}):(i[e]||{}).prototype,m=d?r:r[e]||(r[e]={}),_=m.prototype||(m.prototype={});d&&(n=e);for(l in n)c=!h&&b&&void 0!==b[l],f=(c?b:n)[l],p=g&&c?u(f,i):y&&"function"==typeof f?u(Function.call,f):f,b&&s(b,l,f,t&a.U),m[l]!=f&&o(m,l,p),y&&_[l]!=f&&(_[l]=f)};i.core=r,a.F=1,a.G=2,a.S=4,a.P=8,a.B=16,a.W=32,a.U=64,a.R=128,t.exports=a},function(t,e,n){var i=n(3),r=n(15);t.exports=n(1)?function(t,e,n){return i.f(t,e,r(1,n))}:function(t,e,n){return t[e]=n,t}},function(t,e,n){var i=n(29)("wks"),r=n(16),o=n(0).Symbol,s="function"==typeof o;(t.exports=function(t){return i[t]||(i[t]=s&&o[t]||(s?o:r)("Symbol."+t))}).store=i},function(t,e){t.exports=function(t){try{return!!t()}catch(t){return!0}}},function(t,e){var n=t.exports="undefined"!=typeof window&&window.Math==Math?window:"undefined"!=typeof self&&self.Math==Math?self:Function("return this")();"number"==typeof __g&&(__g=n)},function(t,e,n){var i=n(13);t.exports=function(t){if(!i(t))throw TypeError(t+" is not an object!");return t}},function(t,e){var n=t.exports={version:"2.4.0"};"number"==typeof __e&&(__e=n)},function(t,e){t.exports=function(t){try{return!!t()}catch(t){return!0}}},function(t,e){t.exports=function(t){return"object"==typeof t?null!==t:"function"==typeof t}},function(t,e,n){var i=n(48),r=n(22);t.exports=Object.keys||function(t){return i(t,r)}},function(t,e){t.exports=function(t,e){return{enumerable:!(1&t),configurable:!(2&t),writable:!(4&t),value:e}}},function(t,e){var n=0,i=Math.random();t.exports=function(t){return"Symbol(".concat(void 0===t?"":t,")_",(++n+i).toString(36))}},function(t,e){t.exports=function(t){if(void 0==t)throw TypeError("Can't call method on  "+t);return t}},function(t,e,n){var i=n(109),r=n(110);t.exports=n(35)?function(t,e,n){return i.f(t,e,r(1,n))}:function(t,e,n){return t[e]=n,t}},function(t,e){t.exports=function(t){return"object"==typeof t?null!==t:"function"==typeof t}},function(t,e,n){var i=n(8);t.exports=function(t,e){return!!t&&i(function(){e?t.call(null,function(){},1):t.call(null)})}},function(t,e){t.exports=function(t){if(void 0==t)throw TypeError("Can't call method on  "+t);return t}},function(t,e){t.exports="constructor,hasOwnProperty,isPrototypeOf,propertyIsEnumerable,toLocaleString,toString,valueOf".split(",")},function(t,e,n){var i=n(0),r=n(11),o=n(74),s=n(6),u=function(t,e,n){var a,l,c,f=t&u.F,p=t&u.G,h=t&u.S,d=t&u.P,v=t&u.B,y=t&u.W,g=p?r:r[e]||(r[e]={}),b=g.prototype,m=p?i:h?i[e]:(i[e]||{}).prototype;p&&(n=e);for(a in n)(l=!f&&m&&void 0!==m[a])&&a in g||(c=l?m[a]:n[a],g[a]=p&&"function"!=typeof m[a]?n[a]:v&&l?o(c,i):y&&m[a]==c?function(t){var e=function(e,n,i){if(this instanceof t){switch(arguments.length){case 0:return new t;case 1:return new t(e);case 2:return new t(e,n)}return new t(e,n,i)}return t.apply(this,arguments)};return e.prototype=t.prototype,e}(c):d&&"function"==typeof c?o(Function.call,c):c,d&&((g.virtual||(g.virtual={}))[a]=c,t&u.R&&b&&!b[a]&&s(b,a,c)))};u.F=1,u.G=2,u.S=4,u.P=8,u.B=16,u.W=32,u.U=64,u.R=128,t.exports=u},function(t,e){t.exports={}},function(t,e){t.exports=!0},function(t,e){e.f={}.propertyIsEnumerable},function(t,e,n){var i=n(3).f,r=n(2),o=n(7)("toStringTag");t.exports=function(t,e,n){t&&!r(t=n?t:t.prototype,o)&&i(t,o,{configurable:!0,value:e})}},function(t,e,n){var i=n(29)("keys"),r=n(16);t.exports=function(t){return i[t]||(i[t]=r(t))}},function(t,e,n){var i=n(0),r=i["__core-js_shared__"]||(i["__core-js_shared__"]={});t.exports=function(t){return r[t]||(r[t]={})}},function(t,e){var n=Math.ceil,i=Math.floor;t.exports=function(t){return isNaN(t=+t)?0:(t>0?i:n)(t)}},function(t,e,n){var i=n(13);t.exports=function(t,e){if(!i(t))return t;var n,r;if(e&&"function"==typeof(n=t.toString)&&!i(r=n.call(t)))return r;if("function"==typeof(n=t.valueOf)&&!i(r=n.call(t)))return r;if(!e&&"function"==typeof(n=t.toString)&&!i(r=n.call(t)))return r;throw TypeError("Can't convert object to primitive value")}},function(t,e,n){var i=n(0),r=n(11),o=n(25),s=n(33),u=n(3).f;t.exports=function(t){var e=r.Symbol||(r.Symbol=o?{}:i.Symbol||{});"_"==t.charAt(0)||t in e||u(e,t,{value:s.f(t)})}},function(t,e,n){e.f=n(7)},function(t,e,n){var i=n(53),r=n(36),o=n(57),s=n(37),u=n(104);t.exports=function(t,e){var n=1==t,a=2==t,l=3==t,c=4==t,f=6==t,p=5==t||f,h=e||u;return function(e,u,d){for(var v,y,g=o(e),b=r(g),m=i(u,d,3),_=s(b.length),x=0,w=n?h(e,_):a?h(e,0):void 0;_>x;x++)if((p||x in b)&&(v=b[x],y=m(v,x,g),t))if(n)w[x]=y;else if(y)switch(t){case 3:return!0;case 5:return v;case 6:return x;case 2:w.push(v)}else if(c)return!1;return f?-1:l||c?c:w}}},function(t,e,n){t.exports=!n(8)(function(){return 7!=Object.defineProperty({},"a",{get:function(){return 7}}).a})},function(t,e,n){var i=n(51);t.exports=Object("z").propertyIsEnumerable(0)?Object:function(t){return"String"==i(t)?t.split(""):Object(t)}},function(t,e,n){var i=n(56),r=Math.min;t.exports=function(t){return t>0?r(i(t),9007199254740991):0}},function(t,e,n){var i=n(111)("wks"),r=n(58),o=n(9).Symbol,s="function"==typeof o;(t.exports=function(t){return i[t]||(i[t]=s&&o[t]||(s?o:r)("Symbol."+t))}).store=i},function(t,e,n){"use strict";function i(t){return 0!==t&&(!(!Array.isArray(t)||0!==t.length)||!t)}function r(t){return function(){return!t.apply(void 0,arguments)}}function o(t,e){return void 0===t&&(t="undefined"),null===t&&(t="null"),!1===t&&(t="false"),-1!==t.toString().toLowerCase().indexOf(e.trim())}function s(t,e,n,i){return t.filter(function(t){return o(i(t,n),e)})}function u(t){return t.filter(function(t){return!t.$isLabel})}function a(t,e){return function(n){return n.reduce(function(n,i){return i[t]&&i[t].length?(n.push({$groupLabel:i[e],$isLabel:!0}),n.concat(i[t])):n},[])}}function l(t,e,n,i,r){return function(o){return o.map(function(o){var u;if(!o[n])return console.warn("Options passed to vue-multiselect do not contain groups, despite the config."),[];var a=s(o[n],t,e,r);return a.length?(u={},v()(u,i,o[i]),v()(u,n,a),u):[]})}}var c=n(65),f=n.n(c),p=n(59),h=(n.n(p),n(122)),d=(n.n(h),n(64)),v=n.n(d),y=n(120),g=(n.n(y),n(121)),b=(n.n(g),n(117)),m=(n.n(b),n(123)),_=(n.n(m),n(118)),x=(n.n(_),n(119)),w=(n.n(x),function(){for(var t=arguments.length,e=new Array(t),n=0;n<t;n++)e[n]=arguments[n];return function(t){return e.reduce(function(t,e){return e(t)},t)}});e.a={data:function(){return{search:"",isOpen:!1,prefferedOpenDirection:"below",optimizedHeight:this.maxHeight}},props:{internalSearch:{type:Boolean,default:!0},options:{type:Array,required:!0},multiple:{type:Boolean,default:!1},value:{type:null,default:function(){return[]}},trackBy:{type:String},label:{type:String},searchable:{type:Boolean,default:!0},clearOnSelect:{type:Boolean,default:!0},hideSelected:{type:Boolean,default:!1},placeholder:{type:String,default:"Select option"},allowEmpty:{type:Boolean,default:!0},resetAfter:{type:Boolean,default:!1},closeOnSelect:{type:Boolean,default:!0},customLabel:{type:Function,default:function(t,e){return i(t)?"":e?t[e]:t}},taggable:{type:Boolean,default:!1},tagPlaceholder:{type:String,default:"Press enter to create a tag"},tagPosition:{type:String,default:"top"},max:{type:[Number,Boolean],default:!1},id:{default:null},optionsLimit:{type:Number,default:1e3},groupValues:{type:String},groupLabel:{type:String},groupSelect:{type:Boolean,default:!1},blockKeys:{type:Array,default:function(){return[]}},preserveSearch:{type:Boolean,default:!1},preselectFirst:{type:Boolean,default:!1}},mounted:function(){this.multiple||this.clearOnSelect||console.warn("[Vue-Multiselect warn]: ClearOnSelect and Multiple props can’t be both set to false."),!this.multiple&&this.max&&console.warn("[Vue-Multiselect warn]: Max prop should not be used when prop Multiple equals false."),this.preselectFirst&&!this.internalValue.length&&this.options.length&&this.select(this.filteredOptions[0])},computed:{internalValue:function(){return this.value||0===this.value?Array.isArray(this.value)?this.value:[this.value]:[]},filteredOptions:function(){var t=this.search||"",e=t.toLowerCase().trim(),n=this.options.concat();return n=this.internalSearch?this.groupValues?this.filterAndFlat(n,e,this.label):s(n,e,this.label,this.customLabel):this.groupValues?a(this.groupValues,this.groupLabel)(n):n,n=this.hideSelected?n.filter(r(this.isSelected)):n,this.taggable&&e.length&&!this.isExistingOption(e)&&("bottom"===this.tagPosition?n.push({isTag:!0,label:t}):n.unshift({isTag:!0,label:t})),n.slice(0,this.optionsLimit)},valueKeys:function(){var t=this;return this.trackBy?this.internalValue.map(function(e){return e[t.trackBy]}):this.internalValue},optionKeys:function(){var t=this;return(this.groupValues?this.flatAndStrip(this.options):this.options).map(function(e){return t.customLabel(e,t.label).toString().toLowerCase()})},currentOptionLabel:function(){return this.multiple?this.searchable?"":this.placeholder:this.internalValue.length?this.getOptionLabel(this.internalValue[0]):this.searchable?"":this.placeholder}},watch:{internalValue:function(){this.resetAfter&&this.internalValue.length&&(this.search="",this.$emit("input",this.multiple?[]:null))},search:function(){this.$emit("search-change",this.search,this.id)}},methods:{getValue:function(){return this.multiple?this.internalValue:0===this.internalValue.length?null:this.internalValue[0]},filterAndFlat:function(t,e,n){return w(l(e,n,this.groupValues,this.groupLabel,this.customLabel),a(this.groupValues,this.groupLabel))(t)},flatAndStrip:function(t){return w(a(this.groupValues,this.groupLabel),u)(t)},updateSearch:function(t){this.search=t},isExistingOption:function(t){return!!this.options&&this.optionKeys.indexOf(t)>-1},isSelected:function(t){var e=this.trackBy?t[this.trackBy]:t;return this.valueKeys.indexOf(e)>-1},getOptionLabel:function(t){if(i(t))return"";if(t.isTag)return t.label;if(t.$isLabel)return t.$groupLabel;var e=this.customLabel(t,this.label);return i(e)?"":e},select:function(t,e){if(t.$isLabel&&this.groupSelect)return void this.selectGroup(t);if(!(-1!==this.blockKeys.indexOf(e)||this.disabled||t.$isDisabled||t.$isLabel)&&(!this.max||!this.multiple||this.internalValue.length!==this.max)&&("Tab"!==e||this.pointerDirty)){if(t.isTag)this.$emit("tag",t.label,this.id),this.search="",this.closeOnSelect&&!this.multiple&&this.deactivate();else{if(this.isSelected(t))return void("Tab"!==e&&this.removeElement(t));this.$emit("select",t,this.id),this.multiple?this.$emit("input",this.internalValue.concat([t]),this.id):this.$emit("input",t,this.id),this.clearOnSelect&&(this.search="")}this.closeOnSelect&&this.deactivate()}},selectGroup:function(t){var e=this,n=this.options.find(function(n){return n[e.groupLabel]===t.$groupLabel});if(n)if(this.wholeGroupSelected(n)){this.$emit("remove",n[this.groupValues],this.id);var i=this.internalValue.filter(function(t){return-1===n[e.groupValues].indexOf(t)});this.$emit("input",i,this.id)}else{var o=n[this.groupValues].filter(r(this.isSelected));this.$emit("select",o,this.id),this.$emit("input",this.internalValue.concat(o),this.id)}},wholeGroupSelected:function(t){return t[this.groupValues].every(this.isSelected)},removeElement:function(t){var e=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];if(!this.disabled){if(!this.allowEmpty&&this.internalValue.length<=1)return void this.deactivate();var n="object"===f()(t)?this.valueKeys.indexOf(t[this.trackBy]):this.valueKeys.indexOf(t);if(this.$emit("remove",t,this.id),this.multiple){var i=this.internalValue.slice(0,n).concat(this.internalValue.slice(n+1));this.$emit("input",i,this.id)}else this.$emit("input",null,this.id);this.closeOnSelect&&e&&this.deactivate()}},removeLastElement:function(){-1===this.blockKeys.indexOf("Delete")&&0===this.search.length&&Array.isArray(this.internalValue)&&this.removeElement(this.internalValue[this.internalValue.length-1],!1)},activate:function(){var t=this;this.isOpen||this.disabled||(this.adjustPosition(),this.groupValues&&0===this.pointer&&this.filteredOptions.length&&(this.pointer=1),this.isOpen=!0,this.searchable?(this.preserveSearch||(this.search=""),this.$nextTick(function(){return t.$refs.search.focus()})):this.$el.focus(),this.$emit("open",this.id))},deactivate:function(){this.isOpen&&(this.isOpen=!1,this.searchable?this.$refs.search.blur():this.$el.blur(),this.preserveSearch||(this.search=""),this.$emit("close",this.getValue(),this.id))},toggle:function(){this.isOpen?this.deactivate():this.activate()},adjustPosition:function(){if("undefined"!=typeof window){var t=this.$el.getBoundingClientRect().top,e=window.innerHeight-this.$el.getBoundingClientRect().bottom;e>this.maxHeight||e>t||"below"===this.openDirection||"bottom"===this.openDirection?(this.prefferedOpenDirection="below",this.optimizedHeight=Math.min(e-40,this.maxHeight)):(this.prefferedOpenDirection="above",this.optimizedHeight=Math.min(t-40,this.maxHeight))}}}}},function(t,e,n){"use strict";var i=n(59);n.n(i);e.a={data:function(){return{pointer:0,pointerDirty:!1}},props:{showPointer:{type:Boolean,default:!0},optionHeight:{type:Number,default:40}},computed:{pointerPosition:function(){return this.pointer*this.optionHeight},visibleElements:function(){return this.optimizedHeight/this.optionHeight}},watch:{filteredOptions:function(){this.pointerAdjust()},isOpen:function(){this.pointerDirty=!1}},methods:{optionHighlight:function(t,e){return{"multiselect__option--highlight":t===this.pointer&&this.showPointer,"multiselect__option--selected":this.isSelected(e)}},groupHighlight:function(t,e){var n=this;if(!this.groupSelect)return["multiselect__option--disabled"];var i=this.options.find(function(t){return t[n.groupLabel]===e.$groupLabel});return[this.groupSelect?"multiselect__option--group":"multiselect__option--disabled",{"multiselect__option--highlight":t===this.pointer&&this.showPointer},{"multiselect__option--group-selected":this.wholeGroupSelected(i)}]},addPointerElement:function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"Enter",e=t.key;this.filteredOptions.length>0&&this.select(this.filteredOptions[this.pointer],e),this.pointerReset()},pointerForward:function(){this.pointer<this.filteredOptions.length-1&&(this.pointer++,this.$refs.list.scrollTop<=this.pointerPosition-(this.visibleElements-1)*this.optionHeight&&(this.$refs.list.scrollTop=this.pointerPosition-(this.visibleElements-1)*this.optionHeight),this.filteredOptions[this.pointer]&&this.filteredOptions[this.pointer].$isLabel&&!this.groupSelect&&this.pointerForward()),this.pointerDirty=!0},pointerBackward:function(){this.pointer>0?(this.pointer--,this.$refs.list.scrollTop>=this.pointerPosition&&(this.$refs.list.scrollTop=this.pointerPosition),this.filteredOptions[this.pointer]&&this.filteredOptions[this.pointer].$isLabel&&!this.groupSelect&&this.pointerBackward()):this.filteredOptions[this.pointer]&&this.filteredOptions[0].$isLabel&&!this.groupSelect&&this.pointerForward(),this.pointerDirty=!0},pointerReset:function(){this.closeOnSelect&&(this.pointer=0,this.$refs.list&&(this.$refs.list.scrollTop=0))},pointerAdjust:function(){this.pointer>=this.filteredOptions.length-1&&(this.pointer=this.filteredOptions.length?this.filteredOptions.length-1:0),this.filteredOptions.length>0&&this.filteredOptions[this.pointer].$isLabel&&!this.groupSelect&&this.pointerForward()},pointerSet:function(t){this.pointer=t,this.pointerDirty=!0}}}},function(t,e){var n={}.toString;t.exports=function(t){return n.call(t).slice(8,-1)}},function(t,e,n){var i=n(13),r=n(0).document,o=i(r)&&i(r.createElement);t.exports=function(t){return o?r.createElement(t):{}}},function(t,e,n){t.exports=!n(1)&&!n(12)(function(){return 7!=Object.defineProperty(n(42)("div"),"a",{get:function(){return 7}}).a})},function(t,e,n){"use strict";var i=n(25),r=n(23),o=n(49),s=n(6),u=n(2),a=n(24),l=n(79),c=n(27),f=n(86),p=n(7)("iterator"),h=!([].keys&&"next"in[].keys()),d=function(){return this};t.exports=function(t,e,n,v,y,g,b){l(n,e,v);var m,_,x,w=function(t){if(!h&&t in P)return P[t];switch(t){case"keys":case"values":return function(){return new n(this,t)}}return function(){return new n(this,t)}},S=e+" Iterator",O="values"==y,L=!1,P=t.prototype,k=P[p]||P["@@iterator"]||y&&P[y],E=k||w(y),j=y?O?w("entries"):E:void 0,V="Array"==e?P.entries||k:k;if(V&&(x=f(V.call(new t)))!==Object.prototype&&(c(x,S,!0),i||u(x,p)||s(x,p,d)),O&&k&&"values"!==k.name&&(L=!0,E=function(){return k.call(this)}),i&&!b||!h&&!L&&P[p]||s(P,p,E),a[e]=E,a[S]=d,y)if(m={values:O?E:w("values"),keys:g?E:w("keys"),entries:j},b)for(_ in m)_ in P||o(P,_,m[_]);else r(r.P+r.F*(h||L),e,m);return m}},function(t,e,n){var i=n(10),r=n(83),o=n(22),s=n(28)("IE_PROTO"),u=function(){},a=function(){var t,e=n(42)("iframe"),i=o.length;for(e.style.display="none",n(76).appendChild(e),e.src="javascript:",t=e.contentWindow.document,t.open(),t.write("<script>document.F=Object<\/script>"),t.close(),a=t.F;i--;)delete a.prototype[o[i]];return a()};t.exports=Object.create||function(t,e){var n;return null!==t?(u.prototype=i(t),n=new u,u.prototype=null,n[s]=t):n=a(),void 0===e?n:r(n,e)}},function(t,e,n){var i=n(48),r=n(22).concat("length","prototype");e.f=Object.getOwnPropertyNames||function(t){return i(t,r)}},function(t,e){e.f=Object.getOwnPropertySymbols},function(t,e,n){var i=n(2),r=n(4),o=n(73)(!1),s=n(28)("IE_PROTO");t.exports=function(t,e){var n,u=r(t),a=0,l=[];for(n in u)n!=s&&i(u,n)&&l.push(n);for(;e.length>a;)i(u,n=e[a++])&&(~o(l,n)||l.push(n));return l}},function(t,e,n){t.exports=n(6)},function(t,e){t.exports=function(t){if("function"!=typeof t)throw TypeError(t+" is not a function!");return t}},function(t,e){var n={}.toString;t.exports=function(t){return n.call(t).slice(8,-1)}},function(t,e){var n=t.exports={version:"2.4.0"};"number"==typeof __e&&(__e=n)},function(t,e,n){var i=n(50);t.exports=function(t,e,n){if(i(t),void 0===e)return t;switch(n){case 1:return function(n){return t.call(e,n)};case 2:return function(n,i){return t.call(e,n,i)};case 3:return function(n,i,r){return t.call(e,n,i,r)}}return function(){return t.apply(e,arguments)}}},function(t,e,n){var i=n(51);t.exports=Array.isArray||function(t){return"Array"==i(t)}},function(t,e,n){var i=n(9),r=n(18),o=n(107),s=n(58)("src"),u=Function.toString,a=(""+u).split("toString");n(52).inspectSource=function(t){return u.call(t)},(t.exports=function(t,e,n,u){var l="function"==typeof n;l&&(o(n,"name")||r(n,"name",e)),t[e]!==n&&(l&&(o(n,s)||r(n,s,t[e]?""+t[e]:a.join(String(e)))),t===i?t[e]=n:u?t[e]?t[e]=n:r(t,e,n):(delete t[e],r(t,e,n)))})(Function.prototype,"toString",function(){return"function"==typeof this&&this[s]||u.call(this)})},function(t,e){var n=Math.ceil,i=Math.floor;t.exports=function(t){return isNaN(t=+t)?0:(t>0?i:n)(t)}},function(t,e,n){var i=n(17);t.exports=function(t){return Object(i(t))}},function(t,e){var n=0,i=Math.random();t.exports=function(t){return"Symbol(".concat(void 0===t?"":t,")_",(++n+i).toString(36))}},function(t,e,n){"use strict";var i=n(5),r=n(34)(5),o=!0;"find"in[]&&Array(1).find(function(){o=!1}),i(i.P+i.F*o,"Array",{find:function(t){return r(this,t,arguments.length>1?arguments[1]:void 0)}}),n(99)("find")},function(t,e,n){"use strict";function i(t){n(124)}var r=n(67),o=n(126),s=n(125),u=i,a=s(r.a,o.a,!1,u,null,null);e.a=a.exports},function(t,e,n){t.exports=n(68)},function(t,e,n){t.exports=n(69)},function(t,e,n){t.exports=n(70)},function(t,e,n){function i(t,e,n){return e in t?r(t,e,{value:n,enumerable:!0,configurable:!0,writable:!0}):t[e]=n,t}var r=n(61);t.exports=i},function(t,e,n){function i(t){return(i="function"==typeof s&&"symbol"==typeof o?function(t){return typeof t}:function(t){return t&&"function"==typeof s&&t.constructor===s&&t!==s.prototype?"symbol":typeof t})(t)}function r(e){return"function"==typeof s&&"symbol"===i(o)?t.exports=r=function(t){return i(t)}:t.exports=r=function(t){return t&&"function"==typeof s&&t.constructor===s&&t!==s.prototype?"symbol":i(t)},r(e)}var o=n(63),s=n(62);t.exports=r},function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var i=n(60),r=n(39),o=n(40);n.d(e,"Multiselect",function(){return i.a}),n.d(e,"multiselectMixin",function(){return r.a}),n.d(e,"pointerMixin",function(){return o.a}),e.default=i.a},function(t,e,n){"use strict";var i=n(39),r=n(40);e.a={name:"vue-multiselect",mixins:[i.a,r.a],props:{name:{type:String,default:""},selectLabel:{type:String,default:"Press enter to select"},selectGroupLabel:{type:String,default:"Press enter to select group"},selectedLabel:{type:String,default:"Selected"},deselectLabel:{type:String,default:"Press enter to remove"},deselectGroupLabel:{type:String,default:"Press enter to deselect group"},showLabels:{type:Boolean,default:!0},limit:{type:Number,default:99999},maxHeight:{type:Number,default:300},limitText:{type:Function,default:function(t){return"and ".concat(t," more")}},loading:{type:Boolean,default:!1},disabled:{type:Boolean,default:!1},openDirection:{type:String,default:""},showNoResults:{type:Boolean,default:!0},tabindex:{type:Number,default:0}},computed:{isSingleLabelVisible:function(){return this.singleValue&&(!this.isOpen||!this.searchable)&&!this.visibleValues.length},isPlaceholderVisible:function(){return!(this.internalValue.length||this.searchable&&this.isOpen)},visibleValues:function(){return this.multiple?this.internalValue.slice(0,this.limit):[]},singleValue:function(){return this.internalValue[0]},deselectLabelText:function(){return this.showLabels?this.deselectLabel:""},deselectGroupLabelText:function(){return this.showLabels?this.deselectGroupLabel:""},selectLabelText:function(){return this.showLabels?this.selectLabel:""},selectGroupLabelText:function(){return this.showLabels?this.selectGroupLabel:""},selectedLabelText:function(){return this.showLabels?this.selectedLabel:""},inputStyle:function(){if(this.multiple&&this.value&&this.value.length)return this.isOpen?{width:"auto"}:{width:"0",position:"absolute",padding:"0"}},contentStyle:function(){return this.options.length?{display:"inline-block"}:{display:"block"}},isAbove:function(){return"above"===this.openDirection||"top"===this.openDirection||"below"!==this.openDirection&&"bottom"!==this.openDirection&&"above"===this.prefferedOpenDirection},showSearchInput:function(){return this.searchable&&(!this.hasSingleSelectedSlot||!this.visibleSingleValue&&0!==this.visibleSingleValue||this.isOpen)}}}},function(t,e,n){n(92);var i=n(11).Object;t.exports=function(t,e,n){return i.defineProperty(t,e,n)}},function(t,e,n){n(95),n(93),n(96),n(97),t.exports=n(11).Symbol},function(t,e,n){n(94),n(98),t.exports=n(33).f("iterator")},function(t,e){t.exports=function(t){if("function"!=typeof t)throw TypeError(t+" is not a function!");return t}},function(t,e){t.exports=function(){}},function(t,e,n){var i=n(4),r=n(89),o=n(88);t.exports=function(t){return function(e,n,s){var u,a=i(e),l=r(a.length),c=o(s,l);if(t&&n!=n){for(;l>c;)if((u=a[c++])!=u)return!0}else for(;l>c;c++)if((t||c in a)&&a[c]===n)return t||c||0;return!t&&-1}}},function(t,e,n){var i=n(71);t.exports=function(t,e,n){if(i(t),void 0===e)return t;switch(n){case 1:return function(n){return t.call(e,n)};case 2:return function(n,i){return t.call(e,n,i)};case 3:return function(n,i,r){return t.call(e,n,i,r)}}return function(){return t.apply(e,arguments)}}},function(t,e,n){var i=n(14),r=n(47),o=n(26);t.exports=function(t){var e=i(t),n=r.f;if(n)for(var s,u=n(t),a=o.f,l=0;u.length>l;)a.call(t,s=u[l++])&&e.push(s);return e}},function(t,e,n){t.exports=n(0).document&&document.documentElement},function(t,e,n){var i=n(41);t.exports=Object("z").propertyIsEnumerable(0)?Object:function(t){return"String"==i(t)?t.split(""):Object(t)}},function(t,e,n){var i=n(41);t.exports=Array.isArray||function(t){return"Array"==i(t)}},function(t,e,n){"use strict";var i=n(45),r=n(15),o=n(27),s={};n(6)(s,n(7)("iterator"),function(){return this}),t.exports=function(t,e,n){t.prototype=i(s,{next:r(1,n)}),o(t,e+" Iterator")}},function(t,e){t.exports=function(t,e){return{value:e,done:!!t}}},function(t,e,n){var i=n(14),r=n(4);t.exports=function(t,e){for(var n,o=r(t),s=i(o),u=s.length,a=0;u>a;)if(o[n=s[a++]]===e)return n}},function(t,e,n){var i=n(16)("meta"),r=n(13),o=n(2),s=n(3).f,u=0,a=Object.isExtensible||function(){return!0},l=!n(12)(function(){return a(Object.preventExtensions({}))}),c=function(t){s(t,i,{value:{i:"O"+ ++u,w:{}}})},f=function(t,e){if(!r(t))return"symbol"==typeof t?t:("string"==typeof t?"S":"P")+t;if(!o(t,i)){if(!a(t))return"F";if(!e)return"E";c(t)}return t[i].i},p=function(t,e){if(!o(t,i)){if(!a(t))return!0;if(!e)return!1;c(t)}return t[i].w},h=function(t){return l&&d.NEED&&a(t)&&!o(t,i)&&c(t),t},d=t.exports={KEY:i,NEED:!1,fastKey:f,getWeak:p,onFreeze:h}},function(t,e,n){var i=n(3),r=n(10),o=n(14);t.exports=n(1)?Object.defineProperties:function(t,e){r(t);for(var n,s=o(e),u=s.length,a=0;u>a;)i.f(t,n=s[a++],e[n]);return t}},function(t,e,n){var i=n(26),r=n(15),o=n(4),s=n(31),u=n(2),a=n(43),l=Object.getOwnPropertyDescriptor;e.f=n(1)?l:function(t,e){if(t=o(t),e=s(e,!0),a)try{return l(t,e)}catch(t){}if(u(t,e))return r(!i.f.call(t,e),t[e])}},function(t,e,n){var i=n(4),r=n(46).f,o={}.toString,s="object"==typeof window&&window&&Object.getOwnPropertyNames?Object.getOwnPropertyNames(window):[],u=function(t){try{return r(t)}catch(t){return s.slice()}};t.exports.f=function(t){return s&&"[object Window]"==o.call(t)?u(t):r(i(t))}},function(t,e,n){var i=n(2),r=n(90),o=n(28)("IE_PROTO"),s=Object.prototype;t.exports=Object.getPrototypeOf||function(t){return t=r(t),i(t,o)?t[o]:"function"==typeof t.constructor&&t instanceof t.constructor?t.constructor.prototype:t instanceof Object?s:null}},function(t,e,n){var i=n(30),r=n(21);t.exports=function(t){return function(e,n){var o,s,u=String(r(e)),a=i(n),l=u.length;return a<0||a>=l?t?"":void 0:(o=u.charCodeAt(a),o<55296||o>56319||a+1===l||(s=u.charCodeAt(a+1))<56320||s>57343?t?u.charAt(a):o:t?u.slice(a,a+2):s-56320+(o-55296<<10)+65536)}}},function(t,e,n){var i=n(30),r=Math.max,o=Math.min;t.exports=function(t,e){return t=i(t),t<0?r(t+e,0):o(t,e)}},function(t,e,n){var i=n(30),r=Math.min;t.exports=function(t){return t>0?r(i(t),9007199254740991):0}},function(t,e,n){var i=n(21);t.exports=function(t){return Object(i(t))}},function(t,e,n){"use strict";var i=n(72),r=n(80),o=n(24),s=n(4);t.exports=n(44)(Array,"Array",function(t,e){this._t=s(t),this._i=0,this._k=e},function(){var t=this._t,e=this._k,n=this._i++;return!t||n>=t.length?(this._t=void 0,r(1)):"keys"==e?r(0,n):"values"==e?r(0,t[n]):r(0,[n,t[n]])},"values"),o.Arguments=o.Array,i("keys"),i("values"),i("entries")},function(t,e,n){var i=n(23);i(i.S+i.F*!n(1),"Object",{defineProperty:n(3).f})},function(t,e){},function(t,e,n){"use strict";var i=n(87)(!0);n(44)(String,"String",function(t){this._t=String(t),this._i=0},function(){var t,e=this._t,n=this._i;return n>=e.length?{value:void 0,done:!0}:(t=i(e,n),this._i+=t.length,{value:t,done:!1})})},function(t,e,n){"use strict";var i=n(0),r=n(2),o=n(1),s=n(23),u=n(49),a=n(82).KEY,l=n(12),c=n(29),f=n(27),p=n(16),h=n(7),d=n(33),v=n(32),y=n(81),g=n(75),b=n(78),m=n(10),_=n(4),x=n(31),w=n(15),S=n(45),O=n(85),L=n(84),P=n(3),k=n(14),E=L.f,j=P.f,V=O.f,C=i.Symbol,T=i.JSON,A=T&&T.stringify,$=h("_hidden"),D=h("toPrimitive"),F={}.propertyIsEnumerable,M=c("symbol-registry"),B=c("symbols"),N=c("op-symbols"),R=Object.prototype,H="function"==typeof C,G=i.QObject,I=!G||!G.prototype||!G.prototype.findChild,K=o&&l(function(){return 7!=S(j({},"a",{get:function(){return j(this,"a",{value:7}).a}})).a})?function(t,e,n){var i=E(R,e);i&&delete R[e],j(t,e,n),i&&t!==R&&j(R,e,i)}:j,z=function(t){var e=B[t]=S(C.prototype);return e._k=t,e},U=H&&"symbol"==typeof C.iterator?function(t){return"symbol"==typeof t}:function(t){return t instanceof C},W=function(t,e,n){return t===R&&W(N,e,n),m(t),e=x(e,!0),m(n),r(B,e)?(n.enumerable?(r(t,$)&&t[$][e]&&(t[$][e]=!1),n=S(n,{enumerable:w(0,!1)})):(r(t,$)||j(t,$,w(1,{})),t[$][e]=!0),K(t,e,n)):j(t,e,n)},J=function(t,e){m(t);for(var n,i=g(e=_(e)),r=0,o=i.length;o>r;)W(t,n=i[r++],e[n]);return t},q=function(t,e){return void 0===e?S(t):J(S(t),e)},X=function(t){var e=F.call(this,t=x(t,!0));return!(this===R&&r(B,t)&&!r(N,t))&&(!(e||!r(this,t)||!r(B,t)||r(this,$)&&this[$][t])||e)},Y=function(t,e){if(t=_(t),e=x(e,!0),t!==R||!r(B,e)||r(N,e)){var n=E(t,e);return!n||!r(B,e)||r(t,$)&&t[$][e]||(n.enumerable=!0),n}},Q=function(t){for(var e,n=V(_(t)),i=[],o=0;n.length>o;)r(B,e=n[o++])||e==$||e==a||i.push(e);return i},Z=function(t){for(var e,n=t===R,i=V(n?N:_(t)),o=[],s=0;i.length>s;)!r(B,e=i[s++])||n&&!r(R,e)||o.push(B[e]);return o};H||(C=function(){if(this instanceof C)throw TypeError("Symbol is not a constructor!");var t=p(arguments.length>0?arguments[0]:void 0),e=function(n){this===R&&e.call(N,n),r(this,$)&&r(this[$],t)&&(this[$][t]=!1),K(this,t,w(1,n))};return o&&I&&K(R,t,{configurable:!0,set:e}),z(t)},u(C.prototype,"toString",function(){return this._k}),L.f=Y,P.f=W,n(46).f=O.f=Q,n(26).f=X,n(47).f=Z,o&&!n(25)&&u(R,"propertyIsEnumerable",X,!0),d.f=function(t){return z(h(t))}),s(s.G+s.W+s.F*!H,{Symbol:C});for(var tt="hasInstance,isConcatSpreadable,iterator,match,replace,search,species,split,toPrimitive,toStringTag,unscopables".split(","),et=0;tt.length>et;)h(tt[et++]);for(var tt=k(h.store),et=0;tt.length>et;)v(tt[et++]);s(s.S+s.F*!H,"Symbol",{for:function(t){return r(M,t+="")?M[t]:M[t]=C(t)},keyFor:function(t){if(U(t))return y(M,t);throw TypeError(t+" is not a symbol!")},useSetter:function(){I=!0},useSimple:function(){I=!1}}),s(s.S+s.F*!H,"Object",{create:q,defineProperty:W,defineProperties:J,getOwnPropertyDescriptor:Y,getOwnPropertyNames:Q,getOwnPropertySymbols:Z}),T&&s(s.S+s.F*(!H||l(function(){var t=C();return"[null]"!=A([t])||"{}"!=A({a:t})||"{}"!=A(Object(t))})),"JSON",{stringify:function(t){if(void 0!==t&&!U(t)){for(var e,n,i=[t],r=1;arguments.length>r;)i.push(arguments[r++]);return e=i[1],"function"==typeof e&&(n=e),!n&&b(e)||(e=function(t,e){if(n&&(e=n.call(this,t,e)),!U(e))return e}),i[1]=e,A.apply(T,i)}}}),C.prototype[D]||n(6)(C.prototype,D,C.prototype.valueOf),f(C,"Symbol"),f(Math,"Math",!0),f(i.JSON,"JSON",!0)},function(t,e,n){n(32)("asyncIterator")},function(t,e,n){n(32)("observable")},function(t,e,n){n(91);for(var i=n(0),r=n(6),o=n(24),s=n(7)("toStringTag"),u=["NodeList","DOMTokenList","MediaList","StyleSheetList","CSSRuleList"],a=0;a<5;a++){var l=u[a],c=i[l],f=c&&c.prototype;f&&!f[s]&&r(f,s,l),o[l]=o.Array}},function(t,e,n){var i=n(38)("unscopables"),r=Array.prototype;void 0==r[i]&&n(18)(r,i,{}),t.exports=function(t){r[i][t]=!0}},function(t,e,n){var i=n(19);t.exports=function(t){if(!i(t))throw TypeError(t+" is not an object!");return t}},function(t,e,n){var i=n(115),r=n(37),o=n(114);t.exports=function(t){return function(e,n,s){var u,a=i(e),l=r(a.length),c=o(s,l);if(t&&n!=n){for(;l>c;)if((u=a[c++])!=u)return!0}else for(;l>c;c++)if((t||c in a)&&a[c]===n)return t||c||0;return!t&&-1}}},function(t,e,n){var i=n(50),r=n(57),o=n(36),s=n(37);t.exports=function(t,e,n,u,a){i(e);var l=r(t),c=o(l),f=s(l.length),p=a?f-1:0,h=a?-1:1;if(n<2)for(;;){if(p in c){u=c[p],p+=h;break}if(p+=h,a?p<0:f<=p)throw TypeError("Reduce of empty array with no initial value")}for(;a?p>=0:f>p;p+=h)p in c&&(u=e(u,c[p],p,l));return u}},function(t,e,n){var i=n(19),r=n(54),o=n(38)("species");t.exports=function(t){var e;return r(t)&&(e=t.constructor,"function"!=typeof e||e!==Array&&!r(e.prototype)||(e=void 0),i(e)&&null===(e=e[o])&&(e=void 0)),void 0===e?Array:e}},function(t,e,n){var i=n(103);t.exports=function(t,e){return new(i(t))(e)}},function(t,e,n){var i=n(19),r=n(9).document,o=i(r)&&i(r.createElement);t.exports=function(t){return o?r.createElement(t):{}}},function(t,e,n){"use strict";var i=n(18),r=n(55),o=n(8),s=n(17),u=n(38);t.exports=function(t,e,n){var a=u(t),l=n(s,a,""[t]),c=l[0],f=l[1];o(function(){var e={};return e[a]=function(){return 7},7!=""[t](e)})&&(r(String.prototype,t,c),i(RegExp.prototype,a,2==e?function(t,e){return f.call(t,this,e)}:function(t){return f.call(t,this)}))}},function(t,e){var n={}.hasOwnProperty;t.exports=function(t,e){return n.call(t,e)}},function(t,e,n){t.exports=!n(35)&&!n(8)(function(){return 7!=Object.defineProperty(n(105)("div"),"a",{get:function(){return 7}}).a})},function(t,e,n){var i=n(100),r=n(108),o=n(116),s=Object.defineProperty;e.f=n(35)?Object.defineProperty:function(t,e,n){if(i(t),e=o(e,!0),i(n),r)try{return s(t,e,n)}catch(t){}if("get"in n||"set"in n)throw TypeError("Accessors not supported!");return"value"in n&&(t[e]=n.value),t}},function(t,e){t.exports=function(t,e){return{enumerable:!(1&t),configurable:!(2&t),writable:!(4&t),value:e}}},function(t,e,n){var i=n(9),r=i["__core-js_shared__"]||(i["__core-js_shared__"]={});t.exports=function(t){return r[t]||(r[t]={})}},function(t,e,n){var i=n(5),r=n(17),o=n(8),s=n(113),u="["+s+"]",a="​",l=RegExp("^"+u+u+"*"),c=RegExp(u+u+"*$"),f=function(t,e,n){var r={},u=o(function(){return!!s[t]()||a[t]()!=a}),l=r[t]=u?e(p):s[t];n&&(r[n]=l),i(i.P+i.F*u,"String",r)},p=f.trim=function(t,e){return t=String(r(t)),1&e&&(t=t.replace(l,"")),2&e&&(t=t.replace(c,"")),t};t.exports=f},function(t,e){t.exports="\t\n\v\f\r   ᠎             　\u2028\u2029\ufeff"},function(t,e,n){var i=n(56),r=Math.max,o=Math.min;t.exports=function(t,e){return t=i(t),t<0?r(t+e,0):o(t,e)}},function(t,e,n){var i=n(36),r=n(17);t.exports=function(t){return i(r(t))}},function(t,e,n){var i=n(19);t.exports=function(t,e){if(!i(t))return t;var n,r;if(e&&"function"==typeof(n=t.toString)&&!i(r=n.call(t)))return r;if("function"==typeof(n=t.valueOf)&&!i(r=n.call(t)))return r;if(!e&&"function"==typeof(n=t.toString)&&!i(r=n.call(t)))return r;throw TypeError("Can't convert object to primitive value")}},function(t,e,n){"use strict";var i=n(5),r=n(34)(2);i(i.P+i.F*!n(20)([].filter,!0),"Array",{filter:function(t){return r(this,t,arguments[1])}})},function(t,e,n){"use strict";var i=n(5),r=n(101)(!1),o=[].indexOf,s=!!o&&1/[1].indexOf(1,-0)<0;i(i.P+i.F*(s||!n(20)(o)),"Array",{indexOf:function(t){return s?o.apply(this,arguments)||0:r(this,t,arguments[1])}})},function(t,e,n){var i=n(5);i(i.S,"Array",{isArray:n(54)})},function(t,e,n){"use strict";var i=n(5),r=n(34)(1);i(i.P+i.F*!n(20)([].map,!0),"Array",{map:function(t){return r(this,t,arguments[1])}})},function(t,e,n){"use strict";var i=n(5),r=n(102);i(i.P+i.F*!n(20)([].reduce,!0),"Array",{reduce:function(t){return r(this,t,arguments.length,arguments[1],!1)}})},function(t,e,n){n(106)("search",1,function(t,e,n){return[function(n){"use strict";var i=t(this),r=void 0==n?void 0:n[e];return void 0!==r?r.call(n,i):new RegExp(n)[e](String(i))},n]})},function(t,e,n){"use strict";n(112)("trim",function(t){return function(){return t(this,3)}})},function(t,e){},function(t,e){t.exports=function(t,e,n,i,r,o){var s,u=t=t||{},a=typeof t.default;"object"!==a&&"function"!==a||(s=t,u=t.default);var l="function"==typeof u?u.options:u;e&&(l.render=e.render,l.staticRenderFns=e.staticRenderFns,l._compiled=!0),n&&(l.functional=!0),r&&(l._scopeId=r);var c;if(o?(c=function(t){t=t||this.$vnode&&this.$vnode.ssrContext||this.parent&&this.parent.$vnode&&this.parent.$vnode.ssrContext,t||"undefined"==typeof __VUE_SSR_CONTEXT__||(t=__VUE_SSR_CONTEXT__),i&&i.call(this,t),t&&t._registeredComponents&&t._registeredComponents.add(o)},l._ssrRegister=c):i&&(c=i),c){var f=l.functional,p=f?l.render:l.beforeCreate;f?(l._injectStyles=c,l.render=function(t,e){return c.call(e),p(t,e)}):l.beforeCreate=p?[].concat(p,c):[c]}return{esModule:s,exports:u,options:l}}},function(t,e,n){"use strict";var i=function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("div",{staticClass:"multiselect",class:{"multiselect--active":t.isOpen,"multiselect--disabled":t.disabled,"multiselect--above":t.isAbove},attrs:{tabindex:t.searchable?-1:t.tabindex},on:{focus:function(e){t.activate()},blur:function(e){!t.searchable&&t.deactivate()},keydown:[function(e){return"button"in e||!t._k(e.keyCode,"down",40,e.key,"ArrowDown")?e.target!==e.currentTarget?null:(e.preventDefault(),void t.pointerForward()):null},function(e){return"button"in e||!t._k(e.keyCode,"up",38,e.key,"ArrowUp")?e.target!==e.currentTarget?null:(e.preventDefault(),void t.pointerBackward()):null},function(e){return"button"in e||!t._k(e.keyCode,"enter",13,e.key,"Enter")||!t._k(e.keyCode,"tab",9,e.key,"Tab")?(e.stopPropagation(),e.target!==e.currentTarget?null:void t.addPointerElement(e)):null}],keyup:function(e){if(!("button"in e)&&t._k(e.keyCode,"esc",27,e.key,"Escape"))return null;t.deactivate()}}},[t._t("caret",[n("div",{staticClass:"multiselect__select",on:{mousedown:function(e){e.preventDefault(),e.stopPropagation(),t.toggle()}}})],{toggle:t.toggle}),t._v(" "),t._t("clear",null,{search:t.search}),t._v(" "),n("div",{ref:"tags",staticClass:"multiselect__tags"},[n("div",{directives:[{name:"show",rawName:"v-show",value:t.visibleValues.length>0,expression:"visibleValues.length > 0"}],staticClass:"multiselect__tags-wrap"},[t._l(t.visibleValues,function(e){return[t._t("tag",[n("span",{staticClass:"multiselect__tag"},[n("span",{domProps:{textContent:t._s(t.getOptionLabel(e))}}),t._v(" "),n("i",{staticClass:"multiselect__tag-icon",attrs:{"aria-hidden":"true",tabindex:"1"},on:{keydown:function(n){if(!("button"in n)&&t._k(n.keyCode,"enter",13,n.key,"Enter"))return null;n.preventDefault(),t.removeElement(e)},mousedown:function(n){n.preventDefault(),t.removeElement(e)}}})])],{option:e,search:t.search,remove:t.removeElement})]})],2),t._v(" "),t.internalValue&&t.internalValue.length>t.limit?[t._t("limit",[n("strong",{staticClass:"multiselect__strong",domProps:{textContent:t._s(t.limitText(t.internalValue.length-t.limit))}})])]:t._e(),t._v(" "),n("transition",{attrs:{name:"multiselect__loading"}},[t._t("loading",[n("div",{directives:[{name:"show",rawName:"v-show",value:t.loading,expression:"loading"}],staticClass:"multiselect__spinner"})])],2),t._v(" "),n("input",{directives:[{name:"show",rawName:"v-show",value:t.isOpen&&t.searchable,expression:"isOpen && searchable"}],ref:"search",staticClass:"multiselect__input",style:t.inputStyle,attrs:{name:t.name,id:t.id,type:"text",autocomplete:"off",placeholder:t.placeholder,disabled:t.disabled,tabindex:t.tabindex},domProps:{value:t.search},on:{input:function(e){t.updateSearch(e.target.value)},focus:function(e){e.preventDefault(),t.activate()},blur:function(e){e.preventDefault(),t.deactivate()},keyup:function(e){if(!("button"in e)&&t._k(e.keyCode,"esc",27,e.key,"Escape"))return null;t.deactivate()},keydown:[function(e){if(!("button"in e)&&t._k(e.keyCode,"down",40,e.key,"ArrowDown"))return null;e.preventDefault(),t.pointerForward()},function(e){if(!("button"in e)&&t._k(e.keyCode,"up",38,e.key,"ArrowUp"))return null;e.preventDefault(),t.pointerBackward()},function(e){return"button"in e||!t._k(e.keyCode,"enter",13,e.key,"Enter")?(e.preventDefault(),e.stopPropagation(),e.target!==e.currentTarget?null:void t.addPointerElement(e)):null},function(e){if(!("button"in e)&&t._k(e.keyCode,"delete",[8,46],e.key,["Backspace","Delete"]))return null;e.stopPropagation(),t.removeLastElement()}]}}),t._v(" "),t.isSingleLabelVisible?n("span",{staticClass:"multiselect__single",on:{mousedown:function(e){return e.preventDefault(),t.toggle(e)}}},[t._t("singleLabel",[[t._v(t._s(t.currentOptionLabel))]],{option:t.singleValue})],2):t._e(),t._v(" "),t.isPlaceholderVisible?n("span",{on:{mousedown:function(e){return e.preventDefault(),t.toggle(e)}}},[t._t("placeholder",[n("span",{staticClass:"multiselect__single"},[t._v("\n            "+t._s(t.placeholder)+"\n          ")])])],2):t._e()],2),t._v(" "),n("transition",{attrs:{name:"multiselect"}},[n("div",{directives:[{name:"show",rawName:"v-show",value:t.isOpen,expression:"isOpen"}],ref:"list",staticClass:"multiselect__content-wrapper",style:{maxHeight:t.optimizedHeight+"px"},on:{focus:t.activate,mousedown:function(t){t.preventDefault()}}},[n("ul",{staticClass:"multiselect__content",style:t.contentStyle},[t._t("beforeList"),t._v(" "),t.multiple&&t.max===t.internalValue.length?n("li",[n("span",{staticClass:"multiselect__option"},[t._t("maxElements",[t._v("Maximum of "+t._s(t.max)+" options selected. First remove a selected option to select another.")])],2)]):t._e(),t._v(" "),!t.max||t.internalValue.length<t.max?t._l(t.filteredOptions,function(e,i){return n("li",{key:i,staticClass:"multiselect__element"},[e&&(e.$isLabel||e.$isDisabled)?t._e():n("span",{staticClass:"multiselect__option",class:t.optionHighlight(i,e),attrs:{"data-select":e&&e.isTag?t.tagPlaceholder:t.selectLabelText,"data-selected":t.selectedLabelText,"data-deselect":t.deselectLabelText},on:{click:function(n){n.stopPropagation(),t.select(e)},mouseenter:function(e){if(e.target!==e.currentTarget)return null;t.pointerSet(i)}}},[t._t("option",[n("span",[t._v(t._s(t.getOptionLabel(e)))])],{option:e,search:t.search})],2),t._v(" "),e&&(e.$isLabel||e.$isDisabled)?n("span",{staticClass:"multiselect__option",class:t.groupHighlight(i,e),attrs:{"data-select":t.groupSelect&&t.selectGroupLabelText,"data-deselect":t.groupSelect&&t.deselectGroupLabelText},on:{mouseenter:function(e){if(e.target!==e.currentTarget)return null;t.groupSelect&&t.pointerSet(i)},mousedown:function(n){n.preventDefault(),t.selectGroup(e)}}},[t._t("option",[n("span",[t._v(t._s(t.getOptionLabel(e)))])],{option:e,search:t.search})],2):t._e()])}):t._e(),t._v(" "),n("li",{directives:[{name:"show",rawName:"v-show",value:t.showNoResults&&0===t.filteredOptions.length&&t.search&&!t.loading,expression:"showNoResults && (filteredOptions.length === 0 && search && !loading)"}]},[n("span",{staticClass:"multiselect__option"},[t._t("noResult",[t._v("No elements found. Consider changing the search query.")])],2)]),t._v(" "),t._t("afterList")],2)])])],2)},r=[],o={render:i,staticRenderFns:r};e.a=o}])});
 
 /***/ }),
-/* 268 */
+/* 269 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_dispatch__ = __webpack_require__(269);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_dispatch__ = __webpack_require__(270);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_dispatch__["a"]; });
 
 
 
 /***/ }),
-/* 269 */
+/* 270 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -25465,7 +25480,7 @@ function set(type, name, callback) {
 
 
 /***/ }),
-/* 270 */
+/* 271 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -25478,7 +25493,7 @@ function set(type, name, callback) {
 
 
 /***/ }),
-/* 271 */
+/* 272 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -25491,7 +25506,7 @@ function set(type, name, callback) {
 
 
 /***/ }),
-/* 272 */
+/* 273 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -25504,7 +25519,7 @@ function set(type, name, callback) {
 
 
 /***/ }),
-/* 273 */
+/* 274 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -25519,12 +25534,12 @@ function set(type, name, callback) {
 
 
 /***/ }),
-/* 274 */
+/* 275 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_dsv__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dsv__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_dsv__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dsv__ = __webpack_require__(115);
 
 
 
@@ -25532,7 +25547,7 @@ function set(type, name, callback) {
 
 
 /***/ }),
-/* 275 */
+/* 276 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -25552,7 +25567,7 @@ var csvFormatRows = csv.formatRows;
 
 
 /***/ }),
-/* 276 */
+/* 277 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -25572,20 +25587,20 @@ var tsvFormatRows = tsv.formatRows;
 
 
 /***/ }),
-/* 277 */
+/* 278 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_dsv__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dsv__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_dsv__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dsv__ = __webpack_require__(115);
 
 
 
-/* unused harmony default export */ var _unused_webpack_default_export = (Object(__WEBPACK_IMPORTED_MODULE_1__dsv__["a" /* default */])("text/tab-separated-values", __WEBPACK_IMPORTED_MODULE_0_d3_dsv__["c" /* tsvParse */]));
+/* unused harmony default export */ var _unused_webpack_default_export = (Object(__WEBPACK_IMPORTED_MODULE_1__dsv__["a" /* default */])("text/tab-separated-values", __WEBPACK_IMPORTED_MODULE_0_d3_dsv__["d" /* tsvParse */]));
 
 
 /***/ }),
-/* 278 */
+/* 279 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -25661,19 +25676,19 @@ if (false) {
 }
 
 /***/ }),
-/* 279 */
+/* 280 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(280)
+  __webpack_require__(281)
 }
 var normalizeComponent = __webpack_require__(7)
 /* script */
-var __vue_script__ = __webpack_require__(282)
+var __vue_script__ = __webpack_require__(283)
 /* template */
-var __vue_template__ = __webpack_require__(284)
+var __vue_template__ = __webpack_require__(292)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -25712,13 +25727,13 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 280 */
+/* 281 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(281);
+var content = __webpack_require__(282);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -25738,7 +25753,7 @@ if(false) {
 }
 
 /***/ }),
-/* 281 */
+/* 282 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(5)(false);
@@ -25746,24 +25761,26 @@ exports = module.exports = __webpack_require__(5)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 282 */
+/* 283 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_save_svg_as_png__ = __webpack_require__(283);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_save_svg_as_png__ = __webpack_require__(284);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_save_svg_as_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_save_svg_as_png__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utility__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_fetch__ = __webpack_require__(285);
 //
 //
 //
 //
+
 
 
 
@@ -25778,7 +25795,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
   methods: {
     downloadImage: function downloadImage() {
       var dashboard = document.querySelector(".dashboard").cloneNode(true);
-      dashboard.setAttribute("viewBox", "0 0 1050 770");
+      dashboard.setAttribute("viewBox", "0 0 1050 810");
 
       var map = dashboard.querySelector("#map-container");
       map.setAttribute("transform", "translate(25,25)");
@@ -25789,19 +25806,26 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
       var newText = document.createElementNS("http://www.w3.org/2000/svg", "text");
       newText.setAttributeNS(null, "font-size", "10px");
-      newText.setAttributeNS(null, "transform", "translate(100,660)");
+      newText.setAttributeNS(null, "transform", "translate(200,660)");
 
       var notes = document.querySelector(".notes-text").innerText;
-      newText.innerHTML = Object(__WEBPACK_IMPORTED_MODULE_1__utility__["c" /* wrap */])({ text: notes, maxCharsPerLine: 200 });
+      newText.innerHTML = Object(__WEBPACK_IMPORTED_MODULE_1__utility__["c" /* wrap */])({ text: notes, maxCharsPerLine: 180 });
       dashboard.appendChild(newText);
 
-      Object(__WEBPACK_IMPORTED_MODULE_0_save_svg_as_png__["saveSvgAsPng"])(dashboard, "viz.png", { backgroundColor: "#fff" });
+      Object(__WEBPACK_IMPORTED_MODULE_2_d3_fetch__["a" /* svg */])('shepsLogoVertical.svg').then(function (d) {
+        var logoSvg = d.childNodes[0];
+        logoSvg.setAttribute("transform", "translate(15,640)");
+        dashboard.appendChild(logoSvg);
+        Object(__WEBPACK_IMPORTED_MODULE_0_save_svg_as_png__["saveSvgAsPng"])(dashboard, "viz.png", { backgroundColor: "#fff" });
+      }).catch(function (error) {
+        console.log('Looks like there was a problem: \n', error);
+      });
     }
   }
 });
 
 /***/ }),
-/* 283 */
+/* 284 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26216,7 +26240,159 @@ var __WEBPACK_AMD_DEFINE_RESULT__;
 })();
 
 /***/ }),
-/* 284 */
+/* 285 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_blob__ = __webpack_require__(286);
+/* unused harmony reexport blob */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_buffer__ = __webpack_require__(287);
+/* unused harmony reexport buffer */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_dsv__ = __webpack_require__(288);
+/* unused harmony reexport dsv */
+/* unused harmony reexport csv */
+/* unused harmony reexport tsv */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_image__ = __webpack_require__(289);
+/* unused harmony reexport image */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_json__ = __webpack_require__(290);
+/* unused harmony reexport json */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_text__ = __webpack_require__(62);
+/* unused harmony reexport text */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_xml__ = __webpack_require__(291);
+/* unused harmony reexport xml */
+/* unused harmony reexport html */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_6__src_xml__["a"]; });
+
+
+
+
+
+
+
+
+
+/***/ }),
+/* 286 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+function responseBlob(response) {
+  if (!response.ok) throw new Error(response.status + " " + response.statusText);
+  return response.blob();
+}
+
+/* unused harmony default export */ var _unused_webpack_default_export = (function(input, init) {
+  return fetch(input, init).then(responseBlob);
+});
+
+
+/***/ }),
+/* 287 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+function responseArrayBuffer(response) {
+  if (!response.ok) throw new Error(response.status + " " + response.statusText);
+  return response.arrayBuffer();
+}
+
+/* unused harmony default export */ var _unused_webpack_default_export = (function(input, init) {
+  return fetch(input, init).then(responseArrayBuffer);
+});
+
+
+/***/ }),
+/* 288 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export default */
+/* unused harmony export csv */
+/* unused harmony export tsv */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_dsv__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__text__ = __webpack_require__(62);
+
+
+
+function dsvParse(parse) {
+  return function(input, init, row) {
+    if (arguments.length === 2 && typeof init === "function") row = init, init = undefined;
+    return Object(__WEBPACK_IMPORTED_MODULE_1__text__["a" /* default */])(input, init).then(function(response) {
+      return parse(response, row);
+    });
+  };
+}
+
+function dsv(delimiter, input, init, row) {
+  if (arguments.length === 3 && typeof init === "function") row = init, init = undefined;
+  var format = Object(__WEBPACK_IMPORTED_MODULE_0_d3_dsv__["c" /* dsvFormat */])(delimiter);
+  return Object(__WEBPACK_IMPORTED_MODULE_1__text__["a" /* default */])(input, init).then(function(response) {
+    return format.parse(response, row);
+  });
+}
+
+var csv = dsvParse(__WEBPACK_IMPORTED_MODULE_0_d3_dsv__["b" /* csvParse */]);
+var tsv = dsvParse(__WEBPACK_IMPORTED_MODULE_0_d3_dsv__["d" /* tsvParse */]);
+
+
+/***/ }),
+/* 289 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony default export */ var _unused_webpack_default_export = (function(input, init) {
+  return new Promise(function(resolve, reject) {
+    var image = new Image;
+    for (var key in init) image[key] = init[key];
+    image.onerror = reject;
+    image.onload = function() { resolve(image); };
+    image.src = input;
+  });
+});
+
+
+/***/ }),
+/* 290 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+function responseJson(response) {
+  if (!response.ok) throw new Error(response.status + " " + response.statusText);
+  return response.json();
+}
+
+/* unused harmony default export */ var _unused_webpack_default_export = (function(input, init) {
+  return fetch(input, init).then(responseJson);
+});
+
+
+/***/ }),
+/* 291 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export html */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return svg; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__text__ = __webpack_require__(62);
+
+
+function parser(type) {
+  return function(input, init)  {
+    return Object(__WEBPACK_IMPORTED_MODULE_0__text__["a" /* default */])(input, init).then(function(text) {
+      return (new DOMParser).parseFromString(text, type);
+    });
+  };
+}
+
+/* unused harmony default export */ var _unused_webpack_default_export = (parser("application/xml"));
+
+var html = parser("text/html");
+
+var svg = parser("image/svg+xml");
+
+
+/***/ }),
+/* 292 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -26244,19 +26420,19 @@ if (false) {
 }
 
 /***/ }),
-/* 285 */
+/* 293 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(286)
+  __webpack_require__(294)
 }
 var normalizeComponent = __webpack_require__(7)
 /* script */
-var __vue_script__ = __webpack_require__(288)
+var __vue_script__ = __webpack_require__(296)
 /* template */
-var __vue_template__ = __webpack_require__(289)
+var __vue_template__ = __webpack_require__(297)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -26295,13 +26471,13 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 286 */
+/* 294 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(287);
+var content = __webpack_require__(295);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -26321,7 +26497,7 @@ if(false) {
 }
 
 /***/ }),
-/* 287 */
+/* 295 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(5)(false);
@@ -26335,12 +26511,12 @@ exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
 
 
 /***/ }),
-/* 288 */
+/* 296 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_dsv__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_dsv__ = __webpack_require__(39);
 //
 //
 //
@@ -26402,7 +26578,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 289 */
+/* 297 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -26430,19 +26606,19 @@ if (false) {
 }
 
 /***/ }),
-/* 290 */
+/* 298 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(291)
+  __webpack_require__(299)
 }
 var normalizeComponent = __webpack_require__(7)
 /* script */
-var __vue_script__ = __webpack_require__(293)
+var __vue_script__ = __webpack_require__(301)
 /* template */
-var __vue_template__ = __webpack_require__(378)
+var __vue_template__ = __webpack_require__(386)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -26481,13 +26657,13 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 291 */
+/* 299 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(292);
+var content = __webpack_require__(300);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -26507,7 +26683,7 @@ if(false) {
 }
 
 /***/ }),
-/* 292 */
+/* 300 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(5)(false);
@@ -26521,25 +26697,25 @@ exports.push([module.i, "\n.county[data-v-20909bf5] {\n  stroke: #fff;\n  stroke
 
 
 /***/ }),
-/* 293 */
+/* 301 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_geo__ = __webpack_require__(294);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_geo__ = __webpack_require__(302);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_array__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_scale__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_d3_scale_chromatic__ = __webpack_require__(322);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_d3_scale_chromatic__ = __webpack_require__(330);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utility__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__data_ncMap__ = __webpack_require__(363);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__data_ahec__ = __webpack_require__(364);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__chart_text__ = __webpack_require__(130);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__HistogramLegend__ = __webpack_require__(366);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__data_ncMap__ = __webpack_require__(371);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__data_ahec__ = __webpack_require__(372);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__chart_text__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__HistogramLegend__ = __webpack_require__(374);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__HistogramLegend___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__HistogramLegend__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__RowChart__ = __webpack_require__(371);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__RowChart__ = __webpack_require__(379);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__RowChart___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__RowChart__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_vuex__ = __webpack_require__(58);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_d3_scale_cluster__ = __webpack_require__(376);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_vuex__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_d3_scale_cluster__ = __webpack_require__(384);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_d3_scale_cluster___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_d3_scale_cluster__);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -26646,7 +26822,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
     title: function title() {
       var title = Object(__WEBPACK_IMPORTED_MODULE_7__chart_text__["c" /* professionChartTitle */])(this.variable, this.specialty) + ", North Carolina, " + this.year;
       // console.log(wrap(title))
-      return Object(__WEBPACK_IMPORTED_MODULE_4__utility__["c" /* wrap */])({ text: title, maxCharsPerLine: 95 });
+      return Object(__WEBPACK_IMPORTED_MODULE_4__utility__["c" /* wrap */])({ text: title, maxCharsPerLine: 85 });
     },
     mapData: function mapData() {
       var _this = this;
@@ -26769,89 +26945,89 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 });
 
 /***/ }),
-/* 294 */
+/* 302 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_area__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_area__ = __webpack_require__(116);
 /* unused harmony reexport geoArea */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_bounds__ = __webpack_require__(295);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_bounds__ = __webpack_require__(303);
 /* unused harmony reexport geoBounds */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_centroid__ = __webpack_require__(296);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_centroid__ = __webpack_require__(304);
 /* unused harmony reexport geoCentroid */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_circle__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_circle__ = __webpack_require__(117);
 /* unused harmony reexport geoCircle */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_clip_antimeridian__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_clip_antimeridian__ = __webpack_require__(119);
 /* unused harmony reexport geoClipAntimeridian */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_clip_circle__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_clip_circle__ = __webpack_require__(125);
 /* unused harmony reexport geoClipCircle */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_clip_extent__ = __webpack_require__(298);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_clip_extent__ = __webpack_require__(306);
 /* unused harmony reexport geoClipExtent */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_clip_rectangle__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_clip_rectangle__ = __webpack_require__(41);
 /* unused harmony reexport geoClipRectangle */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_contains__ = __webpack_require__(300);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_contains__ = __webpack_require__(308);
 /* unused harmony reexport geoContains */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_distance__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_distance__ = __webpack_require__(126);
 /* unused harmony reexport geoDistance */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_graticule__ = __webpack_require__(301);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_graticule__ = __webpack_require__(309);
 /* unused harmony reexport geoGraticule */
 /* unused harmony reexport geoGraticule10 */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_interpolate__ = __webpack_require__(302);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_interpolate__ = __webpack_require__(310);
 /* unused harmony reexport geoInterpolate */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_length__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_length__ = __webpack_require__(127);
 /* unused harmony reexport geoLength */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_path_index__ = __webpack_require__(303);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_path_index__ = __webpack_require__(311);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_13__src_path_index__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_projection_albers__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_projection_albers__ = __webpack_require__(129);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_14__src_projection_albers__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_projection_albersUsa__ = __webpack_require__(311);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_projection_albersUsa__ = __webpack_require__(319);
 /* unused harmony reexport geoAlbersUsa */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_projection_azimuthalEqualArea__ = __webpack_require__(312);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_projection_azimuthalEqualArea__ = __webpack_require__(320);
 /* unused harmony reexport geoAzimuthalEqualArea */
 /* unused harmony reexport geoAzimuthalEqualAreaRaw */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_projection_azimuthalEquidistant__ = __webpack_require__(313);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_projection_azimuthalEquidistant__ = __webpack_require__(321);
 /* unused harmony reexport geoAzimuthalEquidistant */
 /* unused harmony reexport geoAzimuthalEquidistantRaw */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_projection_conicConformal__ = __webpack_require__(314);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_projection_conicConformal__ = __webpack_require__(322);
 /* unused harmony reexport geoConicConformal */
 /* unused harmony reexport geoConicConformalRaw */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__src_projection_conicEqualArea__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__src_projection_conicEqualArea__ = __webpack_require__(64);
 /* unused harmony reexport geoConicEqualArea */
 /* unused harmony reexport geoConicEqualAreaRaw */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__src_projection_conicEquidistant__ = __webpack_require__(315);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__src_projection_conicEquidistant__ = __webpack_require__(323);
 /* unused harmony reexport geoConicEquidistant */
 /* unused harmony reexport geoConicEquidistantRaw */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__src_projection_equirectangular__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__src_projection_equirectangular__ = __webpack_require__(130);
 /* unused harmony reexport geoEquirectangular */
 /* unused harmony reexport geoEquirectangularRaw */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__src_projection_gnomonic__ = __webpack_require__(316);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__src_projection_gnomonic__ = __webpack_require__(324);
 /* unused harmony reexport geoGnomonic */
 /* unused harmony reexport geoGnomonicRaw */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__src_projection_identity__ = __webpack_require__(317);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__src_projection_identity__ = __webpack_require__(325);
 /* unused harmony reexport geoIdentity */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__src_projection_index__ = __webpack_require__(9);
 /* unused harmony reexport geoProjection */
 /* unused harmony reexport geoProjectionMutator */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__src_projection_mercator__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__src_projection_mercator__ = __webpack_require__(67);
 /* unused harmony reexport geoMercator */
 /* unused harmony reexport geoMercatorRaw */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__src_projection_naturalEarth1__ = __webpack_require__(318);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__src_projection_naturalEarth1__ = __webpack_require__(326);
 /* unused harmony reexport geoNaturalEarth1 */
 /* unused harmony reexport geoNaturalEarth1Raw */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__src_projection_orthographic__ = __webpack_require__(319);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__src_projection_orthographic__ = __webpack_require__(327);
 /* unused harmony reexport geoOrthographic */
 /* unused harmony reexport geoOrthographicRaw */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__src_projection_stereographic__ = __webpack_require__(320);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__src_projection_stereographic__ = __webpack_require__(328);
 /* unused harmony reexport geoStereographic */
 /* unused harmony reexport geoStereographicRaw */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__src_projection_transverseMercator__ = __webpack_require__(321);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__src_projection_transverseMercator__ = __webpack_require__(329);
 /* unused harmony reexport geoTransverseMercator */
 /* unused harmony reexport geoTransverseMercatorRaw */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__src_rotation__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__src_rotation__ = __webpack_require__(40);
 /* unused harmony reexport geoRotation */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__src_stream__ = __webpack_require__(16);
 /* unused harmony reexport geoStream */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__src_transform__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__src_transform__ = __webpack_require__(42);
 /* unused harmony reexport geoTransform */
 
 
@@ -26889,12 +27065,12 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 
 /***/ }),
-/* 295 */
+/* 303 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__adder__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__area__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__area__ = __webpack_require__(116);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cartesian__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__math__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__stream__ = __webpack_require__(16);
@@ -27077,7 +27253,7 @@ function rangeContains(range, x) {
 
 
 /***/ }),
-/* 296 */
+/* 304 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27227,7 +27403,7 @@ function centroidRingPoint(lambda, phi) {
 
 
 /***/ }),
-/* 297 */
+/* 305 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27239,11 +27415,11 @@ function centroidRingPoint(lambda, phi) {
 
 
 /***/ }),
-/* 298 */
+/* 306 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__rectangle__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__rectangle__ = __webpack_require__(41);
 
 
 /* unused harmony default export */ var _unused_webpack_default_export = (function() {
@@ -27267,7 +27443,7 @@ function centroidRingPoint(lambda, phi) {
 
 
 /***/ }),
-/* 299 */
+/* 307 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27333,12 +27509,12 @@ function centroidRingPoint(lambda, phi) {
 
 
 /***/ }),
-/* 300 */
+/* 308 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__polygonContains__ = __webpack_require__(123);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__distance__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__polygonContains__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__distance__ = __webpack_require__(126);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(0);
 
 
@@ -27427,7 +27603,7 @@ function pointRadians(point) {
 
 
 /***/ }),
-/* 301 */
+/* 309 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27543,7 +27719,7 @@ function graticule10() {
 
 
 /***/ }),
-/* 302 */
+/* 310 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27587,18 +27763,18 @@ function graticule10() {
 
 
 /***/ }),
-/* 303 */
+/* 311 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__identity__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__identity__ = __webpack_require__(63);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__stream__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__area__ = __webpack_require__(304);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__bounds__ = __webpack_require__(127);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__centroid__ = __webpack_require__(305);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__context__ = __webpack_require__(306);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__measure__ = __webpack_require__(307);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__string__ = __webpack_require__(308);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__area__ = __webpack_require__(312);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__bounds__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__centroid__ = __webpack_require__(313);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__context__ = __webpack_require__(314);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__measure__ = __webpack_require__(315);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__string__ = __webpack_require__(316);
 
 
 
@@ -27663,7 +27839,7 @@ function graticule10() {
 
 
 /***/ }),
-/* 304 */
+/* 312 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27723,7 +27899,7 @@ function areaRingEnd() {
 
 
 /***/ }),
-/* 305 */
+/* 313 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27831,7 +28007,7 @@ function centroidPointRing(x, y) {
 
 
 /***/ }),
-/* 306 */
+/* 314 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27886,7 +28062,7 @@ PathContext.prototype = {
 
 
 /***/ }),
-/* 307 */
+/* 315 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27941,7 +28117,7 @@ function lengthPoint(x, y) {
 
 
 /***/ }),
-/* 308 */
+/* 316 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28008,13 +28184,13 @@ function circle(radius) {
 
 
 /***/ }),
-/* 309 */
+/* 317 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cartesian__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__math__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__transform__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__transform__ = __webpack_require__(42);
 
 
 
@@ -28120,7 +28296,7 @@ function resample(project, delta2) {
 
 
 /***/ }),
-/* 310 */
+/* 318 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28144,14 +28320,14 @@ function cylindricalEqualAreaRaw(phi0) {
 
 
 /***/ }),
-/* 311 */
+/* 319 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__albers__ = __webpack_require__(128);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__conicEqualArea__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__fit__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__albers__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__conicEqualArea__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__fit__ = __webpack_require__(66);
 
 
 
@@ -28266,7 +28442,7 @@ function multiplex(streams) {
 
 
 /***/ }),
-/* 312 */
+/* 320 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28294,7 +28470,7 @@ azimuthalEqualAreaRaw.invert = Object(__WEBPACK_IMPORTED_MODULE_1__azimuthal__["
 
 
 /***/ }),
-/* 313 */
+/* 321 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28322,14 +28498,14 @@ azimuthalEquidistantRaw.invert = Object(__WEBPACK_IMPORTED_MODULE_1__azimuthal__
 
 
 /***/ }),
-/* 314 */
+/* 322 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* unused harmony export conicConformalRaw */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__conic__ = __webpack_require__(64);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mercator__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__conic__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mercator__ = __webpack_require__(67);
 
 
 
@@ -28368,14 +28544,14 @@ function conicConformalRaw(y0, y1) {
 
 
 /***/ }),
-/* 315 */
+/* 323 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* unused harmony export conicEquidistantRaw */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__conic__ = __webpack_require__(64);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__equirectangular__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__conic__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__equirectangular__ = __webpack_require__(130);
 
 
 
@@ -28408,7 +28584,7 @@ function conicEquidistantRaw(y0, y1) {
 
 
 /***/ }),
-/* 316 */
+/* 324 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28435,14 +28611,14 @@ gnomonicRaw.invert = Object(__WEBPACK_IMPORTED_MODULE_1__azimuthal__["a" /* azim
 
 
 /***/ }),
-/* 317 */
+/* 325 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__clip_rectangle__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__identity__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__transform__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__fit__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__clip_rectangle__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__identity__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__transform__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__fit__ = __webpack_require__(66);
 
 
 
@@ -28508,7 +28684,7 @@ function scaleTranslate(kx, ky, tx, ty) {
 
 
 /***/ }),
-/* 318 */
+/* 326 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28546,7 +28722,7 @@ naturalEarth1Raw.invert = function(x, y) {
 
 
 /***/ }),
-/* 319 */
+/* 327 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28572,7 +28748,7 @@ orthographicRaw.invert = Object(__WEBPACK_IMPORTED_MODULE_1__azimuthal__["a" /* 
 
 
 /***/ }),
-/* 320 */
+/* 328 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28601,13 +28777,13 @@ stereographicRaw.invert = Object(__WEBPACK_IMPORTED_MODULE_1__azimuthal__["a" /*
 
 
 /***/ }),
-/* 321 */
+/* 329 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* unused harmony export transverseMercatorRaw */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mercator__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mercator__ = __webpack_require__(67);
 
 
 
@@ -28638,118 +28814,118 @@ transverseMercatorRaw.invert = function(x, y) {
 
 
 /***/ }),
-/* 322 */
+/* 330 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_categorical_category10__ = __webpack_require__(323);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_categorical_category10__ = __webpack_require__(331);
 /* unused harmony reexport schemeCategory10 */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_categorical_Accent__ = __webpack_require__(324);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_categorical_Accent__ = __webpack_require__(332);
 /* unused harmony reexport schemeAccent */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_categorical_Dark2__ = __webpack_require__(325);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_categorical_Dark2__ = __webpack_require__(333);
 /* unused harmony reexport schemeDark2 */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_categorical_Paired__ = __webpack_require__(326);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_categorical_Paired__ = __webpack_require__(334);
 /* unused harmony reexport schemePaired */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_categorical_Pastel1__ = __webpack_require__(327);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_categorical_Pastel1__ = __webpack_require__(335);
 /* unused harmony reexport schemePastel1 */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_categorical_Pastel2__ = __webpack_require__(328);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_categorical_Pastel2__ = __webpack_require__(336);
 /* unused harmony reexport schemePastel2 */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_categorical_Set1__ = __webpack_require__(329);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_categorical_Set1__ = __webpack_require__(337);
 /* unused harmony reexport schemeSet1 */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_categorical_Set2__ = __webpack_require__(330);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_categorical_Set2__ = __webpack_require__(338);
 /* unused harmony reexport schemeSet2 */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_categorical_Set3__ = __webpack_require__(331);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_categorical_Set3__ = __webpack_require__(339);
 /* unused harmony reexport schemeSet3 */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_diverging_BrBG__ = __webpack_require__(332);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_diverging_BrBG__ = __webpack_require__(340);
 /* unused harmony reexport interpolateBrBG */
 /* unused harmony reexport schemeBrBG */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_diverging_PRGn__ = __webpack_require__(333);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_diverging_PRGn__ = __webpack_require__(341);
 /* unused harmony reexport interpolatePRGn */
 /* unused harmony reexport schemePRGn */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_diverging_PiYG__ = __webpack_require__(334);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_diverging_PiYG__ = __webpack_require__(342);
 /* unused harmony reexport interpolatePiYG */
 /* unused harmony reexport schemePiYG */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_diverging_PuOr__ = __webpack_require__(335);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_diverging_PuOr__ = __webpack_require__(343);
 /* unused harmony reexport interpolatePuOr */
 /* unused harmony reexport schemePuOr */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_diverging_RdBu__ = __webpack_require__(336);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_diverging_RdBu__ = __webpack_require__(344);
 /* unused harmony reexport interpolateRdBu */
 /* unused harmony reexport schemeRdBu */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_diverging_RdGy__ = __webpack_require__(337);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_diverging_RdGy__ = __webpack_require__(345);
 /* unused harmony reexport interpolateRdGy */
 /* unused harmony reexport schemeRdGy */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_diverging_RdYlBu__ = __webpack_require__(338);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_diverging_RdYlBu__ = __webpack_require__(346);
 /* unused harmony reexport interpolateRdYlBu */
 /* unused harmony reexport schemeRdYlBu */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_diverging_RdYlGn__ = __webpack_require__(339);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_diverging_RdYlGn__ = __webpack_require__(347);
 /* unused harmony reexport interpolateRdYlGn */
 /* unused harmony reexport schemeRdYlGn */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_diverging_Spectral__ = __webpack_require__(340);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_diverging_Spectral__ = __webpack_require__(348);
 /* unused harmony reexport interpolateSpectral */
 /* unused harmony reexport schemeSpectral */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_sequential_multi_BuGn__ = __webpack_require__(341);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_sequential_multi_BuGn__ = __webpack_require__(349);
 /* unused harmony reexport interpolateBuGn */
 /* unused harmony reexport schemeBuGn */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__src_sequential_multi_BuPu__ = __webpack_require__(342);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__src_sequential_multi_BuPu__ = __webpack_require__(350);
 /* unused harmony reexport interpolateBuPu */
 /* unused harmony reexport schemeBuPu */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__src_sequential_multi_GnBu__ = __webpack_require__(343);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__src_sequential_multi_GnBu__ = __webpack_require__(351);
 /* unused harmony reexport interpolateGnBu */
 /* unused harmony reexport schemeGnBu */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__src_sequential_multi_OrRd__ = __webpack_require__(344);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__src_sequential_multi_OrRd__ = __webpack_require__(352);
 /* unused harmony reexport interpolateOrRd */
 /* unused harmony reexport schemeOrRd */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__src_sequential_multi_PuBuGn__ = __webpack_require__(345);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__src_sequential_multi_PuBuGn__ = __webpack_require__(353);
 /* unused harmony reexport interpolatePuBuGn */
 /* unused harmony reexport schemePuBuGn */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__src_sequential_multi_PuBu__ = __webpack_require__(346);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__src_sequential_multi_PuBu__ = __webpack_require__(354);
 /* unused harmony reexport interpolatePuBu */
 /* unused harmony reexport schemePuBu */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__src_sequential_multi_PuRd__ = __webpack_require__(347);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__src_sequential_multi_PuRd__ = __webpack_require__(355);
 /* unused harmony reexport interpolatePuRd */
 /* unused harmony reexport schemePuRd */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__src_sequential_multi_RdPu__ = __webpack_require__(348);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__src_sequential_multi_RdPu__ = __webpack_require__(356);
 /* unused harmony reexport interpolateRdPu */
 /* unused harmony reexport schemeRdPu */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__src_sequential_multi_YlGnBu__ = __webpack_require__(349);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__src_sequential_multi_YlGnBu__ = __webpack_require__(357);
 /* unused harmony reexport interpolateYlGnBu */
 /* unused harmony reexport schemeYlGnBu */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__src_sequential_multi_YlGn__ = __webpack_require__(350);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__src_sequential_multi_YlGn__ = __webpack_require__(358);
 /* unused harmony reexport interpolateYlGn */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_27__src_sequential_multi_YlGn__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__src_sequential_multi_YlOrBr__ = __webpack_require__(351);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__src_sequential_multi_YlOrBr__ = __webpack_require__(359);
 /* unused harmony reexport interpolateYlOrBr */
 /* unused harmony reexport schemeYlOrBr */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__src_sequential_multi_YlOrRd__ = __webpack_require__(352);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__src_sequential_multi_YlOrRd__ = __webpack_require__(360);
 /* unused harmony reexport interpolateYlOrRd */
 /* unused harmony reexport schemeYlOrRd */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__src_sequential_single_Blues__ = __webpack_require__(353);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__src_sequential_single_Blues__ = __webpack_require__(361);
 /* unused harmony reexport interpolateBlues */
 /* unused harmony reexport schemeBlues */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__src_sequential_single_Greens__ = __webpack_require__(354);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__src_sequential_single_Greens__ = __webpack_require__(362);
 /* unused harmony reexport interpolateGreens */
 /* unused harmony reexport schemeGreens */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__src_sequential_single_Greys__ = __webpack_require__(355);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__src_sequential_single_Greys__ = __webpack_require__(363);
 /* unused harmony reexport interpolateGreys */
 /* unused harmony reexport schemeGreys */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__src_sequential_single_Purples__ = __webpack_require__(356);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__src_sequential_single_Purples__ = __webpack_require__(364);
 /* unused harmony reexport interpolatePurples */
 /* unused harmony reexport schemePurples */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__src_sequential_single_Reds__ = __webpack_require__(357);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__src_sequential_single_Reds__ = __webpack_require__(365);
 /* unused harmony reexport interpolateReds */
 /* unused harmony reexport schemeReds */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__src_sequential_single_Oranges__ = __webpack_require__(358);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__src_sequential_single_Oranges__ = __webpack_require__(366);
 /* unused harmony reexport interpolateOranges */
 /* unused harmony reexport schemeOranges */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__src_sequential_multi_cubehelix__ = __webpack_require__(359);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__src_sequential_multi_cubehelix__ = __webpack_require__(367);
 /* unused harmony reexport interpolateCubehelixDefault */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__src_sequential_multi_rainbow__ = __webpack_require__(360);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__src_sequential_multi_rainbow__ = __webpack_require__(368);
 /* unused harmony reexport interpolateRainbow */
 /* unused harmony reexport interpolateWarm */
 /* unused harmony reexport interpolateCool */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__src_sequential_multi_sinebow__ = __webpack_require__(361);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__src_sequential_multi_sinebow__ = __webpack_require__(369);
 /* unused harmony reexport interpolateSinebow */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__src_sequential_multi_viridis__ = __webpack_require__(362);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__src_sequential_multi_viridis__ = __webpack_require__(370);
 /* unused harmony reexport interpolateViridis */
 /* unused harmony reexport interpolateMagma */
 /* unused harmony reexport interpolateInferno */
@@ -28797,7 +28973,7 @@ transverseMercatorRaw.invert = function(x, y) {
 
 
 /***/ }),
-/* 323 */
+/* 331 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28808,7 +28984,7 @@ transverseMercatorRaw.invert = function(x, y) {
 
 
 /***/ }),
-/* 324 */
+/* 332 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28819,7 +28995,7 @@ transverseMercatorRaw.invert = function(x, y) {
 
 
 /***/ }),
-/* 325 */
+/* 333 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28830,7 +29006,7 @@ transverseMercatorRaw.invert = function(x, y) {
 
 
 /***/ }),
-/* 326 */
+/* 334 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28841,7 +29017,7 @@ transverseMercatorRaw.invert = function(x, y) {
 
 
 /***/ }),
-/* 327 */
+/* 335 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28852,7 +29028,7 @@ transverseMercatorRaw.invert = function(x, y) {
 
 
 /***/ }),
-/* 328 */
+/* 336 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28863,7 +29039,7 @@ transverseMercatorRaw.invert = function(x, y) {
 
 
 /***/ }),
-/* 329 */
+/* 337 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28874,7 +29050,7 @@ transverseMercatorRaw.invert = function(x, y) {
 
 
 /***/ }),
-/* 330 */
+/* 338 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28885,7 +29061,7 @@ transverseMercatorRaw.invert = function(x, y) {
 
 
 /***/ }),
-/* 331 */
+/* 339 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28896,7 +29072,7 @@ transverseMercatorRaw.invert = function(x, y) {
 
 
 /***/ }),
-/* 332 */
+/* 340 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28922,7 +29098,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 333 */
+/* 341 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28948,7 +29124,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 334 */
+/* 342 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28974,7 +29150,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 335 */
+/* 343 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29000,7 +29176,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 336 */
+/* 344 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29026,7 +29202,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 337 */
+/* 345 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29052,7 +29228,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 338 */
+/* 346 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29078,7 +29254,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 339 */
+/* 347 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29104,7 +29280,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 340 */
+/* 348 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29130,7 +29306,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 341 */
+/* 349 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29154,7 +29330,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 342 */
+/* 350 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29178,7 +29354,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 343 */
+/* 351 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29202,7 +29378,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 344 */
+/* 352 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29226,7 +29402,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 345 */
+/* 353 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29250,7 +29426,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 346 */
+/* 354 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29274,7 +29450,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 347 */
+/* 355 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29298,7 +29474,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 348 */
+/* 356 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29322,7 +29498,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 349 */
+/* 357 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29346,7 +29522,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 350 */
+/* 358 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29370,7 +29546,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 351 */
+/* 359 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29394,7 +29570,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 352 */
+/* 360 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29418,7 +29594,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 353 */
+/* 361 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29442,7 +29618,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 354 */
+/* 362 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29466,7 +29642,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 355 */
+/* 363 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29490,7 +29666,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 356 */
+/* 364 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29514,7 +29690,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 357 */
+/* 365 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29538,7 +29714,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 358 */
+/* 366 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29562,7 +29738,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 359 */
+/* 367 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29575,7 +29751,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 360 */
+/* 368 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29603,7 +29779,7 @@ var c = Object(__WEBPACK_IMPORTED_MODULE_0_d3_color__["b" /* cubehelix */])();
 
 
 /***/ }),
-/* 361 */
+/* 369 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29625,7 +29801,7 @@ var c = Object(__WEBPACK_IMPORTED_MODULE_0_d3_color__["f" /* rgb */])(),
 
 
 /***/ }),
-/* 362 */
+/* 370 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29652,21 +29828,21 @@ var plasma = ramp(Object(__WEBPACK_IMPORTED_MODULE_0__colors__["a" /* default */
 
 
 /***/ }),
-/* 363 */
+/* 371 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony default export */ __webpack_exports__["a"] = ({ "type": "FeatureCollection", "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } }, "features": [{ "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-79.5319659, 36.249986], [-79.256964, 36.243866], [-79.2494131, 35.876861], [-79.2374111, 35.844123], [-79.5425159, 35.843371], [-79.541833, 35.899862], [-79.53238, 36.241432], [-79.5319659, 36.249986]]] }, "properties": { "FIPS_integ": 37001, "county": "Alamance", "ahec": "Greensboro", "ahec_code": 1, "centroid": [-79.395457981755, 36.04277440702832] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-81.328385, 35.99655], [-81.2026289, 36.036712], [-81.0291509, 36.045699], [-81.0049579, 35.959376], [-81.041648, 35.858275], [-81.1127651, 35.779985], [-81.1432681, 35.828859], [-81.334255, 35.79646], [-81.328385, 35.99655]]] }, "properties": { "FIPS_integ": 37003, "county": "Alexander", "ahec": "Northwest", "ahec_code": 9, "centroid": [-81.17447478962612, 35.92387834954275] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-80.9017259, 36.561751], [-80.9760801, 36.445257], [-80.9673811, 36.401708], [-80.9813751, 36.374504], [-81.0278661, 36.374485], [-81.0836041, 36.433279], [-81.144866, 36.419296], [-81.1656481, 36.437712], [-81.2506551, 36.363366], [-81.353322, 36.574723], [-81.3075111, 36.575024], [-81.2623031, 36.573924], [-81.249816, 36.573225], [-81.2064671, 36.5724551], [-81.176712, 36.571926], [-81.1712121, 36.571026], [-81.1504155, 36.569966], [-81.14181010000001, 36.569527], [-81.1248089, 36.569227], [-81.083206, 36.567328], [-81.0618661, 36.56702], [-81.003802, 36.563629], [-80.9784646, 36.5634392], [-80.9459879, 36.563196], [-80.9017259, 36.561751]]] }, "properties": { "FIPS_integ": 37005, "county": "Alleghany", "ahec": "Northwest", "ahec_code": 9, "centroid": [-81.13064735344051, 36.4908063629232] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-80.277206, 35.196137], [-80.2533209, 35.210986], [-80.2254311, 35.156488], [-80.1640561, 35.147697], [-80.113156, 35.194265], [-80.0753899, 35.143081], [-80.067782, 35.111897], [-79.999268, 35.085392], [-79.927887, 35.117713], [-79.875459, 35.042278], [-79.899701, 35.005645], [-79.8649971, 34.980142], [-79.848545, 34.904558], [-79.9276181, 34.806555], [-80.0028227, 34.8081904], [-80.0274639, 34.808726], [-80.04276410000001, 34.809097], [-80.072912, 34.809736], [-80.098994, 34.810147], [-80.1390103, 34.8109727], [-80.1643805, 34.8114961], [-80.1658535, 34.8115265], [-80.23396, 34.812931], [-80.2826521, 34.813576], [-80.320402, 34.8140761], [-80.277206, 35.196137]]] }, "properties": { "FIPS_integ": 37007, "county": "Anson", "ahec": "Charlotte", "ahec_code": 3, "centroid": [-80.10098350327499, 34.973185338611636] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-81.353322, 36.574723], [-81.2506551, 36.363366], [-81.3592061, 36.367616], [-81.3677361, 36.284417], [-81.413645, 36.294804], [-81.4775221, 36.240196], [-81.5667159, 36.272482], [-81.638225, 36.349506], [-81.7321297, 36.3927504], [-81.733877, 36.39457], [-81.7207341, 36.422537], [-81.7179391, 36.428762], [-81.6979751, 36.464741], [-81.696519, 36.4664742], [-81.6953111, 36.467912], [-81.6945329, 36.473283], [-81.697287, 36.484738], [-81.6959071, 36.49158], [-81.7005529, 36.51519], [-81.702543, 36.520317], [-81.7032053, 36.5210785], [-81.7059535, 36.5242388], [-81.7075729, 36.526101], [-81.7082621, 36.532113], [-81.6864361, 36.567918], [-81.6799361, 36.568618], [-81.6770361, 36.570718], [-81.6772361, 36.574406], [-81.6790359, 36.578918], [-81.6801369, 36.585518], [-81.6775349, 36.588117], [-81.600934, 36.587019], [-81.521032, 36.58052], [-81.4998311, 36.57982], [-81.4893869, 36.579026], [-81.47643, 36.580421], [-81.4441033, 36.5770192], [-81.4428437, 36.5768866], [-81.4422281, 36.576822], [-81.353322, 36.574723]]] }, "properties": { "FIPS_integ": 37009, "county": "Ashe", "ahec": "Northwest", "ahec_code": 9, "centroid": [-81.50233030067925, 36.43521735453412] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-81.9181701, 36.2870251], [-81.893625, 36.264318], [-81.908347, 36.215116], [-81.8292959, 36.168989], [-81.8115199, 36.111544], [-81.73552610000002, 36.067473], [-81.8071199, 35.962057], [-81.8995831, 36.000127], [-81.9436739, 35.959449], [-81.9817229, 35.91152], [-82.048268, 35.963691], [-82.03884, 36.007924], [-82.0804429, 36.1057355], [-82.080143, 36.10572], [-82.0541421, 36.126821], [-82.043941, 36.125421], [-82.0379409, 36.121122], [-82.0331409, 36.120422], [-82.0287401, 36.124322], [-82.02634, 36.129222], [-82.0266401, 36.130222], [-81.9917579, 36.1815491], [-81.9601009, 36.228131], [-81.9329939, 36.264881], [-81.9181701, 36.2870251]]] }, "properties": { "FIPS_integ": 37011, "county": "Avery", "ahec": "Northwest", "ahec_code": 9, "centroid": [-81.92137029697062, 36.07924908164993] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-76.845119, 35.705409], [-76.6382951, 35.705235], [-76.58834690000002, 35.620537], [-76.4682219, 35.557346], [-76.491182, 35.520865], [-76.6029141, 35.515868], [-76.5468931, 35.389674], [-76.620654, 35.37812], [-76.6051589, 35.337856], [-76.6325349, 35.235233], [-76.845333, 35.216056], [-76.8956729, 35.253627], [-77.190423, 35.418955], [-77.176086, 35.519178], [-77.12712, 35.553714], [-77.084716, 35.552659], [-77.1738589, 35.635622], [-77.1698689, 35.684608], [-77.1951799, 35.699762], [-77.1737359, 35.732954], [-76.9857491, 35.658485], [-76.845119, 35.705409]]] }, "properties": { "FIPS_integ": 37013, "county": "Beaufort", "ahec": "Eastern", "ahec_code": 7, "centroid": [-76.84876891752953, 35.48497891409184] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-77.2087901, 36.246875], [-76.7065561, 36.243869], [-76.736326, 36.147042], [-76.668664, 36.021106], [-76.692236, 35.945164], [-76.7608421, 35.864822], [-76.830228, 35.885981], [-76.8813539, 35.811703], [-76.927549, 35.899879], [-77.0348289, 35.857466], [-77.0436841, 35.943146], [-77.0930791, 35.924645], [-77.187576, 35.931609], [-77.2075219, 36.007896], [-77.327686, 36.074512], [-77.2297251, 36.105423], [-77.2918099, 36.16849], [-77.2970519, 36.208774], [-77.2331371, 36.214549], [-77.2087901, 36.246875]]] }, "properties": { "FIPS_integ": 37015, "county": "Bertie", "ahec": "Eastern", "ahec_code": 7, "centroid": [-76.96794192441673, 36.06966110393537] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-78.901096, 34.834789], [-78.4947671, 34.856265], [-78.254625, 34.553879], [-78.27222790000002, 34.537819], [-78.2525029, 34.504849], [-78.1764959, 34.465264], [-78.2563161, 34.399763], [-78.337248, 34.367089], [-78.4448221, 34.376587], [-78.667638, 34.469575], [-78.825246, 34.461819], [-78.8715299, 34.482668], [-78.8432451, 34.507367], [-78.8587461, 34.567867], [-78.805444, 34.685967], [-78.901096, 34.834789]]] }, "properties": { "FIPS_integ": 37017, "county": "Bladen", "ahec": "Southern Regional", "ahec_code": 0, "centroid": [-78.56192346630841, 34.61213867516542] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-78.1622811, 34.35711], [-78.1370199, 34.371814], [-78.029922, 34.331768], [-77.9515, 34.232358], [-77.937089, 33.929042], [-77.9706061, 33.844517], [-78.0186891, 33.888289], [-78.1777199, 33.914272], [-78.383964, 33.901946], [-78.5410871, 33.851112], [-78.5767755, 33.881825], [-78.615932, 33.915523], [-78.6314077, 33.9284743], [-78.650334, 33.944313], [-78.6239989, 33.973067], [-78.639697, 34.010672], [-78.557035, 34.062113], [-78.5437311, 34.146497], [-78.5031851, 34.167958], [-78.422584, 34.139221], [-78.3742329, 34.205023], [-78.2544699, 34.216318], [-78.1622811, 34.35711]]] }, "properties": { "FIPS_integ": 37019, "county": "Brunswick", "ahec": "South East", "ahec_code": 4, "centroid": [-78.23814859392054, 34.07157012727164] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-82.4087279, 35.818061], [-82.3492709, 35.81172], [-82.334872, 35.748644], [-82.275394, 35.704423], [-82.2947709, 35.683634], [-82.2646801, 35.61437], [-82.290884, 35.591598], [-82.1690181, 35.527841], [-82.233152, 35.519502], [-82.2425819, 35.468009], [-82.2658699, 35.467622], [-82.3325989, 35.500118], [-82.3692489, 35.485345], [-82.3646389, 35.460883], [-82.4175841, 35.474532], [-82.470161, 35.445363], [-82.534997, 35.444505], [-82.5298061, 35.422928], [-82.5487399, 35.444306], [-82.6218571, 35.435472], [-82.6723919, 35.459534], [-82.745209, 35.422924], [-82.8002759, 35.470536], [-82.765991, 35.567516], [-82.8104609, 35.626299], [-82.8514589, 35.617334], [-82.884025, 35.678184], [-82.849129, 35.7016], [-82.8064881, 35.685714], [-82.7011739, 35.734557], [-82.6694999, 35.725904], [-82.5138351, 35.803376], [-82.4087279, 35.818061]]] }, "properties": { "FIPS_integ": 37021, "county": "Buncombe", "ahec": "Mountain", "ahec_code": 2, "centroid": [-82.53038205324339, 35.610864609025164] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-81.8071199, 35.962057], [-81.55596, 35.777332], [-81.3640551, 35.767865], [-81.534359, 35.568811], [-81.537619, 35.564269], [-81.692329, 35.579789], [-81.7545821, 35.612246], [-81.8241839, 35.574955], [-81.8693571, 35.719552], [-81.9870349, 35.806936], [-81.919879, 35.847641], [-81.9066069, 35.883437], [-81.9436739, 35.959449], [-81.8995831, 36.000127], [-81.8071199, 35.962057]]] }, "properties": { "FIPS_integ": 37023, "county": "Burke", "ahec": "Northwest", "ahec_code": 9, "centroid": [-81.70803868758348, 35.75236050615007] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-80.784075, 35.507095], [-80.7371009, 35.507122], [-80.2953949, 35.503104], [-80.505239, 35.185425], [-80.550273, 35.208408], [-80.6666059, 35.267518], [-80.6940021, 35.346774], [-80.7662899, 35.401488], [-80.784075, 35.507095]]] }, "properties": { "FIPS_integ": 37025, "county": "Cabarrus", "ahec": "Charlotte", "ahec_code": 3, "centroid": [-80.5523237278089, 35.38768291192404] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-81.8115199, 36.111544], [-81.5454549, 36.117398], [-81.410185, 36.072076], [-81.328385, 35.99655], [-81.334255, 35.79646], [-81.3640551, 35.767865], [-81.55596, 35.777332], [-81.8071199, 35.962057], [-81.73552610000002, 36.067473], [-81.8115199, 36.111544]]] }, "properties": { "FIPS_integ": 37027, "county": "Caldwell", "ahec": "Northwest", "ahec_code": 9, "centroid": [-81.54312394411367, 35.951202832871104] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-76.3132149, 36.550551], [-76.158556, 36.42628], [-76.114237, 36.357264], [-76.0369171, 36.35536], [-75.971028, 36.308387], [-75.9482969, 36.284962], [-75.9632491, 36.258605], [-75.8875021, 36.160253], [-76.0472579, 36.183043], [-76.1348941, 36.271667], [-76.2173319, 36.298716], [-76.1813829, 36.321959], [-76.2161141, 36.327634], [-76.2325, 36.372503], [-76.2565361, 36.3631], [-76.3208671, 36.426412], [-76.3644049, 36.429575], [-76.4914771, 36.510536], [-76.5416869, 36.550312], [-76.4915061, 36.5507316], [-76.465268, 36.550951], [-76.3132149, 36.550551]]] }, "properties": { "FIPS_integ": 37029, "county": "Camden", "ahec": "Eastern", "ahec_code": 7, "centroid": [-76.18889767964775, 36.373198382690575] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-76.711278, 34.981971], [-76.644562, 35.019799], [-76.6285231, 34.994801], [-76.502623, 35.007166], [-76.4634679, 35.076411], [-76.3956239, 34.975179], [-76.32636, 34.976245], [-76.364367, 35.034853], [-76.288354, 35.005726], [-76.277698, 34.940014], [-76.3476721, 34.872171], [-76.400242, 34.855476], [-76.4158711, 34.813563], [-76.3902541, 34.805568], [-76.069906, 35.075701], [-76.0359329, 35.058987], [-76.3868041, 34.784579], [-76.5359461, 34.588577], [-76.5493431, 34.645585], [-76.6763121, 34.693151], [-76.9062571, 34.68282], [-77.11354, 34.639154], [-77.106303, 34.712701], [-77.1660011, 34.78495], [-77.0903231, 34.802755], [-76.6930851, 34.869219], [-76.6531789, 34.935343], [-76.711278, 34.981971]]] }, "properties": { "FIPS_integ": 37031, "county": "Carteret", "ahec": "Eastern", "ahec_code": 7, "centroid": [-76.6399052959173, 34.82269016444422] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-79.13793590000002, 36.541739], [-79.1537331, 36.242117], [-79.256964, 36.243866], [-79.5319659, 36.249986], [-79.5106471, 36.540738], [-79.4701331, 36.5410241], [-79.4697392, 36.5410268], [-79.445961, 36.541195], [-79.445687, 36.541218], [-79.4274345, 36.5412108], [-79.3425874, 36.5411769], [-79.2633975, 36.5411441], [-79.2497399, 36.541139], [-79.2186741, 36.54149], [-79.20948, 36.541594], [-79.2086861, 36.541571], [-79.1993629, 36.5415932], [-79.13793590000002, 36.541739]]] }, "properties": { "FIPS_integ": 37033, "county": "Caswell", "ahec": "Greensboro", "ahec_code": 1, "centroid": [-79.332680667326, 36.393145275436744] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-81.1127651, 35.779985], [-81.061408, 35.710764], [-80.996948, 35.704525], [-80.923974, 35.620862], [-80.9600291, 35.54781], [-81.534359, 35.568811], [-81.3640551, 35.767865], [-81.334255, 35.79646], [-81.1432681, 35.828859], [-81.1127651, 35.779985]]] }, "properties": { "FIPS_integ": 37035, "county": "Catawba", "ahec": "Northwest", "ahec_code": 9, "centroid": [-81.21492273215732, 35.66248012520859] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-79.0161109, 35.863664], [-78.9059989, 35.867933], [-78.9956161, 35.610327], [-78.9149009, 35.583482], [-78.970633, 35.522244], [-79.1196899, 35.628078], [-79.1995131, 35.559232], [-79.2409811, 35.570531], [-79.266813, 35.533304], [-79.297955, 35.553506], [-79.3501071, 35.517989], [-79.5559019, 35.51515], [-79.5425159, 35.843371], [-79.2374111, 35.844123], [-79.2494131, 35.876861], [-79.0161109, 35.863664]]] }, "properties": { "FIPS_integ": 37037, "county": "Chatham", "ahec": "Greensboro", "ahec_code": 1, "centroid": [-79.25515832557032, 35.70297945661695] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-84.0291099, 35.2921757], [-84.003796, 35.236043], [-83.9671099, 35.217962], [-83.8447091, 35.255408], [-83.7025629, 35.24858], [-83.738106, 35.155911], [-83.856271, 35.137537], [-84.0054321, 34.9874404], [-84.0213571, 34.98743], [-84.0299541, 34.987321], [-84.1295549, 34.987504], [-84.1453903, 34.9875783], [-84.2099636, 34.9878822], [-84.2451858, 34.9880475], [-84.321869, 34.988408], [-84.3175331, 35.0215203], [-84.310022, 35.078883], [-84.298006, 35.167468], [-84.2952379, 35.182442], [-84.2923209, 35.206677], [-84.2118181, 35.266078], [-84.205517, 35.259679], [-84.205317, 35.258279], [-84.2028789, 35.255772], [-84.2017171, 35.247779], [-84.1604159, 35.24388], [-84.158916, 35.24588], [-84.155316, 35.24648], [-84.143124, 35.246879], [-84.1397149, 35.24618], [-84.1022699, 35.248115], [-84.0975079, 35.247382], [-84.0922131, 35.249981], [-84.082913, 35.257082], [-84.0828131, 35.258882], [-84.0811169, 35.261146], [-84.080336, 35.2613943], [-84.0747131, 35.263182], [-84.036011, 35.288683], [-84.0291099, 35.2921757]]] }, "properties": { "FIPS_integ": 37039, "county": "Cherokee", "ahec": "Mountain", "ahec_code": 2, "centroid": [-84.06253736540998, 35.13315418461611] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-76.696601, 36.296211], [-76.5594481, 36.351336], [-76.5898641, 36.238746], [-76.5721869, 36.109501], [-76.4118749, 36.075292], [-76.5143349, 36.00564], [-76.5806749, 36.00722], [-76.6154241, 36.037757], [-76.668664, 36.021106], [-76.736326, 36.147042], [-76.7065561, 36.243869], [-76.696601, 36.296211]]] }, "properties": { "FIPS_integ": 37041, "county": "Chowan", "ahec": "Eastern", "ahec_code": 7, "centroid": [-76.61505457316258, 36.14952088915752] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-83.738106, 35.155911], [-83.653425, 35.156951], [-83.520679, 34.996392], [-83.4834452, 34.9934761], [-83.5493811, 34.992492], [-83.6201851, 34.992091], [-83.6199851, 34.986592], [-83.7236699, 34.9874691], [-83.7498929, 34.987691], [-83.7792919, 34.9875453], [-83.7981813, 34.987452], [-83.831097, 34.987289], [-83.936646, 34.987485], [-84.0054321, 34.9874404], [-83.856271, 35.137537], [-83.738106, 35.155911]]] }, "properties": { "FIPS_integ": 37043, "county": "Clay", "ahec": "Mountain", "ahec_code": 2, "centroid": [-83.75379903161806, 35.0580768138306] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-81.537619, 35.564269], [-81.507551, 35.545732], [-81.456505, 35.419616], [-81.3567109, 35.330688], [-81.35526, 35.279523], [-81.3194921, 35.260279], [-81.3280059, 35.1634043], [-81.366691, 35.164893], [-81.44838, 35.1681336], [-81.452398, 35.168293], [-81.4614079, 35.168657], [-81.4683819, 35.1689391], [-81.4934011, 35.169951], [-81.4942649, 35.169882], [-81.5430591, 35.1716673], [-81.5461573, 35.1717806], [-81.5547217, 35.1720939], [-81.573652, 35.1727864], [-81.581681, 35.17308], [-81.6834706, 35.1774455], [-81.716259, 35.178852], [-81.7214082, 35.1790046], [-81.7389976, 35.179526], [-81.76808, 35.1803879], [-81.7028499, 35.357194], [-81.692329, 35.579789], [-81.537619, 35.564269]]] }, "properties": { "FIPS_integ": 37045, "county": "Cleveland", "ahec": "Charlotte", "ahec_code": 3, "centroid": [-81.55359098527266, 35.33728732794129] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-78.2563161, 34.399763], [-78.2012491, 34.352752], [-78.1622811, 34.35711], [-78.2544699, 34.216318], [-78.3742329, 34.205023], [-78.422584, 34.139221], [-78.5031851, 34.167958], [-78.5437311, 34.146497], [-78.557035, 34.062113], [-78.639697, 34.010672], [-78.6239989, 33.973067], [-78.650334, 33.944313], [-78.6532391, 33.946744], [-78.7101409, 33.994688], [-78.7122061, 33.996732], [-78.7926619, 34.0648736], [-78.8454751, 34.109603], [-78.874747, 34.134395], [-78.9247612, 34.1763688], [-78.989083, 34.23035], [-79.0069831, 34.245373], [-79.071169, 34.29924], [-79.0093001, 34.352741], [-79.0104449, 34.381983], [-78.9685201, 34.397448], [-78.959519, 34.442587], [-78.8715299, 34.482668], [-78.825246, 34.461819], [-78.667638, 34.469575], [-78.4448221, 34.376587], [-78.337248, 34.367089], [-78.2563161, 34.399763]]] }, "properties": { "FIPS_integ": 37047, "county": "Columbus", "ahec": "South East", "ahec_code": 4, "centroid": [-78.65559555090326, 34.26610815568749] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-77.390965, 35.340047], [-77.3539809, 35.327988], [-77.2956739, 35.379366], [-77.2564461, 35.350333], [-77.190423, 35.418955], [-76.8956729, 35.253627], [-76.9874259, 35.154787], [-76.9347131, 35.106323], [-76.9672969, 35.040655], [-76.819113, 34.952471], [-76.711278, 34.981971], [-76.6531789, 34.935343], [-76.6930851, 34.869219], [-77.0903231, 34.802755], [-77.049567, 34.835027], [-77.111531, 34.831257], [-77.1137801, 35.074169], [-77.1775259, 35.056232], [-77.1880231, 35.081376], [-77.4738009, 35.228619], [-77.4256571, 35.258956], [-77.4495239, 35.299288], [-77.4312639, 35.329824], [-77.390965, 35.340047]]] }, "properties": { "FIPS_integ": 37049, "county": "Craven", "ahec": "Eastern", "ahec_code": 7, "centroid": [-77.08114773652117, 35.114953992199695] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-79.09613, 35.192181], [-78.8816349, 35.229697], [-78.7945231, 35.266045], [-78.6171999, 35.245721], [-78.646674, 35.197593], [-78.639206, 35.116397], [-78.6723441, 35.085322], [-78.6459531, 34.993417], [-78.4947671, 34.856265], [-78.901096, 34.834789], [-78.9419759, 34.904116], [-79.034715, 34.953584], [-79.0917349, 35.047657], [-79.0977339, 35.174017], [-79.09613, 35.192181]]] }, "properties": { "FIPS_integ": 37051, "county": "Cumberland", "ahec": "Southern Regional", "ahec_code": 0, "centroid": [-78.82810342658485, 35.04510906137417] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-75.77333, 36.231529], [-75.794349, 36.227318], [-75.8452841, 36.305614], [-75.8514699, 36.415785], [-75.8999079, 36.482124], [-76.0236269, 36.500778], [-76.012338, 36.447462], [-75.9622851, 36.41724], [-75.9236011, 36.425788], [-75.9233311, 36.361863], [-75.8605199, 36.280607], [-75.793974, 36.07171], [-75.8875021, 36.160253], [-75.9632491, 36.258605], [-75.9482969, 36.284962], [-75.971028, 36.308387], [-76.0369171, 36.35536], [-76.114237, 36.357264], [-76.158556, 36.42628], [-76.3132149, 36.550551], [-76.1917937, 36.5505953], [-76.1223599, 36.5506207], [-76.03475090000002, 36.550653], [-75.9034451, 36.550654], [-75.894145, 36.550754], [-75.8670441, 36.550754], [-75.77333, 36.231529]]] }, "properties": { "FIPS_integ": 37053, "county": "Currituck", "ahec": "Eastern", "ahec_code": 7, "centroid": [-75.99550382387164, 36.40014053987814] } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [[[[-76.0274519, 35.669109], [-75.9994759, 35.903547], [-75.9662471, 35.899287], [-75.929919, 35.928771], [-75.9383429, 35.9651], [-75.84989, 35.976156], [-75.782498, 35.935615], [-75.727216, 35.822703], [-75.7298021, 35.625985], [-75.775328, 35.579335], [-75.8698031, 35.582768], [-75.9011691, 35.668999], [-76.0274519, 35.669109]]], [[[-75.66026090000001, 35.846807], [-75.7182661, 35.939714], [-75.62767, 35.883149], [-75.61436, 35.815658], [-75.6678909, 35.82354], [-75.66026090000001, 35.846807]]], [[[-75.7537141, 35.199632], [-75.5969151, 35.269491], [-75.535741, 35.272856], [-75.4786101, 35.553069], [-75.5335121, 35.773577], [-75.4791281, 35.678634], [-75.462491, 35.553556], [-75.52592, 35.233839], [-75.749445, 35.185197], [-75.7537141, 35.199632]]], [[[-75.77333, 36.231529], [-75.536428, 35.780118], [-75.648899, 35.965758], [-75.7236621, 36.003139], [-75.794349, 36.227318], [-75.77333, 36.231529]]]] }, "properties": { "FIPS_integ": 37055, "county": "Dare", "ahec": "Eastern", "ahec_code": 7, "centroid": [-75.55648885972543, 35.38489143504564] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-80.3953891, 35.97321], [-80.21387, 35.996637], [-80.2137779, 36.026727], [-80.0431631, 36.010636], [-80.047064, 35.920636], [-80.066737, 35.505884], [-80.1826819, 35.504335], [-80.208176, 35.580401], [-80.3311889, 35.680164], [-80.332228, 35.719047], [-80.4589039, 35.742811], [-80.4878501, 35.833285], [-80.3883561, 35.845716], [-80.41634990000001, 35.880355], [-80.36526, 35.894154], [-80.3953891, 35.97321]]] }, "properties": { "FIPS_integ": 37057, "county": "Davidson", "ahec": "Northwest", "ahec_code": 9, "centroid": [-80.21288140475083, 35.79189704399111] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-80.6926981, 36.051097], [-80.4964029, 36.046536], [-80.462258, 36.061737], [-80.3953891, 35.97321], [-80.36526, 35.894154], [-80.41634990000001, 35.880355], [-80.3883561, 35.845716], [-80.4878501, 35.833285], [-80.4589039, 35.742811], [-80.478617, 35.774998], [-80.632044, 35.845757], [-80.7077961, 35.852751], [-80.6926981, 36.051097]]] }, "properties": { "FIPS_integ": 37059, "county": "Davie", "ahec": "Northwest", "ahec_code": 9, "centroid": [-80.54674745615758, 35.93310228439397] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-78.163539, 35.18937], [-78.077371, 35.175125], [-78.0207869, 35.193896], [-77.89165, 35.147053], [-77.83425, 35.177814], [-77.769305, 35.145676], [-77.7304721, 35.007711], [-77.6786971, 34.972379], [-77.651046, 34.923862], [-77.6805599, 34.72064], [-78.1131811, 34.722006], [-78.1345519, 34.709365], [-78.2004561, 34.737189], [-78.1467141, 34.902464], [-78.163539, 35.18937]]] }, "properties": { "FIPS_integ": 37061, "county": "Duplin", "ahec": "South East", "ahec_code": 4, "centroid": [-77.93207685780092, 34.93405600512143] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-78.9507901, 36.239161], [-78.8020051, 36.235937], [-78.8057011, 36.088466], [-78.7489999, 36.071246], [-78.75277, 36.031957], [-78.6990729, 36.013095], [-78.730465, 35.94556], [-78.759176, 35.918029], [-78.8060521, 35.927862], [-78.83384, 35.867089], [-78.9059989, 35.867933], [-79.0161109, 35.863664], [-78.9507901, 36.239161]]] }, "properties": { "FIPS_integ": 37063, "county": "Durham", "ahec": "Wake AHEC", "ahec_code": 6, "centroid": [-78.8766462696114, 36.03649226710568] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-77.6979251, 36.15293], [-77.5412731, 36.095947], [-77.5268311, 36.037492], [-77.402701, 36.004933], [-77.3424639, 35.905359], [-77.350602, 35.819214], [-77.3901679, 35.8329], [-77.4723131, 35.801067], [-77.661312, 35.677321], [-77.7200389, 35.730197], [-77.751567, 35.82786], [-77.828479, 35.867142], [-77.6979251, 36.15293]]] }, "properties": { "FIPS_integ": 37065, "county": "Edgecombe", "ahec": "Area L", "ahec_code": 5, "centroid": [-77.59716900336306, 35.915206180773446] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-80.451949, 36.261552], [-80.0355411, 36.257397], [-80.0431631, 36.010636], [-80.2137779, 36.026727], [-80.21387, 35.996637], [-80.3953891, 35.97321], [-80.462258, 36.061737], [-80.4964029, 36.046536], [-80.507873, 36.106521], [-80.439439, 36.138804], [-80.4523191, 36.241222], [-80.451949, 36.261552]]] }, "properties": { "FIPS_integ": 37067, "county": "Forsyth", "ahec": "Northwest", "ahec_code": 9, "centroid": [-80.25624770960364, 36.12920899231338] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-78.306794, 36.266095], [-78.172837, 36.255436], [-78.1030161, 36.209154], [-78.0065449, 36.202678], [-78.2549149, 35.817607], [-78.3534481, 35.931007], [-78.5464971, 36.021804], [-78.4965381, 36.175096], [-78.42167, 36.164412], [-78.3781639, 36.235086], [-78.3379519, 36.234623], [-78.306794, 36.266095]]] }, "properties": { "FIPS_integ": 37069, "county": "Franklin", "ahec": "Wake AHEC", "ahec_code": 6, "centroid": [-78.28346320529839, 36.08004658348491] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-81.456505, 35.419616], [-80.9553879, 35.400833], [-80.9835669, 35.368087], [-80.923104, 35.359693], [-80.9844461, 35.340708], [-81.01506, 35.269195], [-81.0058511, 35.156562], [-81.0431813, 35.1487512], [-81.042871, 35.149248], [-81.0436261, 35.149877], [-81.0801681, 35.1522352], [-81.1092949, 35.154115], [-81.12696, 35.1549104], [-81.1716255, 35.1569226], [-81.1928671, 35.1578795], [-81.2393581, 35.159974], [-81.2416861, 35.160081], [-81.2667669, 35.1610463], [-81.2857906, 35.161779], [-81.293727, 35.1620845], [-81.3160472, 35.1629437], [-81.3280059, 35.1634043], [-81.3194921, 35.260279], [-81.35526, 35.279523], [-81.3567109, 35.330688], [-81.456505, 35.419616]]] }, "properties": { "FIPS_integ": 37071, "county": "Gaston", "ahec": "Charlotte", "ahec_code": 3, "centroid": [-81.17887502037189, 35.29373833447187] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-76.5416869, 36.550312], [-76.4914771, 36.510536], [-76.45369, 36.378042], [-76.5594481, 36.351336], [-76.696601, 36.296211], [-76.7755549, 36.360609], [-76.944865, 36.411524], [-76.95056, 36.470856], [-76.906698, 36.509946], [-76.916048, 36.543815], [-76.915897, 36.552093], [-76.8070781, 36.550606], [-76.781296, 36.550659], [-76.749678, 36.550381], [-76.7383291, 36.550985], [-76.6842601, 36.5509051], [-76.654734, 36.5508615], [-76.5754961, 36.550744], [-76.5416869, 36.550312]]] }, "properties": { "FIPS_integ": 37073, "county": "Gates", "ahec": "Eastern", "ahec_code": 7, "centroid": [-76.69706898479376, 36.446092092532815] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-83.9528819, 35.460635], [-83.5855441, 35.434867], [-83.6170361, 35.34935], [-83.6847441, 35.324077], [-83.6799511, 35.279541], [-83.7025629, 35.24858], [-83.8447091, 35.255408], [-83.9671099, 35.217962], [-84.003796, 35.236043], [-84.0291099, 35.2921757], [-84.0279101, 35.292783], [-84.03808110000001, 35.348363], [-84.015121, 35.364868], [-84.0075859, 35.371661], [-84.0083071, 35.378883], [-84.0098071, 35.382683], [-84.0112069, 35.384383], [-84.0109821, 35.385058], [-84.020633, 35.409843], [-83.961056, 35.463738], [-83.9528819, 35.460635]]] }, "properties": { "FIPS_integ": 37075, "county": "Graham", "ahec": "Mountain", "ahec_code": 2, "centroid": [-83.83470239412628, 35.3507647567951] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-78.45697, 36.542474], [-78.49755, 36.514678], [-78.511255, 36.454281], [-78.4965381, 36.175096], [-78.5464971, 36.021804], [-78.6833181, 36.074492], [-78.7489999, 36.071246], [-78.8057011, 36.088466], [-78.8020051, 36.235937], [-78.7963, 36.541713], [-78.7654299, 36.541727], [-78.7583921, 36.541852], [-78.7341859, 36.5419021], [-78.6700511, 36.542035], [-78.6633169, 36.542011], [-78.6542717, 36.5418676], [-78.6053039, 36.541092], [-78.5330129, 36.541004], [-78.509965, 36.541065], [-78.471022, 36.542307], [-78.45697, 36.542474]]] }, "properties": { "FIPS_integ": 37077, "county": "Granville", "ahec": "Wake AHEC", "ahec_code": 6, "centroid": [-78.65038096726023, 36.30176352682294] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-77.823609, 35.572704], [-77.7005021, 35.652256], [-77.6100911, 35.567449], [-77.503457, 35.518057], [-77.476, 35.426684], [-77.6719729, 35.347993], [-77.7016809, 35.380597], [-77.8057229, 35.369822], [-77.823609, 35.572704]]] }, "properties": { "FIPS_integ": 37079, "county": "Greene", "ahec": "Eastern", "ahec_code": 7, "centroid": [-77.67181475524504, 35.48652054272769] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-80.0355411, 36.257397], [-79.53238, 36.241432], [-79.541833, 35.899862], [-80.047064, 35.920636], [-80.0431631, 36.010636], [-80.0355411, 36.257397]]] }, "properties": { "FIPS_integ": 37081, "county": "Guilford", "ahec": "Greensboro", "ahec_code": 1, "centroid": [-79.78841782527115, 36.07969976084741] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-78.0065449, 36.202678], [-77.9120229, 36.382271], [-77.89795, 36.506849], [-77.6458169, 36.480997], [-77.62536, 36.445275], [-77.549626, 36.412266], [-77.5471179, 36.374114], [-77.584317, 36.340471], [-77.5715559, 36.314248], [-77.4425391, 36.324387], [-77.3780041, 36.246159], [-77.3840539, 36.209007], [-77.2918099, 36.16849], [-77.2297251, 36.105423], [-77.327686, 36.074512], [-77.402701, 36.004933], [-77.5268311, 36.037492], [-77.5412731, 36.095947], [-77.6979251, 36.15293], [-77.722316, 36.134], [-77.7496979, 36.157138], [-77.8879209, 36.143865], [-77.9243631, 36.188903], [-77.972999, 36.194342], [-77.978069, 36.175281], [-78.0065449, 36.202678]]] }, "properties": { "FIPS_integ": 37083, "county": "Halifax", "ahec": "Area L", "ahec_code": 5, "centroid": [-77.64979745356389, 36.25802053845771] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-78.9149009, 35.583482], [-78.7086291, 35.519081], [-78.627197, 35.458009], [-78.5305551, 35.336937], [-78.5413999, 35.315263], [-78.6171999, 35.245721], [-78.7945231, 35.266045], [-78.8816349, 35.229697], [-79.09613, 35.192181], [-79.2230751, 35.268127], [-79.1833011, 35.306976], [-78.970633, 35.522244], [-78.9149009, 35.583482]]] }, "properties": { "FIPS_integ": 37085, "county": "Harnett", "ahec": "Southern Regional", "ahec_code": 0, "centroid": [-78.86798277107816, 35.36786210406668] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-82.96315730000002, 35.7913522], [-82.9509101, 35.740363], [-82.9174411, 35.74428], [-82.884025, 35.678184], [-82.8514589, 35.617334], [-82.8104609, 35.626299], [-82.765991, 35.567516], [-82.8002759, 35.470536], [-82.745209, 35.422924], [-82.8320069, 35.318434], [-82.920819, 35.291868], [-83.0797441, 35.447895], [-83.137641, 35.464468], [-83.137784, 35.4902], [-83.1860519, 35.514573], [-83.1562669, 35.553076], [-83.201866, 35.642357], [-83.1818939, 35.671127], [-83.2557719, 35.695794], [-83.2556101, 35.696061], [-83.2554889, 35.714974], [-83.1002249, 35.774765], [-83.097193, 35.776067], [-83.0787319, 35.789472], [-83.07402990000001, 35.790016], [-83.03951, 35.786777], [-83.0362089, 35.787405], [-83.0286114, 35.7849863], [-83.0207272, 35.7824763], [-83.0123771, 35.779818], [-82.9640879, 35.78998], [-82.96315730000002, 35.7913522]]] }, "properties": { "FIPS_integ": 37087, "county": "Haywood", "ahec": "Mountain", "ahec_code": 2, "centroid": [-82.98229297852534, 35.55659932830604] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-82.2658699, 35.467622], [-82.2614559, 35.392984], [-82.3459019, 35.28653], [-82.353508, 35.1922487], [-82.3554489, 35.191903], [-82.3791911, 35.195894], [-82.3788511, 35.1975349], [-82.3787439, 35.198053], [-82.384029, 35.210542], [-82.3899782, 35.2150461], [-82.3904391, 35.215395], [-82.3929299, 35.215402], [-82.3934435, 35.2149959], [-82.395697, 35.213214], [-82.4244609, 35.193092], [-82.428, 35.183224], [-82.4341261, 35.170784], [-82.4527629, 35.172626], [-82.4529869, 35.17469], [-82.57047090000002, 35.145058], [-82.5723054, 35.1443672], [-82.619622, 35.303881], [-82.745209, 35.422924], [-82.6723919, 35.459534], [-82.6218571, 35.435472], [-82.5487399, 35.444306], [-82.5298061, 35.422928], [-82.534997, 35.444505], [-82.470161, 35.445363], [-82.4175841, 35.474532], [-82.3646389, 35.460883], [-82.3692489, 35.485345], [-82.3325989, 35.500118], [-82.2658699, 35.467622]]] }, "properties": { "FIPS_integ": 37089, "county": "Henderson", "ahec": "Mountain", "ahec_code": 2, "centroid": [-82.47735683921286, 35.33781351830002] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-76.916048, 36.543815], [-76.906698, 36.509946], [-76.95056, 36.470856], [-76.944865, 36.411524], [-76.7755549, 36.360609], [-76.696601, 36.296211], [-76.7065561, 36.243869], [-77.2087901, 36.246875], [-77.1371241, 36.455604], [-77.0660999, 36.486996], [-77.1645001, 36.54633], [-77.124812, 36.543986], [-77.1004119, 36.5445109], [-77.0950619, 36.544626], [-77.0761807, 36.5445405], [-77.0381007, 36.544368], [-76.916048, 36.543815]]] }, "properties": { "FIPS_integ": 37091, "county": "Hertford", "ahec": "Eastern", "ahec_code": 7, "centroid": [-76.981987001382, 36.36147464254772] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-79.458968, 35.043028], [-79.246922, 35.21349], [-79.1427779, 35.169122], [-79.0977339, 35.174017], [-79.0917349, 35.047657], [-79.034715, 34.953584], [-79.1914219, 34.833379], [-79.34805910000001, 34.838458], [-79.360764, 34.958027], [-79.458968, 35.043028]]] }, "properties": { "FIPS_integ": 37093, "county": "Hoke", "ahec": "Southern Regional", "ahec_code": 0, "centroid": [-79.23516836537391, 35.01456900222302] } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [[[[-76.6382951, 35.705235], [-76.3952829, 35.697469], [-76.2693739, 35.690563], [-76.297845, 35.609052], [-76.215821, 35.59799], [-76.171683, 35.697576], [-76.0274519, 35.669109], [-75.9011691, 35.668999], [-75.8698031, 35.582768], [-75.954623, 35.526502], [-76.020945, 35.410719], [-76.0597259, 35.410157], [-76.069281, 35.370813], [-76.1496551, 35.326411], [-76.2350861, 35.350017], [-76.4081991, 35.350017], [-76.4486671, 35.383741], [-76.4857621, 35.371375], [-76.5468931, 35.389674], [-76.6029141, 35.515868], [-76.491182, 35.520865], [-76.4682219, 35.557346], [-76.58834690000002, 35.620537], [-76.6382951, 35.705235]]], [[[-75.749445, 35.185197], [-76.014954, 35.065349], [-75.9839501, 35.120042], [-75.7537141, 35.199632], [-75.749445, 35.185197]]]] }, "properties": { "FIPS_integ": 37095, "county": "Hyde", "ahec": "Eastern", "ahec_code": 7, "centroid": [-76.26150892223922, 35.52928695546257] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-80.88218, 36.055731], [-80.6926981, 36.051097], [-80.7077961, 35.852751], [-80.77155, 35.674925], [-80.7371009, 35.507122], [-80.784075, 35.507095], [-80.9098249, 35.515103], [-80.94703, 35.487699], [-80.9600291, 35.54781], [-80.923974, 35.620862], [-80.996948, 35.704525], [-81.061408, 35.710764], [-81.1127651, 35.779985], [-81.041648, 35.858275], [-81.0049579, 35.959376], [-81.0291509, 36.045699], [-80.88218, 36.055731]]] }, "properties": { "FIPS_integ": 37097, "county": "Iredell", "ahec": "Northwest", "ahec_code": 9, "centroid": [-80.87493858702642, 35.808216341308956] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-83.3397069, 35.331004], [-83.351576, 35.468097], [-83.317949, 35.46523], [-83.2360359, 35.524467], [-83.1860519, 35.514573], [-83.137784, 35.4902], [-83.137641, 35.464468], [-83.0797441, 35.447895], [-82.920819, 35.291868], [-82.9277871, 35.236324], [-82.9966131, 35.163666], [-82.976308, 35.133697], [-83.056771, 35.053792], [-83.008747, 35.0275656], [-83.0352855, 35.0204399], [-83.0457521, 35.0176294], [-83.1085349, 35.000771], [-83.1713571, 35.060709], [-83.147486, 35.091632], [-83.2233259, 35.158813], [-83.22419110000001, 35.238474], [-83.2909989, 35.23373], [-83.3397069, 35.331004]]] }, "properties": { "FIPS_integ": 37099, "county": "Jackson", "ahec": "Mountain", "ahec_code": 2, "centroid": [-83.13879601412295, 35.284871558534164] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-78.2549149, 35.817607], [-78.2504721, 35.773109], [-78.1920699, 35.730443], [-78.162195, 35.713292], [-78.12557, 35.603046], [-78.0646031, 35.585419], [-78.154889, 35.417627], [-78.153388, 35.350409], [-78.2675409, 35.324982], [-78.304662, 35.286097], [-78.4103569, 35.256376], [-78.4914439, 35.263393], [-78.5413999, 35.315263], [-78.5305551, 35.336937], [-78.627197, 35.458009], [-78.7086291, 35.519081], [-78.471513, 35.70496], [-78.2549149, 35.817607]]] }, "properties": { "FIPS_integ": 37101, "county": "Johnston", "ahec": "Wake AHEC", "ahec_code": 6, "centroid": [-78.3654558444708, 35.51904739681019] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-77.7304721, 35.007711], [-77.601655, 35.071168], [-77.51202, 35.16378], [-77.525711, 35.242637], [-77.4738009, 35.228619], [-77.1880231, 35.081376], [-77.1775259, 35.056232], [-77.1137801, 35.074169], [-77.111531, 34.831257], [-77.049567, 34.835027], [-77.0903231, 34.802755], [-77.1660011, 34.78495], [-77.1961401, 34.809242], [-77.1810671, 34.835891], [-77.2679841, 34.925764], [-77.329331, 34.938269], [-77.366286, 34.911634], [-77.5027129, 34.969629], [-77.6786971, 34.972379], [-77.7304721, 35.007711]]] }, "properties": { "FIPS_integ": 37103, "county": "Jones", "ahec": "Eastern", "ahec_code": 7, "centroid": [-77.36058176415587, 35.02272851313787] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-78.970633, 35.522244], [-79.1833011, 35.306976], [-79.265551, 35.345404], [-79.3297571, 35.423563], [-79.3598229, 35.469691], [-79.335927, 35.49802], [-79.3501071, 35.517989], [-79.297955, 35.553506], [-79.266813, 35.533304], [-79.2409811, 35.570531], [-79.1995131, 35.559232], [-79.1196899, 35.628078], [-78.970633, 35.522244]]] }, "properties": { "FIPS_integ": 37105, "county": "Lee", "ahec": "Wake AHEC", "ahec_code": 6, "centroid": [-79.17520547458548, 35.47198654810796] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-77.476, 35.426684], [-77.426483, 35.349765], [-77.390965, 35.340047], [-77.4312639, 35.329824], [-77.4495239, 35.299288], [-77.4256571, 35.258956], [-77.4738009, 35.228619], [-77.525711, 35.242637], [-77.51202, 35.16378], [-77.601655, 35.071168], [-77.7304721, 35.007711], [-77.769305, 35.145676], [-77.83425, 35.177814], [-77.8057229, 35.369822], [-77.7016809, 35.380597], [-77.6719729, 35.347993], [-77.476, 35.426684]]] }, "properties": { "FIPS_integ": 37107, "county": "Lenoir", "ahec": "Eastern", "ahec_code": 7, "centroid": [-77.63968635668971, 35.23902858102841] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-81.534359, 35.568811], [-80.9600291, 35.54781], [-80.94703, 35.487699], [-80.9553879, 35.400833], [-81.456505, 35.419616], [-81.507551, 35.545732], [-81.537619, 35.564269], [-81.534359, 35.568811]]] }, "properties": { "FIPS_integ": 37109, "county": "Lincoln", "ahec": "Charlotte", "ahec_code": 3, "centroid": [-81.22061597042403, 35.48560685659092] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-81.9436739, 35.959449], [-81.9066069, 35.883437], [-81.919879, 35.847641], [-81.9870349, 35.806936], [-81.8693571, 35.719552], [-81.8241839, 35.574955], [-81.842653, 35.54216], [-81.9735561, 35.524565], [-82.002748, 35.551792], [-82.1690181, 35.527841], [-82.290884, 35.591598], [-82.2646801, 35.61437], [-82.2947709, 35.683634], [-82.275394, 35.704423], [-82.1926889, 35.736164], [-82.1331819, 35.824446], [-82.03680410000001, 35.85886], [-82.022925, 35.88475], [-81.9915321, 35.876118], [-81.9817229, 35.91152], [-81.9436739, 35.959449]]] }, "properties": { "FIPS_integ": 37111, "county": "McDowell", "ahec": "Mountain", "ahec_code": 2, "centroid": [-82.0473843653689, 35.68287122975423] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-83.6799511, 35.279541], [-83.3397069, 35.331004], [-83.2909989, 35.23373], [-83.22419110000001, 35.238474], [-83.2233259, 35.158813], [-83.147486, 35.091632], [-83.1713571, 35.060709], [-83.1085349, 35.000771], [-83.1904101, 34.999456], [-83.1972711, 34.9992703], [-83.3227679, 34.995874], [-83.4782182, 34.993554], [-83.4834452, 34.9934761], [-83.520679, 34.996392], [-83.653425, 35.156951], [-83.738106, 35.155911], [-83.7025629, 35.24858], [-83.6799511, 35.279541]]] }, "properties": { "FIPS_integ": 37113, "county": "Macon", "ahec": "Mountain", "ahec_code": 2, "centroid": [-83.42534808592828, 35.15095485307145] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-82.505384, 35.97768], [-82.4799621, 35.949484], [-82.494743, 35.910011], [-82.448406, 35.896863], [-82.4087279, 35.818061], [-82.5138351, 35.803376], [-82.6694999, 35.725904], [-82.7011739, 35.734557], [-82.8064881, 35.685714], [-82.849129, 35.7016], [-82.884025, 35.678184], [-82.9174411, 35.74428], [-82.9509101, 35.740363], [-82.96315730000002, 35.7913522], [-82.962206, 35.792755], [-82.9589501, 35.803323], [-82.9561271, 35.807874], [-82.955751, 35.809802], [-82.9520259, 35.816183], [-82.9455149, 35.824662], [-82.94383, 35.825638], [-82.9374369, 35.82732], [-82.9318589, 35.836351], [-82.927569, 35.838586], [-82.923358, 35.839273], [-82.920171, 35.841664], [-82.9191091, 35.844851], [-82.9164521, 35.866102], [-82.9091421, 35.8692337], [-82.901301, 35.872593], [-82.8997171, 35.874602], [-82.906917, 35.907397], [-82.911671, 35.914711], [-82.9117746, 35.9174106], [-82.9118739, 35.919982], [-82.8985049, 35.945101], [-82.852554, 35.949089], [-82.821861, 35.921839], [-82.800431, 35.944155], [-82.7876485, 35.9520496], [-82.7874649, 35.952163], [-82.785558, 35.977795], [-82.785267, 35.987927], [-82.7793969, 35.992511], [-82.715165, 36.028604], [-82.707465, 36.030104], [-82.7031651, 36.032404], [-82.6501651, 36.057805], [-82.6435649, 36.062805], [-82.602877, 36.039833], [-82.6043269, 36.018187], [-82.609121, 36.0105644], [-82.6118619, 36.006206], [-82.6108891, 35.967409], [-82.607761, 35.966023], [-82.5424631, 35.967994], [-82.5400018, 35.9688589], [-82.5392731, 35.969115], [-82.52066, 35.974633], [-82.5178776, 35.9755074], [-82.5164441, 35.975958], [-82.505384, 35.97768]]] }, "properties": { "FIPS_integ": 37115, "county": "Madison", "ahec": "Mountain", "ahec_code": 2, "centroid": [-82.70590276411771, 35.858061642838834] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-77.327686, 36.074512], [-77.2075219, 36.007896], [-77.187576, 35.931609], [-77.0930791, 35.924645], [-77.0436841, 35.943146], [-77.0348289, 35.857466], [-76.927549, 35.899879], [-76.8813539, 35.811703], [-76.830228, 35.885981], [-76.7608421, 35.864822], [-76.845119, 35.705409], [-76.9857491, 35.658485], [-77.1737359, 35.732954], [-77.350602, 35.819214], [-77.3424639, 35.905359], [-77.402701, 36.004933], [-77.327686, 36.074512]]] }, "properties": { "FIPS_integ": 37117, "county": "Martin", "ahec": "Eastern", "ahec_code": 7, "centroid": [-77.10509007635677, 35.84073197836313] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-80.784075, 35.507095], [-80.7662899, 35.401488], [-80.6940021, 35.346774], [-80.6666059, 35.267518], [-80.550273, 35.208408], [-80.8403399, 35.0015852], [-80.8514094, 35.0144879], [-80.884887, 35.05351], [-80.9065531, 35.076763], [-80.9349501, 35.107409], [-80.9522784, 35.0962422], [-80.9578699, 35.092639], [-81.0414889, 35.044703], [-81.0556951, 35.060121], [-81.0568785, 35.061522], [-81.0576481, 35.062433], [-81.058029, 35.07319], [-81.0578993, 35.0753063], [-81.057236, 35.086129], [-81.056861, 35.0868665], [-81.0560967, 35.0883701], [-81.0520779, 35.096276], [-81.0500789, 35.098817], [-81.0465239, 35.100617], [-81.0399031, 35.102008], [-81.0512039, 35.133237], [-81.047826, 35.143743], [-81.0434069, 35.14839], [-81.0431813, 35.1487512], [-81.0058511, 35.156562], [-81.01506, 35.269195], [-80.9844461, 35.340708], [-80.923104, 35.359693], [-80.9835669, 35.368087], [-80.9553879, 35.400833], [-80.94703, 35.487699], [-80.9098249, 35.515103], [-80.784075, 35.507095]]] }, "properties": { "FIPS_integ": 37119, "county": "Mecklenburg", "ahec": "Charlotte", "ahec_code": 3, "centroid": [-80.8360053419689, 35.24883106169488] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-82.0804429, 36.1057355], [-82.03884, 36.007924], [-82.048268, 35.963691], [-81.9817229, 35.91152], [-81.9915321, 35.876118], [-82.022925, 35.88475], [-82.03680410000001, 35.85886], [-82.1331819, 35.824446], [-82.147843, 35.932592], [-82.1977489, 35.952715], [-82.1973279, 36.014909], [-82.2516581, 36.00836], [-82.2525639, 35.989336], [-82.3002789, 36.045758], [-82.338245, 36.030294], [-82.351713, 36.084373], [-82.41662950000001, 36.0728198], [-82.4110303, 36.0810876], [-82.4094579, 36.083409], [-82.389958, 36.096909], [-82.3804579, 36.099309], [-82.3787579, 36.102809], [-82.375558, 36.105609], [-82.3713831, 36.106388], [-82.3072551, 36.12851], [-82.30285510000002, 36.13131], [-82.297655, 36.13351], [-82.2894551, 36.13571], [-82.2891851, 36.135629], [-82.2884551, 36.13541], [-82.2803539, 36.12881], [-82.2799119, 36.128732], [-82.278654, 36.12851], [-82.274054, 36.12941], [-82.2709539, 36.12761], [-82.2687511, 36.12704], [-82.2656909, 36.127614], [-82.263354, 36.13011], [-82.2475211, 36.130865], [-82.2444609, 36.132777], [-82.234807, 36.14172], [-82.228288, 36.146622], [-82.2220521, 36.156911], [-82.1559479, 36.148115], [-82.148604, 36.1494011], [-82.147948, 36.149516], [-82.144147, 36.144216], [-82.1408469, 36.136216], [-82.1379741, 36.119576], [-82.1306461, 36.106417], [-82.127146, 36.104417], [-82.1152449, 36.104618], [-82.1102904, 36.1067298], [-82.109145, 36.107218], [-82.0859431, 36.10602], [-82.0804429, 36.1057355]]] }, "properties": { "FIPS_integ": 37121, "county": "Mitchell", "ahec": "Mountain", "ahec_code": 2, "centroid": [-82.16130421933964, 36.014398843398915] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-80.066737, 35.505884], [-79.769338, 35.511505], [-79.7119081, 35.275523], [-79.6142939, 35.163704], [-79.8517621, 35.183418], [-80.0220539, 35.137344], [-80.0753899, 35.143081], [-80.053302, 35.178607], [-80.0984109, 35.258086], [-80.0512249, 35.371537], [-80.093711, 35.40203], [-80.1099141, 35.460982], [-80.1826819, 35.504335], [-80.066737, 35.505884]]] }, "properties": { "FIPS_integ": 37123, "county": "Montgomery", "ahec": "Greensboro", "ahec_code": 1, "centroid": [-79.90461315038019, 35.331025777915066] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-79.3501071, 35.517989], [-79.335927, 35.49802], [-79.3598229, 35.469691], [-79.3297571, 35.423563], [-79.265551, 35.345404], [-79.1833011, 35.306976], [-79.2230751, 35.268127], [-79.09613, 35.192181], [-79.0977339, 35.174017], [-79.1427779, 35.169122], [-79.246922, 35.21349], [-79.458968, 35.043028], [-79.571345, 35.065922], [-79.574773, 35.12127], [-79.6142939, 35.163704], [-79.7119081, 35.275523], [-79.769338, 35.511505], [-79.5559019, 35.51515], [-79.3501071, 35.517989]]] }, "properties": { "FIPS_integ": 37125, "county": "Moore", "ahec": "Southern Regional", "ahec_code": 0, "centroid": [-79.48102511479821, 35.30780048687245] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-77.6979251, 36.15293], [-77.828479, 35.867142], [-77.8448121, 35.837487], [-77.8976501, 35.844028], [-78.1920699, 35.730443], [-78.2504721, 35.773109], [-78.2549149, 35.817607], [-78.0065449, 36.202678], [-77.978069, 36.175281], [-77.972999, 36.194342], [-77.9243631, 36.188903], [-77.8879209, 36.143865], [-77.7496979, 36.157138], [-77.722316, 36.134], [-77.6979251, 36.15293]]] }, "properties": { "FIPS_integ": 37127, "county": "Nash", "ahec": "Area L", "ahec_code": 5, "centroid": [-77.9834597505108, 35.968826259729276] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-78.029922, 34.331768], [-77.9933121, 34.337192], [-77.960854, 34.382986], [-77.9349901, 34.358024], [-77.822995, 34.389359], [-77.7978, 34.342248], [-77.7159159, 34.292718], [-77.8292091, 34.162618], [-77.937089, 33.929042], [-77.9515, 34.232358], [-78.029922, 34.331768]]] }, "properties": { "FIPS_integ": 37129, "county": "New Hanover", "ahec": "South East", "ahec_code": 4, "centroid": [-77.8808463671495, 34.22895722287548] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-77.1645001, 36.54633], [-77.0660999, 36.486996], [-77.1371241, 36.455604], [-77.2087901, 36.246875], [-77.2331371, 36.214549], [-77.2970519, 36.208774], [-77.2918099, 36.16849], [-77.3840539, 36.209007], [-77.3780041, 36.246159], [-77.4425391, 36.324387], [-77.5715559, 36.314248], [-77.584317, 36.340471], [-77.5471179, 36.374114], [-77.549626, 36.412266], [-77.62536, 36.445275], [-77.6458169, 36.480997], [-77.89795, 36.506849], [-77.8997711, 36.544663], [-77.8823569, 36.544737], [-77.8752801, 36.544754], [-77.7777886, 36.5453489], [-77.7671229, 36.545414], [-77.7657785, 36.5454221], [-77.749706, 36.54552], [-77.5906797, 36.5452459], [-77.5801316, 36.5452277], [-77.3566144, 36.5448424], [-77.2968105, 36.5447395], [-77.2632939, 36.5446816], [-77.205156, 36.544581], [-77.1645001, 36.54633]]] }, "properties": { "FIPS_integ": 37131, "county": "Northampton", "ahec": "Area L", "ahec_code": 5, "centroid": [-77.39671737687564, 36.41867596031287] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-77.1660011, 34.78495], [-77.106303, 34.712701], [-77.11354, 34.639154], [-77.5179601, 34.440483], [-77.576291, 34.476872], [-77.6805599, 34.72064], [-77.651046, 34.923862], [-77.6786971, 34.972379], [-77.5027129, 34.969629], [-77.366286, 34.911634], [-77.329331, 34.938269], [-77.2679841, 34.925764], [-77.1810671, 34.835891], [-77.1961401, 34.809242], [-77.1660011, 34.78495]]] }, "properties": { "FIPS_integ": 37133, "county": "Onslow", "ahec": "Eastern", "ahec_code": 7, "centroid": [-77.42547742873568, 34.72701265248421] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-79.1537331, 36.242117], [-78.9507901, 36.239161], [-79.0161109, 35.863664], [-79.2494131, 35.876861], [-79.256964, 36.243866], [-79.1537331, 36.242117]]] }, "properties": { "FIPS_integ": 37135, "county": "Orange", "ahec": "Greensboro", "ahec_code": 1, "centroid": [-79.1170170493055, 36.06408298855415] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-76.6051589, 35.337856], [-76.4823901, 35.314046], [-76.4677761, 35.261213], [-76.546463, 35.122948], [-76.6397641, 35.051006], [-76.644562, 35.019799], [-76.711278, 34.981971], [-76.819113, 34.952471], [-76.9672969, 35.040655], [-76.9347131, 35.106323], [-76.9874259, 35.154787], [-76.8956729, 35.253627], [-76.845333, 35.216056], [-76.6325349, 35.235233], [-76.6051589, 35.337856]]] }, "properties": { "FIPS_integ": 37137, "county": "Pamlico", "ahec": "Eastern", "ahec_code": 7, "centroid": [-76.73169239749788, 35.137374500833815] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-76.4914771, 36.510536], [-76.3644049, 36.429575], [-76.3208671, 36.426412], [-76.2565361, 36.3631], [-76.2325, 36.372503], [-76.2161141, 36.327634], [-76.1813829, 36.321959], [-76.2173319, 36.298716], [-76.1348941, 36.271667], [-76.0472579, 36.183043], [-76.071672, 36.140183], [-76.190461, 36.116373], [-76.2898069, 36.222955], [-76.3750779, 36.258853], [-76.45369, 36.378042], [-76.4914771, 36.510536]]] }, "properties": { "FIPS_integ": 37139, "county": "Pasquotank", "ahec": "Eastern", "ahec_code": 7, "centroid": [-76.27300036936596, 36.29007581629149] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-77.6805599, 34.72064], [-77.576291, 34.476872], [-77.5179601, 34.440483], [-77.7159159, 34.292718], [-77.7978, 34.342248], [-77.822995, 34.389359], [-77.9349901, 34.358024], [-77.960854, 34.382986], [-77.9933121, 34.337192], [-78.029922, 34.331768], [-78.1370199, 34.371814], [-78.1622811, 34.35711], [-78.2012491, 34.352752], [-78.2563161, 34.399763], [-78.1764959, 34.465264], [-78.2525029, 34.504849], [-78.27222790000002, 34.537819], [-78.254625, 34.553879], [-78.1131811, 34.722006], [-77.6805599, 34.72064]]] }, "properties": { "FIPS_integ": 37141, "county": "Pender", "ahec": "South East", "ahec_code": 4, "centroid": [-77.90454066927948, 34.52407918529284] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-76.45369, 36.378042], [-76.3750779, 36.258853], [-76.2898069, 36.222955], [-76.190461, 36.116373], [-76.2165989, 36.095409], [-76.2871499, 36.104886], [-76.4118749, 36.075292], [-76.5721869, 36.109501], [-76.5898641, 36.238746], [-76.5594481, 36.351336], [-76.45369, 36.378042]]] }, "properties": { "FIPS_integ": 37143, "county": "Perquimans", "ahec": "Eastern", "ahec_code": 7, "centroid": [-76.43223006677825, 36.20249499440113] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-78.7963, 36.541713], [-78.8020051, 36.235937], [-78.9507901, 36.239161], [-79.1537331, 36.242117], [-79.13793590000002, 36.541739], [-79.124736, 36.541568], [-78.9718139, 36.542123], [-78.970577, 36.542154], [-78.942254, 36.542079], [-78.942009, 36.542113], [-78.91541990000002, 36.541974], [-78.9145431, 36.541972], [-78.901373, 36.5419428], [-78.7963, 36.541713]]] }, "properties": { "FIPS_integ": 37145, "county": "Person", "ahec": "Wake AHEC", "ahec_code": 6, "centroid": [-78.97192639343007, 36.3898498069345] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-77.1737359, 35.732954], [-77.1951799, 35.699762], [-77.1698689, 35.684608], [-77.1738589, 35.635622], [-77.084716, 35.552659], [-77.12712, 35.553714], [-77.176086, 35.519178], [-77.190423, 35.418955], [-77.2564461, 35.350333], [-77.2956739, 35.379366], [-77.3539809, 35.327988], [-77.390965, 35.340047], [-77.426483, 35.349765], [-77.476, 35.426684], [-77.503457, 35.518057], [-77.6100911, 35.567449], [-77.7005021, 35.652256], [-77.661312, 35.677321], [-77.4723131, 35.801067], [-77.3901679, 35.8329], [-77.350602, 35.819214], [-77.1737359, 35.732954]]] }, "properties": { "FIPS_integ": 37147, "county": "Pitt", "ahec": "Eastern", "ahec_code": 7, "centroid": [-77.37647073271232, 35.594322915391714] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-82.353508, 35.1922487], [-82.3459019, 35.28653], [-82.2614559, 35.392984], [-82.1596119, 35.409122], [-82.1222321, 35.392826], [-81.961255, 35.248413], [-81.96933, 35.1872283], [-82.001422, 35.188493], [-82.0895861, 35.190698], [-82.1389469, 35.193122], [-82.1676759, 35.193699], [-82.176874, 35.19379], [-82.1954831, 35.194951], [-82.216217, 35.196044], [-82.2305169, 35.196764], [-82.230915, 35.196784], [-82.2424936, 35.1975901], [-82.2575149, 35.198636], [-82.2884529, 35.198605], [-82.295354, 35.194965], [-82.314863, 35.191089], [-82.3158709, 35.190678], [-82.317871, 35.187858], [-82.3233499, 35.184789], [-82.326917, 35.185056], [-82.350086, 35.192858], [-82.353508, 35.1922487]]] }, "properties": { "FIPS_integ": 37149, "county": "Polk", "ahec": "Mountain", "ahec_code": 2, "centroid": [-82.16862556099878, 35.280023285353174] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-79.541833, 35.899862], [-79.5425159, 35.843371], [-79.5559019, 35.51515], [-79.769338, 35.511505], [-80.066737, 35.505884], [-80.047064, 35.920636], [-79.541833, 35.899862]]] }, "properties": { "FIPS_integ": 37151, "county": "Randolph", "ahec": "Greensboro", "ahec_code": 1, "centroid": [-79.80574602532067, 35.710247394486366] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-79.6142939, 35.163704], [-79.574773, 35.12127], [-79.571345, 35.065922], [-79.458968, 35.043028], [-79.5720331, 34.993067], [-79.5848801, 34.94493], [-79.5616069, 34.910237], [-79.6267299, 34.852093], [-79.61406, 34.815114], [-79.6875019, 34.80489], [-79.6880879, 34.804897], [-79.6902011, 34.804937], [-79.7441161, 34.805651], [-79.7449251, 34.805686], [-79.7728289, 34.805954], [-79.8706929, 34.805378], [-79.9276181, 34.806555], [-79.848545, 34.904558], [-79.8649971, 34.980142], [-79.899701, 35.005645], [-79.875459, 35.042278], [-79.927887, 35.117713], [-79.999268, 35.085392], [-80.067782, 35.111897], [-80.0753899, 35.143081], [-80.0220539, 35.137344], [-79.8517621, 35.183418], [-79.6142939, 35.163704]]] }, "properties": { "FIPS_integ": 37153, "county": "Richmond", "ahec": "Southern Regional", "ahec_code": 0, "centroid": [-79.74663748528842, 35.005347571289064] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-78.901096, 34.834789], [-78.805444, 34.685967], [-78.8587461, 34.567867], [-78.8432451, 34.507367], [-78.8715299, 34.482668], [-78.959519, 34.442587], [-78.9685201, 34.397448], [-79.0104449, 34.381983], [-79.0093001, 34.352741], [-79.071169, 34.29924], [-79.143242, 34.359817], [-79.1989819, 34.406699], [-79.2075173, 34.413939], [-79.2383083, 34.4400575], [-79.249763, 34.449774], [-79.273229, 34.4706668], [-79.306653, 34.500426], [-79.3074592, 34.5011163], [-79.3232491, 34.514634], [-79.358317, 34.545358], [-79.4500339, 34.621036], [-79.461318, 34.630126], [-79.4617539, 34.6304321], [-79.3316649, 34.772701], [-79.34805910000001, 34.838458], [-79.1914219, 34.833379], [-79.034715, 34.953584], [-78.9419759, 34.904116], [-78.901096, 34.834789]]] }, "properties": { "FIPS_integ": 37155, "county": "Robeson", "ahec": "Southern Regional", "ahec_code": 0, "centroid": [-79.10261480723682, 34.64017031434356] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-79.5106471, 36.540738], [-79.5319659, 36.249986], [-79.53238, 36.241432], [-80.0355411, 36.257397], [-80.027269, 36.542495], [-79.9918716, 36.5424991], [-79.96751110000001, 36.542502], [-79.9669789, 36.542475], [-79.904662, 36.542438], [-79.8872621, 36.542838], [-79.7793222, 36.542315], [-79.75836, 36.5422134], [-79.71483990000002, 36.5420023], [-79.6673091, 36.541772], [-79.6668269, 36.541772], [-79.6224965, 36.5414789], [-79.6054525, 36.5413659], [-79.582406, 36.5412131], [-79.5180058, 36.5407867], [-79.5106471, 36.540738]]] }, "properties": { "FIPS_integ": 37157, "county": "Rockingham", "ahec": "Greensboro", "ahec_code": 1, "centroid": [-79.77438629955738, 36.396310576323096] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-80.4589039, 35.742811], [-80.332228, 35.719047], [-80.3311889, 35.680164], [-80.208176, 35.580401], [-80.1826819, 35.504335], [-80.2953949, 35.503104], [-80.7371009, 35.507122], [-80.77155, 35.674925], [-80.7077961, 35.852751], [-80.632044, 35.845757], [-80.478617, 35.774998], [-80.4589039, 35.742811]]] }, "properties": { "FIPS_integ": 37159, "county": "Rowan", "ahec": "Northwest", "ahec_code": 9, "centroid": [-80.5243618187176, 35.64143774272765] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-81.692329, 35.579789], [-81.7028499, 35.357194], [-81.76808, 35.1803879], [-81.8020809, 35.181395], [-81.849637, 35.1831815], [-81.8744331, 35.184113], [-81.925612, 35.185505], [-81.96933, 35.1872283], [-81.961255, 35.248413], [-82.1222321, 35.392826], [-82.1596119, 35.409122], [-82.2614559, 35.392984], [-82.2658699, 35.467622], [-82.2425819, 35.468009], [-82.233152, 35.519502], [-82.1690181, 35.527841], [-82.002748, 35.551792], [-81.9735561, 35.524565], [-81.842653, 35.54216], [-81.8241839, 35.574955], [-81.7545821, 35.612246], [-81.692329, 35.579789]]] }, "properties": { "FIPS_integ": 37161, "county": "Rutherford", "ahec": "Mountain", "ahec_code": 2, "centroid": [-81.91970384568793, 35.40332469519113] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-78.304662, 35.286097], [-78.246557, 35.226189], [-78.163539, 35.18937], [-78.1467141, 34.902464], [-78.2004561, 34.737189], [-78.1345519, 34.709365], [-78.1131811, 34.722006], [-78.254625, 34.553879], [-78.4947671, 34.856265], [-78.6459531, 34.993417], [-78.6723441, 35.085322], [-78.639206, 35.116397], [-78.646674, 35.197593], [-78.6171999, 35.245721], [-78.5413999, 35.315263], [-78.4914439, 35.263393], [-78.4103569, 35.256376], [-78.304662, 35.286097]]] }, "properties": { "FIPS_integ": 37163, "county": "Sampson", "ahec": "Southern Regional", "ahec_code": 0, "centroid": [-78.37208447292394, 34.9893706679201] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-79.34805910000001, 34.838458], [-79.3316649, 34.772701], [-79.4617539, 34.6304321], [-79.4687171, 34.635323], [-79.490201, 34.653819], [-79.519043, 34.677321], [-79.56169090000002, 34.711996], [-79.6027519, 34.7453914], [-79.631577, 34.768835], [-79.6342159, 34.771012], [-79.675299, 34.804744], [-79.6875019, 34.80489], [-79.61406, 34.815114], [-79.6267299, 34.852093], [-79.5616069, 34.910237], [-79.5848801, 34.94493], [-79.5720331, 34.993067], [-79.458968, 35.043028], [-79.360764, 34.958027], [-79.34805910000001, 34.838458]]] }, "properties": { "FIPS_integ": 37165, "county": "Scotland", "ahec": "Southern Regional", "ahec_code": 0, "centroid": [-79.47925951725404, 34.840236190269614] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-80.1826819, 35.504335], [-80.1099141, 35.460982], [-80.093711, 35.40203], [-80.0512249, 35.371537], [-80.0984109, 35.258086], [-80.053302, 35.178607], [-80.0753899, 35.143081], [-80.113156, 35.194265], [-80.1640561, 35.147697], [-80.2254311, 35.156488], [-80.2533209, 35.210986], [-80.277206, 35.196137], [-80.439881, 35.161322], [-80.505239, 35.185425], [-80.2953949, 35.503104], [-80.1826819, 35.504335]]] }, "properties": { "FIPS_integ": 37167, "county": "Stanly", "ahec": "Charlotte", "ahec_code": 3, "centroid": [-80.24930915480041, 35.313478506439154] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-80.4401001, 36.55063], [-80.4316049, 36.550219], [-80.3650514, 36.5471708], [-80.3438351, 36.5461988], [-80.2952431, 36.543973], [-80.228263, 36.543867], [-80.2254079, 36.543748], [-80.1874647, 36.5433747], [-80.1716361, 36.543219], [-80.1221829, 36.542646], [-80.1001424, 36.5426109], [-80.0534571, 36.5425366], [-80.027269, 36.542495], [-80.0355411, 36.257397], [-80.451949, 36.261552], [-80.4401001, 36.55063]]] }, "properties": { "FIPS_integ": 37169, "county": "Stokes", "ahec": "Northwest", "ahec_code": 9, "centroid": [-80.23913725609034, 36.401857738696904] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-80.4401001, 36.55063], [-80.451949, 36.261552], [-80.4523191, 36.241222], [-80.469862, 36.260414], [-80.534176, 36.25858], [-80.5446579, 36.284458], [-80.5925371, 36.269947], [-80.626998, 36.287644], [-80.656299, 36.251666], [-80.737909, 36.280132], [-80.8732591, 36.236383], [-80.868878, 36.32645], [-80.9673811, 36.401708], [-80.9760801, 36.445257], [-80.9017259, 36.561751], [-80.8476458, 36.5595291], [-80.8379559, 36.5591309], [-80.837641, 36.559118], [-80.8370891, 36.559154], [-80.8039201, 36.560813], [-80.7736629, 36.560307], [-80.7728634, 36.5603447], [-80.7619222, 36.5608606], [-80.7303511, 36.562349], [-80.69992, 36.562023], [-80.6533489, 36.559221], [-80.6247879, 36.558408], [-80.6121589, 36.5578761], [-80.5830329, 36.55665], [-80.5609651, 36.5557203], [-80.4401001, 36.55063]]] }, "properties": { "FIPS_integ": 37171, "county": "Surry", "ahec": "Northwest", "ahec_code": 9, "centroid": [-80.68904417001326, 36.41582766098825] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-83.2557719, 35.695794], [-83.1818939, 35.671127], [-83.201866, 35.642357], [-83.1562669, 35.553076], [-83.1860519, 35.514573], [-83.2360359, 35.524467], [-83.317949, 35.46523], [-83.351576, 35.468097], [-83.3397069, 35.331004], [-83.6799511, 35.279541], [-83.6847441, 35.324077], [-83.6170361, 35.34935], [-83.5855441, 35.434867], [-83.9528819, 35.460635], [-83.9248951, 35.473884], [-83.919564, 35.473367], [-83.8592609, 35.521851], [-83.853898, 35.521059], [-83.7717359, 35.562118], [-83.6629569, 35.569138], [-83.552167, 35.564346], [-83.5408261, 35.565702], [-83.4753669, 35.584775], [-83.4728965, 35.5864113], [-83.4726841, 35.586552], [-83.441197, 35.611739], [-83.432298, 35.609941], [-83.4215759, 35.611186], [-83.4118521, 35.61692], [-83.4060609, 35.620185], [-83.3669411, 35.638728], [-83.358413, 35.6470773], [-83.3582089, 35.647277], [-83.302279, 35.656064], [-83.297154, 35.65775], [-83.2565679, 35.69448], [-83.2557719, 35.695794]]] }, "properties": { "FIPS_integ": 37173, "county": "Swain", "ahec": "Mountain", "ahec_code": 2, "centroid": [-83.49277165438396, 35.486929951335306] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-82.745209, 35.422924], [-82.619622, 35.303881], [-82.5723054, 35.1443672], [-82.578316, 35.142104], [-82.6382109, 35.128088], [-82.6422359, 35.129215], [-82.651416, 35.124867], [-82.6535101, 35.121968], [-82.6768611, 35.12535], [-82.6808871, 35.126155], [-82.691355, 35.113272], [-82.6907859, 35.111709], [-82.69071, 35.111501], [-82.6884561, 35.106347], [-82.6896341, 35.104117], [-82.6948979, 35.098456], [-82.698602, 35.097168], [-82.7644639, 35.068177], [-82.7700459, 35.065476], [-82.7773769, 35.064143], [-82.7819731, 35.066817], [-82.7791159, 35.073674], [-82.777407, 35.076885], [-82.78113, 35.084585], [-82.783283, 35.0856], [-82.7878671, 35.085024], [-82.8974989, 35.056021], [-82.9998671, 35.02995], [-83.008747, 35.0275656], [-83.056771, 35.053792], [-82.976308, 35.133697], [-82.9966131, 35.163666], [-82.9277871, 35.236324], [-82.920819, 35.291868], [-82.8320069, 35.318434], [-82.745209, 35.422924]]] }, "properties": { "FIPS_integ": 37175, "county": "Transylvania", "ahec": "Mountain", "ahec_code": 2, "centroid": [-82.79417739639483, 35.201900484673764] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-76.3651571, 35.944637], [-76.2139659, 35.988002], [-76.0620701, 35.993004], [-76.0146851, 35.960361], [-75.9994759, 35.903547], [-76.0274519, 35.669109], [-76.171683, 35.697576], [-76.215821, 35.59799], [-76.297845, 35.609052], [-76.2693739, 35.690563], [-76.3952829, 35.697469], [-76.4036949, 35.788741], [-76.353446, 35.861489], [-76.3797781, 35.914813], [-76.3651571, 35.944637]]] }, "properties": { "FIPS_integ": 37177, "county": "Tyrrell", "ahec": "Eastern", "ahec_code": 7, "centroid": [-76.19440632842031, 35.81931879916178] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-80.505239, 35.185425], [-80.439881, 35.161322], [-80.277206, 35.196137], [-80.320402, 34.8140761], [-80.3998709, 34.815128], [-80.434843, 34.815968], [-80.448766, 34.816332], [-80.45166010000001, 34.816396], [-80.4861361, 34.8167411], [-80.491814, 34.816798], [-80.499788, 34.817261], [-80.561657, 34.817481], [-80.6212219, 34.818174], [-80.646601, 34.818592], [-80.6817072, 34.8188872], [-80.691067, 34.8189666], [-80.693542, 34.8189875], [-80.6979501, 34.8190246], [-80.771792, 34.819646], [-80.7975431, 34.819786], [-80.7957936, 34.8328754], [-80.7953209, 34.8364115], [-80.7929746, 34.8539701], [-80.7820421, 34.935782], [-80.806461, 34.962894], [-80.82156010000001, 34.979695], [-80.8403399, 35.0015852], [-80.550273, 35.208408], [-80.505239, 35.185425]]] }, "properties": { "FIPS_integ": 37179, "county": "Union", "ahec": "Charlotte", "ahec_code": 3, "centroid": [-80.53237643529897, 34.99065481659047] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-78.3239121, 36.543809], [-78.2774721, 36.30625], [-78.306794, 36.266095], [-78.3379519, 36.234623], [-78.3781639, 36.235086], [-78.42167, 36.164412], [-78.4965381, 36.175096], [-78.511255, 36.454281], [-78.49755, 36.514678], [-78.45697, 36.542474], [-78.4363331, 36.542666], [-78.3239121, 36.543809]]] }, "properties": { "FIPS_integ": 37181, "county": "Vance", "ahec": "Wake AHEC", "ahec_code": 6, "centroid": [-78.40609397322929, 36.368091259545174] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-78.5464971, 36.021804], [-78.3534481, 35.931007], [-78.2549149, 35.817607], [-78.471513, 35.70496], [-78.7086291, 35.519081], [-78.9149009, 35.583482], [-78.9956161, 35.610327], [-78.9059989, 35.867933], [-78.83384, 35.867089], [-78.8060521, 35.927862], [-78.759176, 35.918029], [-78.730465, 35.94556], [-78.6990729, 36.013095], [-78.75277, 36.031957], [-78.7489999, 36.071246], [-78.6833181, 36.074492], [-78.5464971, 36.021804]]] }, "properties": { "FIPS_integ": 37183, "county": "Wake", "ahec": "Wake AHEC", "ahec_code": 6, "centroid": [-78.65354825233575, 35.789997580272164] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-77.8997711, 36.544663], [-77.89795, 36.506849], [-77.9120229, 36.382271], [-78.0065449, 36.202678], [-78.1030161, 36.209154], [-78.172837, 36.255436], [-78.306794, 36.266095], [-78.2774721, 36.30625], [-78.3239121, 36.543809], [-78.3039869, 36.5439461], [-78.2466811, 36.544341], [-78.2454619, 36.544411], [-78.133323, 36.543847], [-78.1329109, 36.543811], [-78.1138406, 36.5438895], [-78.0529806, 36.5441401], [-78.0462021, 36.544168], [-78.03942, 36.544196], [-77.8997711, 36.544663]]] }, "properties": { "FIPS_integ": 37185, "county": "Warren", "ahec": "Wake AHEC", "ahec_code": 6, "centroid": [-78.10644349348415, 36.39732500097618] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-76.692236, 35.945164], [-76.528551, 35.944039], [-76.39824210000002, 35.984317], [-76.3651571, 35.944637], [-76.3797781, 35.914813], [-76.353446, 35.861489], [-76.4036949, 35.788741], [-76.3952829, 35.697469], [-76.6382951, 35.705235], [-76.845119, 35.705409], [-76.7608421, 35.864822], [-76.692236, 35.945164]]] }, "properties": { "FIPS_integ": 37187, "county": "Washington", "ahec": "Eastern", "ahec_code": 7, "centroid": [-76.5761038624512, 35.82312877802068] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-81.7321297, 36.3927504], [-81.638225, 36.349506], [-81.5667159, 36.272482], [-81.4775221, 36.240196], [-81.465379, 36.190367], [-81.5454549, 36.117398], [-81.8115199, 36.111544], [-81.8292959, 36.168989], [-81.908347, 36.215116], [-81.893625, 36.264318], [-81.9181701, 36.2870251], [-81.908137, 36.302013], [-81.8793819, 36.313767], [-81.876182, 36.316075], [-81.8743359, 36.31919], [-81.8631479, 36.330209], [-81.857333, 36.334787], [-81.8508891, 36.3375], [-81.8456379, 36.34036], [-81.841268, 36.343321], [-81.8332019, 36.347339], [-81.8224931, 36.348819], [-81.8008119, 36.358073], [-81.7988667, 36.3579944], [-81.7952689, 36.357849], [-81.790852, 36.352952], [-81.7904762, 36.3522746], [-81.7901809, 36.351744], [-81.7874679, 36.348692], [-81.75442, 36.337044], [-81.747842, 36.337356], [-81.7444609, 36.337778], [-81.739498, 36.339757], [-81.7059661, 36.338496], [-81.7053149, 36.341774], [-81.7315081, 36.392103], [-81.7321297, 36.3927504]]] }, "properties": { "FIPS_integ": 37189, "county": "Watauga", "ahec": "Northwest", "ahec_code": 9, "centroid": [-81.69904781872397, 36.22987360824357] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-78.0646031, 35.585419], [-77.823609, 35.572704], [-77.8057229, 35.369822], [-77.83425, 35.177814], [-77.89165, 35.147053], [-78.0207869, 35.193896], [-78.077371, 35.175125], [-78.163539, 35.18937], [-78.246557, 35.226189], [-78.304662, 35.286097], [-78.2675409, 35.324982], [-78.153388, 35.350409], [-78.154889, 35.417627], [-78.0646031, 35.585419]]] }, "properties": { "FIPS_integ": 37191, "county": "Wayne", "ahec": "Eastern", "ahec_code": 7, "centroid": [-78.00218192412042, 35.359294361127844] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-80.9673811, 36.401708], [-80.868878, 36.32645], [-80.8732591, 36.236383], [-80.88218, 36.055731], [-81.0291509, 36.045699], [-81.2026289, 36.036712], [-81.328385, 35.99655], [-81.410185, 36.072076], [-81.5454549, 36.117398], [-81.465379, 36.190367], [-81.4775221, 36.240196], [-81.413645, 36.294804], [-81.3677361, 36.284417], [-81.3592061, 36.367616], [-81.2506551, 36.363366], [-81.1656481, 36.437712], [-81.144866, 36.419296], [-81.0836041, 36.433279], [-81.0278661, 36.374485], [-80.9813751, 36.374504], [-80.9673811, 36.401708]]] }, "properties": { "FIPS_integ": 37193, "county": "Wilkes", "ahec": "Northwest", "ahec_code": 9, "centroid": [-81.16511100322833, 36.20714249180313] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-77.828479, 35.867142], [-77.751567, 35.82786], [-77.7200389, 35.730197], [-77.661312, 35.677321], [-77.7005021, 35.652256], [-77.823609, 35.572704], [-78.0646031, 35.585419], [-78.12557, 35.603046], [-78.162195, 35.713292], [-78.1920699, 35.730443], [-77.8976501, 35.844028], [-77.8448121, 35.837487], [-77.828479, 35.867142]]] }, "properties": { "FIPS_integ": 37195, "county": "Wilson", "ahec": "Area L", "ahec_code": 5, "centroid": [-77.91871545810525, 35.70263281611455] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-80.4523191, 36.241222], [-80.439439, 36.138804], [-80.507873, 36.106521], [-80.4964029, 36.046536], [-80.6926981, 36.051097], [-80.88218, 36.055731], [-80.8732591, 36.236383], [-80.737909, 36.280132], [-80.656299, 36.251666], [-80.626998, 36.287644], [-80.5925371, 36.269947], [-80.5446579, 36.284458], [-80.534176, 36.25858], [-80.469862, 36.260414], [-80.4523191, 36.241222]]] }, "properties": { "FIPS_integ": 37197, "county": "Yadkin", "ahec": "Northwest", "ahec_code": 9, "centroid": [-80.66741157010998, 36.160649511008785] } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-82.41662950000001, 36.0728198], [-82.351713, 36.084373], [-82.338245, 36.030294], [-82.3002789, 36.045758], [-82.2525639, 35.989336], [-82.2516581, 36.00836], [-82.1973279, 36.014909], [-82.1977489, 35.952715], [-82.147843, 35.932592], [-82.1331819, 35.824446], [-82.1926889, 35.736164], [-82.275394, 35.704423], [-82.334872, 35.748644], [-82.3492709, 35.81172], [-82.4087279, 35.818061], [-82.448406, 35.896863], [-82.494743, 35.910011], [-82.4799621, 35.949484], [-82.505384, 35.97768], [-82.500206, 35.982561], [-82.4913746, 35.9887898], [-82.487411, 35.991634], [-82.4846781, 35.992849], [-82.464558, 36.006508], [-82.4606579, 36.007809], [-82.4591913, 36.0099748], [-82.4358721, 36.0444071], [-82.41688310000002, 36.072445], [-82.41662950000001, 36.0728198]]] }, "properties": { "FIPS_integ": 37199, "county": "Yancey", "ahec": "Mountain", "ahec_code": 2, "centroid": [-82.30636455974215, 35.8981031918356] } }] });
 
 /***/ }),
-/* 364 */
+/* 372 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony default export */ __webpack_exports__["a"] = ({ "type": "FeatureCollection", "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } }, "features": [{ "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-79.13793590000002, 36.541739], [-79.1537331, 36.242117], [-78.9507901, 36.239161], [-79.0161109, 35.863664], [-78.9059989, 35.867933], [-78.9956161, 35.610327], [-78.9149009, 35.583482], [-78.970633, 35.522244], [-79.1196899, 35.628078], [-79.1995131, 35.559232], [-79.2409811, 35.570531], [-79.266813, 35.533304], [-79.297955, 35.553506], [-79.3501071, 35.517989], [-79.5559019, 35.51515], [-79.769338, 35.511505], [-79.7119081, 35.275523], [-79.6142939, 35.163704], [-79.8517621, 35.183418], [-80.0220539, 35.137344], [-80.0753899, 35.143081], [-80.053302, 35.178607], [-80.0984109, 35.258086], [-80.0512249, 35.371537], [-80.093711, 35.40203], [-80.1099141, 35.460982], [-80.1826819, 35.504335], [-80.066737, 35.505884], [-80.047064, 35.920636], [-80.0431631, 36.010636], [-80.0355411, 36.257397], [-80.027269, 36.542495], [-79.9918716, 36.5424991], [-79.96751110000001, 36.542502], [-79.9669789, 36.542475], [-79.904662, 36.542438], [-79.8872621, 36.542838], [-79.7793222, 36.542315], [-79.75836, 36.5422134], [-79.71483990000002, 36.5420023], [-79.6673091, 36.541772], [-79.6668269, 36.541772], [-79.6224965, 36.5414789], [-79.6054525, 36.5413659], [-79.582406, 36.5412131], [-79.5180058, 36.5407867], [-79.5106471, 36.540738], [-79.4701331, 36.5410241], [-79.4697392, 36.5410268], [-79.445961, 36.541195], [-79.445687, 36.541218], [-79.4274345, 36.5412108], [-79.3425874, 36.5411769], [-79.2633975, 36.5411441], [-79.2497399, 36.541139], [-79.2186741, 36.54149], [-79.20948, 36.541594], [-79.2086861, 36.541571], [-79.1993629, 36.5415932], [-79.13793590000002, 36.541739]]] }, "properties": { "ahec": "Greensboro", "ahec_code": 1 } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-81.353322, 36.574723], [-81.3075111, 36.575024], [-81.2623031, 36.573924], [-81.249816, 36.573225], [-81.2064671, 36.5724551], [-81.176712, 36.571926], [-81.1712121, 36.571026], [-81.1504155, 36.569966], [-81.14181010000001, 36.569527], [-81.1248089, 36.569227], [-81.083206, 36.567328], [-81.0618661, 36.56702], [-81.003802, 36.563629], [-80.9784646, 36.5634392], [-80.9459879, 36.563196], [-80.9017259, 36.561751], [-80.8476458, 36.5595291], [-80.8379559, 36.5591309], [-80.837641, 36.559118], [-80.8370891, 36.559154], [-80.8039201, 36.560813], [-80.7736629, 36.560307], [-80.7728634, 36.5603447], [-80.7619222, 36.5608606], [-80.7303511, 36.562349], [-80.69992, 36.562023], [-80.6533489, 36.559221], [-80.6247879, 36.558408], [-80.6121589, 36.5578761], [-80.5830329, 36.55665], [-80.5609651, 36.5557203], [-80.4401001, 36.55063], [-80.4316049, 36.550219], [-80.3650514, 36.5471708], [-80.3438351, 36.5461988], [-80.2952431, 36.543973], [-80.228263, 36.543867], [-80.2254079, 36.543748], [-80.1874647, 36.5433747], [-80.1716361, 36.543219], [-80.1221829, 36.542646], [-80.1001424, 36.5426109], [-80.0534571, 36.5425366], [-80.027269, 36.542495], [-80.0355411, 36.257397], [-80.0431631, 36.010636], [-80.047064, 35.920636], [-80.066737, 35.505884], [-80.1826819, 35.504335], [-80.2953949, 35.503104], [-80.7371009, 35.507122], [-80.784075, 35.507095], [-80.9098249, 35.515103], [-80.94703, 35.487699], [-80.9600291, 35.54781], [-81.534359, 35.568811], [-81.537619, 35.564269], [-81.692329, 35.579789], [-81.7545821, 35.612246], [-81.8241839, 35.574955], [-81.8693571, 35.719552], [-81.9870349, 35.806936], [-81.919879, 35.847641], [-81.9066069, 35.883437], [-81.9436739, 35.959449], [-81.9817229, 35.91152], [-82.048268, 35.963691], [-82.03884, 36.007924], [-82.0804429, 36.1057355], [-82.080143, 36.10572], [-82.0541421, 36.126821], [-82.043941, 36.125421], [-82.0379409, 36.121122], [-82.0331409, 36.120422], [-82.0287401, 36.124322], [-82.02634, 36.129222], [-82.0266401, 36.130222], [-81.9917579, 36.1815491], [-81.9601009, 36.228131], [-81.9329939, 36.264881], [-81.9181701, 36.2870251], [-81.908137, 36.302013], [-81.8793819, 36.313767], [-81.876182, 36.316075], [-81.8743359, 36.31919], [-81.8631479, 36.330209], [-81.857333, 36.334787], [-81.8508891, 36.3375], [-81.8456379, 36.34036], [-81.841268, 36.343321], [-81.8332019, 36.347339], [-81.8224931, 36.348819], [-81.8008119, 36.358073], [-81.7988667, 36.3579944], [-81.7952689, 36.357849], [-81.790852, 36.352952], [-81.7904762, 36.3522746], [-81.7901809, 36.351744], [-81.7874679, 36.348692], [-81.75442, 36.337044], [-81.747842, 36.337356], [-81.7444609, 36.337778], [-81.739498, 36.339757], [-81.7059661, 36.338496], [-81.7053149, 36.341774], [-81.7315081, 36.392103], [-81.7321297, 36.3927504], [-81.733877, 36.39457], [-81.7207341, 36.422537], [-81.7179391, 36.428762], [-81.6979751, 36.464741], [-81.696519, 36.4664742], [-81.6953111, 36.467912], [-81.6945329, 36.473283], [-81.697287, 36.484738], [-81.6959071, 36.49158], [-81.7005529, 36.51519], [-81.702543, 36.520317], [-81.7032053, 36.5210785], [-81.7059535, 36.5242388], [-81.7075729, 36.526101], [-81.7082621, 36.532113], [-81.6864361, 36.567918], [-81.6799361, 36.568618], [-81.6770361, 36.570718], [-81.6772361, 36.574406], [-81.6790359, 36.578918], [-81.6801369, 36.585518], [-81.6775349, 36.588117], [-81.600934, 36.587019], [-81.521032, 36.58052], [-81.4998311, 36.57982], [-81.4893869, 36.579026], [-81.47643, 36.580421], [-81.4441033, 36.5770192], [-81.4428437, 36.5768866], [-81.4422281, 36.576822], [-81.353322, 36.574723]]] }, "properties": { "ahec": "Northwest", "ahec_code": 9 } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-80.0753899, 35.143081], [-80.067782, 35.111897], [-79.999268, 35.085392], [-79.927887, 35.117713], [-79.875459, 35.042278], [-79.899701, 35.005645], [-79.8649971, 34.980142], [-79.848545, 34.904558], [-79.9276181, 34.806555], [-80.0028227, 34.8081904], [-80.0274639, 34.808726], [-80.04276410000001, 34.809097], [-80.072912, 34.809736], [-80.098994, 34.810147], [-80.1390103, 34.8109727], [-80.1643805, 34.8114961], [-80.1658535, 34.8115265], [-80.23396, 34.812931], [-80.2826521, 34.813576], [-80.320402, 34.8140761], [-80.3998709, 34.815128], [-80.434843, 34.815968], [-80.448766, 34.816332], [-80.45166010000001, 34.816396], [-80.4861361, 34.8167411], [-80.491814, 34.816798], [-80.499788, 34.817261], [-80.561657, 34.817481], [-80.6212219, 34.818174], [-80.646601, 34.818592], [-80.6817072, 34.8188872], [-80.691067, 34.8189666], [-80.693542, 34.8189875], [-80.6979501, 34.8190246], [-80.771792, 34.819646], [-80.7975431, 34.819786], [-80.7957936, 34.8328754], [-80.7953209, 34.8364115], [-80.7929746, 34.8539701], [-80.7820421, 34.935782], [-80.806461, 34.962894], [-80.82156010000001, 34.979695], [-80.8403399, 35.0015852], [-80.8514094, 35.0144879], [-80.884887, 35.05351], [-80.9065531, 35.076763], [-80.9349501, 35.107409], [-80.9522784, 35.0962422], [-80.9578699, 35.092639], [-81.0414889, 35.044703], [-81.0556951, 35.060121], [-81.0568785, 35.061522], [-81.0576481, 35.062433], [-81.058029, 35.07319], [-81.0578993, 35.0753063], [-81.057236, 35.086129], [-81.056861, 35.0868665], [-81.0560967, 35.0883701], [-81.0520779, 35.096276], [-81.0500789, 35.098817], [-81.0465239, 35.100617], [-81.0399031, 35.102008], [-81.0512039, 35.133237], [-81.047826, 35.143743], [-81.0434069, 35.14839], [-81.0431813, 35.1487512], [-81.042871, 35.149248], [-81.0436261, 35.149877], [-81.0801681, 35.1522352], [-81.1092949, 35.154115], [-81.12696, 35.1549104], [-81.1716255, 35.1569226], [-81.1928671, 35.1578795], [-81.2393581, 35.159974], [-81.2416861, 35.160081], [-81.2667669, 35.1610463], [-81.2857906, 35.161779], [-81.293727, 35.1620845], [-81.3160472, 35.1629437], [-81.3280059, 35.1634043], [-81.366691, 35.164893], [-81.44838, 35.1681336], [-81.452398, 35.168293], [-81.4614079, 35.168657], [-81.4683819, 35.1689391], [-81.4934011, 35.169951], [-81.4942649, 35.169882], [-81.5430591, 35.1716673], [-81.5461573, 35.1717806], [-81.5547217, 35.1720939], [-81.573652, 35.1727864], [-81.581681, 35.17308], [-81.6834706, 35.1774455], [-81.716259, 35.178852], [-81.7214082, 35.1790046], [-81.7389976, 35.179526], [-81.76808, 35.1803879], [-81.7028499, 35.357194], [-81.692329, 35.579789], [-81.537619, 35.564269], [-81.534359, 35.568811], [-80.9600291, 35.54781], [-80.94703, 35.487699], [-80.9098249, 35.515103], [-80.784075, 35.507095], [-80.7371009, 35.507122], [-80.2953949, 35.503104], [-80.1826819, 35.504335], [-80.1099141, 35.460982], [-80.093711, 35.40203], [-80.0512249, 35.371537], [-80.0984109, 35.258086], [-80.053302, 35.178607], [-80.0753899, 35.143081]]] }, "properties": { "ahec": "Charlotte", "ahec_code": 3 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [[[[-76.5468931, 35.389674], [-76.620654, 35.37812], [-76.6051589, 35.337856], [-76.4823901, 35.314046], [-76.4677761, 35.261213], [-76.546463, 35.122948], [-76.6397641, 35.051006], [-76.644562, 35.019799], [-76.6285231, 34.994801], [-76.502623, 35.007166], [-76.4634679, 35.076411], [-76.3956239, 34.975179], [-76.32636, 34.976245], [-76.364367, 35.034853], [-76.288354, 35.005726], [-76.277698, 34.940014], [-76.3476721, 34.872171], [-76.400242, 34.855476], [-76.4158711, 34.813563], [-76.3902541, 34.805568], [-76.069906, 35.075701], [-76.0359329, 35.058987], [-76.3868041, 34.784579], [-76.5359461, 34.588577], [-76.5493431, 34.645585], [-76.6763121, 34.693151], [-76.9062571, 34.68282], [-77.11354, 34.639154], [-77.5179601, 34.440483], [-77.576291, 34.476872], [-77.6805599, 34.72064], [-77.651046, 34.923862], [-77.6786971, 34.972379], [-77.7304721, 35.007711], [-77.769305, 35.145676], [-77.83425, 35.177814], [-77.89165, 35.147053], [-78.0207869, 35.193896], [-78.077371, 35.175125], [-78.163539, 35.18937], [-78.246557, 35.226189], [-78.304662, 35.286097], [-78.2675409, 35.324982], [-78.153388, 35.350409], [-78.154889, 35.417627], [-78.0646031, 35.585419], [-77.823609, 35.572704], [-77.7005021, 35.652256], [-77.661312, 35.677321], [-77.4723131, 35.801067], [-77.3901679, 35.8329], [-77.350602, 35.819214], [-77.3424639, 35.905359], [-77.402701, 36.004933], [-77.327686, 36.074512], [-77.2297251, 36.105423], [-77.2918099, 36.16849], [-77.2970519, 36.208774], [-77.2331371, 36.214549], [-77.2087901, 36.246875], [-77.1371241, 36.455604], [-77.0660999, 36.486996], [-77.1645001, 36.54633], [-77.124812, 36.543986], [-77.1004119, 36.5445109], [-77.0950619, 36.544626], [-77.0761807, 36.5445405], [-77.0381007, 36.544368], [-76.916048, 36.543815], [-76.915897, 36.552093], [-76.8070781, 36.550606], [-76.781296, 36.550659], [-76.749678, 36.550381], [-76.7383291, 36.550985], [-76.6842601, 36.5509051], [-76.654734, 36.5508615], [-76.5754961, 36.550744], [-76.5416869, 36.550312], [-76.4915061, 36.5507316], [-76.465268, 36.550951], [-76.3132149, 36.550551], [-76.1917937, 36.5505953], [-76.1223599, 36.5506207], [-76.03475090000002, 36.550653], [-75.9034451, 36.550654], [-75.894145, 36.550754], [-75.8670441, 36.550754], [-75.77333, 36.231529], [-75.536428, 35.780118], [-75.648899, 35.965758], [-75.7236621, 36.003139], [-75.794349, 36.227318], [-75.8452841, 36.305614], [-75.8514699, 36.415785], [-75.8999079, 36.482124], [-76.0236269, 36.500778], [-76.012338, 36.447462], [-75.9622851, 36.41724], [-75.9236011, 36.425788], [-75.9233311, 36.361863], [-75.8605199, 36.280607], [-75.793974, 36.07171], [-75.8875021, 36.160253], [-76.0472579, 36.183043], [-76.071672, 36.140183], [-76.190461, 36.116373], [-76.2165989, 36.095409], [-76.2871499, 36.104886], [-76.4118749, 36.075292], [-76.5143349, 36.00564], [-76.5806749, 36.00722], [-76.6154241, 36.037757], [-76.668664, 36.021106], [-76.692236, 35.945164], [-76.528551, 35.944039], [-76.39824210000002, 35.984317], [-76.3651571, 35.944637], [-76.2139659, 35.988002], [-76.0620701, 35.993004], [-76.0146851, 35.960361], [-75.9994759, 35.903547], [-75.9662471, 35.899287], [-75.929919, 35.928771], [-75.9383429, 35.9651], [-75.84989, 35.976156], [-75.782498, 35.935615], [-75.727216, 35.822703], [-75.7298021, 35.625985], [-75.775328, 35.579335], [-75.8698031, 35.582768], [-75.954623, 35.526502], [-76.020945, 35.410719], [-76.0597259, 35.410157], [-76.069281, 35.370813], [-76.1496551, 35.326411], [-76.2350861, 35.350017], [-76.4081991, 35.350017], [-76.4486671, 35.383741], [-76.4857621, 35.371375], [-76.5468931, 35.389674]]], [[[-75.66026090000001, 35.846807], [-75.7182661, 35.939714], [-75.62767, 35.883149], [-75.61436, 35.815658], [-75.6678909, 35.82354], [-75.66026090000001, 35.846807]]], [[[-75.7537141, 35.199632], [-75.5969151, 35.269491], [-75.535741, 35.272856], [-75.4786101, 35.553069], [-75.5335121, 35.773577], [-75.4791281, 35.678634], [-75.462491, 35.553556], [-75.52592, 35.233839], [-75.749445, 35.185197], [-76.014954, 35.065349], [-75.9839501, 35.120042], [-75.7537141, 35.199632]]]] }, "properties": { "ahec": "Eastern", "ahec_code": 7 } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-78.254625, 34.553879], [-78.27222790000002, 34.537819], [-78.2525029, 34.504849], [-78.1764959, 34.465264], [-78.2563161, 34.399763], [-78.337248, 34.367089], [-78.4448221, 34.376587], [-78.667638, 34.469575], [-78.825246, 34.461819], [-78.8715299, 34.482668], [-78.959519, 34.442587], [-78.9685201, 34.397448], [-79.0104449, 34.381983], [-79.0093001, 34.352741], [-79.071169, 34.29924], [-79.143242, 34.359817], [-79.1989819, 34.406699], [-79.2075173, 34.413939], [-79.2383083, 34.4400575], [-79.249763, 34.449774], [-79.273229, 34.4706668], [-79.306653, 34.500426], [-79.3074592, 34.5011163], [-79.3232491, 34.514634], [-79.358317, 34.545358], [-79.4500339, 34.621036], [-79.461318, 34.630126], [-79.4617539, 34.6304321], [-79.4687171, 34.635323], [-79.490201, 34.653819], [-79.519043, 34.677321], [-79.56169090000002, 34.711996], [-79.6027519, 34.7453914], [-79.631577, 34.768835], [-79.6342159, 34.771012], [-79.675299, 34.804744], [-79.6875019, 34.80489], [-79.6880879, 34.804897], [-79.6902011, 34.804937], [-79.7441161, 34.805651], [-79.7449251, 34.805686], [-79.7728289, 34.805954], [-79.8706929, 34.805378], [-79.9276181, 34.806555], [-79.848545, 34.904558], [-79.8649971, 34.980142], [-79.899701, 35.005645], [-79.875459, 35.042278], [-79.927887, 35.117713], [-79.999268, 35.085392], [-80.067782, 35.111897], [-80.0753899, 35.143081], [-80.0220539, 35.137344], [-79.8517621, 35.183418], [-79.6142939, 35.163704], [-79.7119081, 35.275523], [-79.769338, 35.511505], [-79.5559019, 35.51515], [-79.3501071, 35.517989], [-79.335927, 35.49802], [-79.3598229, 35.469691], [-79.3297571, 35.423563], [-79.265551, 35.345404], [-79.1833011, 35.306976], [-78.970633, 35.522244], [-78.9149009, 35.583482], [-78.7086291, 35.519081], [-78.627197, 35.458009], [-78.5305551, 35.336937], [-78.5413999, 35.315263], [-78.4914439, 35.263393], [-78.4103569, 35.256376], [-78.304662, 35.286097], [-78.246557, 35.226189], [-78.163539, 35.18937], [-78.1467141, 34.902464], [-78.2004561, 34.737189], [-78.1345519, 34.709365], [-78.1131811, 34.722006], [-78.254625, 34.553879]]] }, "properties": { "ahec": "Southern Regional", "ahec_code": 0 } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-77.937089, 33.929042], [-77.9706061, 33.844517], [-78.0186891, 33.888289], [-78.1777199, 33.914272], [-78.383964, 33.901946], [-78.5410871, 33.851112], [-78.5767755, 33.881825], [-78.615932, 33.915523], [-78.6314077, 33.9284743], [-78.650334, 33.944313], [-78.6532391, 33.946744], [-78.7101409, 33.994688], [-78.7122061, 33.996732], [-78.7926619, 34.0648736], [-78.8454751, 34.109603], [-78.874747, 34.134395], [-78.9247612, 34.1763688], [-78.989083, 34.23035], [-79.0069831, 34.245373], [-79.071169, 34.29924], [-79.0093001, 34.352741], [-79.0104449, 34.381983], [-78.9685201, 34.397448], [-78.959519, 34.442587], [-78.8715299, 34.482668], [-78.825246, 34.461819], [-78.667638, 34.469575], [-78.4448221, 34.376587], [-78.337248, 34.367089], [-78.2563161, 34.399763], [-78.1764959, 34.465264], [-78.2525029, 34.504849], [-78.27222790000002, 34.537819], [-78.254625, 34.553879], [-78.1131811, 34.722006], [-78.1345519, 34.709365], [-78.2004561, 34.737189], [-78.1467141, 34.902464], [-78.163539, 35.18937], [-78.077371, 35.175125], [-78.0207869, 35.193896], [-77.89165, 35.147053], [-77.83425, 35.177814], [-77.769305, 35.145676], [-77.7304721, 35.007711], [-77.6786971, 34.972379], [-77.651046, 34.923862], [-77.6805599, 34.72064], [-77.576291, 34.476872], [-77.5179601, 34.440483], [-77.7159159, 34.292718], [-77.8292091, 34.162618], [-77.937089, 33.929042]]] }, "properties": { "ahec": "South East", "ahec_code": 4 } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-84.0054321, 34.9874404], [-84.0213571, 34.98743], [-84.0299541, 34.987321], [-84.1295549, 34.987504], [-84.1453903, 34.9875783], [-84.2099636, 34.9878822], [-84.2451858, 34.9880475], [-84.321869, 34.988408], [-84.3175331, 35.0215203], [-84.310022, 35.078883], [-84.298006, 35.167468], [-84.2952379, 35.182442], [-84.2923209, 35.206677], [-84.2118181, 35.266078], [-84.205517, 35.259679], [-84.205317, 35.258279], [-84.2028789, 35.255772], [-84.2017171, 35.247779], [-84.1604159, 35.24388], [-84.158916, 35.24588], [-84.155316, 35.24648], [-84.143124, 35.246879], [-84.1397149, 35.24618], [-84.1022699, 35.248115], [-84.0975079, 35.247382], [-84.0922131, 35.249981], [-84.082913, 35.257082], [-84.0828131, 35.258882], [-84.0811169, 35.261146], [-84.080336, 35.2613943], [-84.0747131, 35.263182], [-84.036011, 35.288683], [-84.0291099, 35.2921757], [-84.0279101, 35.292783], [-84.03808110000001, 35.348363], [-84.015121, 35.364868], [-84.0075859, 35.371661], [-84.0083071, 35.378883], [-84.0098071, 35.382683], [-84.0112069, 35.384383], [-84.0109821, 35.385058], [-84.020633, 35.409843], [-83.961056, 35.463738], [-83.9528819, 35.460635], [-83.9248951, 35.473884], [-83.919564, 35.473367], [-83.8592609, 35.521851], [-83.853898, 35.521059], [-83.7717359, 35.562118], [-83.6629569, 35.569138], [-83.552167, 35.564346], [-83.5408261, 35.565702], [-83.4753669, 35.584775], [-83.4728965, 35.5864113], [-83.4726841, 35.586552], [-83.441197, 35.611739], [-83.432298, 35.609941], [-83.4215759, 35.611186], [-83.4118521, 35.61692], [-83.4060609, 35.620185], [-83.3669411, 35.638728], [-83.358413, 35.6470773], [-83.3582089, 35.647277], [-83.302279, 35.656064], [-83.297154, 35.65775], [-83.2565679, 35.69448], [-83.2557719, 35.695794], [-83.2556101, 35.696061], [-83.2554889, 35.714974], [-83.1002249, 35.774765], [-83.097193, 35.776067], [-83.0787319, 35.789472], [-83.07402990000001, 35.790016], [-83.03951, 35.786777], [-83.0362089, 35.787405], [-83.0286114, 35.7849863], [-83.0207272, 35.7824763], [-83.0123771, 35.779818], [-82.9640879, 35.78998], [-82.96315730000002, 35.7913522], [-82.962206, 35.792755], [-82.9589501, 35.803323], [-82.9561271, 35.807874], [-82.955751, 35.809802], [-82.9520259, 35.816183], [-82.9455149, 35.824662], [-82.94383, 35.825638], [-82.9374369, 35.82732], [-82.9318589, 35.836351], [-82.927569, 35.838586], [-82.923358, 35.839273], [-82.920171, 35.841664], [-82.9191091, 35.844851], [-82.9164521, 35.866102], [-82.9091421, 35.8692337], [-82.901301, 35.872593], [-82.8997171, 35.874602], [-82.906917, 35.907397], [-82.911671, 35.914711], [-82.9117746, 35.9174106], [-82.9118739, 35.919982], [-82.8985049, 35.945101], [-82.852554, 35.949089], [-82.821861, 35.921839], [-82.800431, 35.944155], [-82.7876485, 35.9520496], [-82.7874649, 35.952163], [-82.785558, 35.977795], [-82.785267, 35.987927], [-82.7793969, 35.992511], [-82.715165, 36.028604], [-82.707465, 36.030104], [-82.7031651, 36.032404], [-82.6501651, 36.057805], [-82.6435649, 36.062805], [-82.602877, 36.039833], [-82.6043269, 36.018187], [-82.609121, 36.0105644], [-82.6118619, 36.006206], [-82.6108891, 35.967409], [-82.607761, 35.966023], [-82.5424631, 35.967994], [-82.5400018, 35.9688589], [-82.5392731, 35.969115], [-82.52066, 35.974633], [-82.5178776, 35.9755074], [-82.5164441, 35.975958], [-82.505384, 35.97768], [-82.500206, 35.982561], [-82.4913746, 35.9887898], [-82.487411, 35.991634], [-82.4846781, 35.992849], [-82.464558, 36.006508], [-82.4606579, 36.007809], [-82.4591913, 36.0099748], [-82.4358721, 36.0444071], [-82.41688310000002, 36.072445], [-82.41662950000001, 36.0728198], [-82.4110303, 36.0810876], [-82.4094579, 36.083409], [-82.389958, 36.096909], [-82.3804579, 36.099309], [-82.3787579, 36.102809], [-82.375558, 36.105609], [-82.3713831, 36.106388], [-82.3072551, 36.12851], [-82.30285510000002, 36.13131], [-82.297655, 36.13351], [-82.2894551, 36.13571], [-82.2891851, 36.135629], [-82.2884551, 36.13541], [-82.2803539, 36.12881], [-82.2799119, 36.128732], [-82.278654, 36.12851], [-82.274054, 36.12941], [-82.2709539, 36.12761], [-82.2687511, 36.12704], [-82.2656909, 36.127614], [-82.263354, 36.13011], [-82.2475211, 36.130865], [-82.2444609, 36.132777], [-82.234807, 36.14172], [-82.228288, 36.146622], [-82.2220521, 36.156911], [-82.1559479, 36.148115], [-82.148604, 36.1494011], [-82.147948, 36.149516], [-82.144147, 36.144216], [-82.1408469, 36.136216], [-82.1379741, 36.119576], [-82.1306461, 36.106417], [-82.127146, 36.104417], [-82.1152449, 36.104618], [-82.1102904, 36.1067298], [-82.109145, 36.107218], [-82.0859431, 36.10602], [-82.0804429, 36.1057355], [-82.03884, 36.007924], [-82.048268, 35.963691], [-81.9817229, 35.91152], [-81.9436739, 35.959449], [-81.9066069, 35.883437], [-81.919879, 35.847641], [-81.9870349, 35.806936], [-81.8693571, 35.719552], [-81.8241839, 35.574955], [-81.7545821, 35.612246], [-81.692329, 35.579789], [-81.7028499, 35.357194], [-81.76808, 35.1803879], [-81.8020809, 35.181395], [-81.849637, 35.1831815], [-81.8744331, 35.184113], [-81.925612, 35.185505], [-81.96933, 35.1872283], [-82.001422, 35.188493], [-82.0895861, 35.190698], [-82.1389469, 35.193122], [-82.1676759, 35.193699], [-82.176874, 35.19379], [-82.1954831, 35.194951], [-82.216217, 35.196044], [-82.2305169, 35.196764], [-82.230915, 35.196784], [-82.2424936, 35.1975901], [-82.2575149, 35.198636], [-82.2884529, 35.198605], [-82.295354, 35.194965], [-82.314863, 35.191089], [-82.3158709, 35.190678], [-82.317871, 35.187858], [-82.3233499, 35.184789], [-82.326917, 35.185056], [-82.350086, 35.192858], [-82.353508, 35.1922487], [-82.3554489, 35.191903], [-82.3791911, 35.195894], [-82.3788511, 35.1975349], [-82.3787439, 35.198053], [-82.384029, 35.210542], [-82.3899782, 35.2150461], [-82.3904391, 35.215395], [-82.3929299, 35.215402], [-82.3934435, 35.2149959], [-82.395697, 35.213214], [-82.4244609, 35.193092], [-82.428, 35.183224], [-82.4341261, 35.170784], [-82.4527629, 35.172626], [-82.4529869, 35.17469], [-82.57047090000002, 35.145058], [-82.5723054, 35.1443672], [-82.578316, 35.142104], [-82.6382109, 35.128088], [-82.6422359, 35.129215], [-82.651416, 35.124867], [-82.6535101, 35.121968], [-82.6768611, 35.12535], [-82.6808871, 35.126155], [-82.691355, 35.113272], [-82.6907859, 35.111709], [-82.69071, 35.111501], [-82.6884561, 35.106347], [-82.6896341, 35.104117], [-82.6948979, 35.098456], [-82.698602, 35.097168], [-82.7644639, 35.068177], [-82.7700459, 35.065476], [-82.7773769, 35.064143], [-82.7819731, 35.066817], [-82.7791159, 35.073674], [-82.777407, 35.076885], [-82.78113, 35.084585], [-82.783283, 35.0856], [-82.7878671, 35.085024], [-82.8974989, 35.056021], [-82.9998671, 35.02995], [-83.008747, 35.0275656], [-83.0352855, 35.0204399], [-83.0457521, 35.0176294], [-83.1085349, 35.000771], [-83.1904101, 34.999456], [-83.1972711, 34.9992703], [-83.3227679, 34.995874], [-83.4782182, 34.993554], [-83.4834452, 34.9934761], [-83.5493811, 34.992492], [-83.6201851, 34.992091], [-83.6199851, 34.986592], [-83.7236699, 34.9874691], [-83.7498929, 34.987691], [-83.7792919, 34.9875453], [-83.7981813, 34.987452], [-83.831097, 34.987289], [-83.936646, 34.987485], [-84.0054321, 34.9874404]]] }, "properties": { "ahec": "Mountain", "ahec_code": 2 } }, { "type": "Feature", "geometry": { "type": "MultiPolygon", "coordinates": [[[[-78.9059989, 35.867933], [-79.0161109, 35.863664], [-78.9507901, 36.239161], [-79.1537331, 36.242117], [-79.13793590000002, 36.541739], [-79.124736, 36.541568], [-78.9718139, 36.542123], [-78.970577, 36.542154], [-78.942254, 36.542079], [-78.942009, 36.542113], [-78.91541990000002, 36.541974], [-78.9145431, 36.541972], [-78.901373, 36.5419428], [-78.7963, 36.541713], [-78.7654299, 36.541727], [-78.7583921, 36.541852], [-78.7341859, 36.5419021], [-78.6700511, 36.542035], [-78.6633169, 36.542011], [-78.6542717, 36.5418676], [-78.6053039, 36.541092], [-78.5330129, 36.541004], [-78.509965, 36.541065], [-78.471022, 36.542307], [-78.45697, 36.542474], [-78.4363331, 36.542666], [-78.3239121, 36.543809], [-78.3039869, 36.5439461], [-78.2466811, 36.544341], [-78.2454619, 36.544411], [-78.133323, 36.543847], [-78.1329109, 36.543811], [-78.1138406, 36.5438895], [-78.0529806, 36.5441401], [-78.0462021, 36.544168], [-78.03942, 36.544196], [-77.8997711, 36.544663], [-77.89795, 36.506849], [-77.9120229, 36.382271], [-78.0065449, 36.202678], [-78.2549149, 35.817607], [-78.2504721, 35.773109], [-78.1920699, 35.730443], [-78.162195, 35.713292], [-78.12557, 35.603046], [-78.0646031, 35.585419], [-78.154889, 35.417627], [-78.153388, 35.350409], [-78.2675409, 35.324982], [-78.304662, 35.286097], [-78.4103569, 35.256376], [-78.4914439, 35.263393], [-78.5413999, 35.315263], [-78.5305551, 35.336937], [-78.627197, 35.458009], [-78.7086291, 35.519081], [-78.9149009, 35.583482], [-78.9956161, 35.610327], [-78.9059989, 35.867933]]], [[[-78.970633, 35.522244], [-79.1833011, 35.306976], [-79.265551, 35.345404], [-79.3297571, 35.423563], [-79.3598229, 35.469691], [-79.335927, 35.49802], [-79.3501071, 35.517989], [-79.297955, 35.553506], [-79.266813, 35.533304], [-79.2409811, 35.570531], [-79.1995131, 35.559232], [-79.1196899, 35.628078], [-78.970633, 35.522244]]]] }, "properties": { "ahec": "Wake AHEC", "ahec_code": 6 } }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[-77.402701, 36.004933], [-77.3424639, 35.905359], [-77.350602, 35.819214], [-77.3901679, 35.8329], [-77.4723131, 35.801067], [-77.661312, 35.677321], [-77.7005021, 35.652256], [-77.823609, 35.572704], [-78.0646031, 35.585419], [-78.12557, 35.603046], [-78.162195, 35.713292], [-78.1920699, 35.730443], [-78.2504721, 35.773109], [-78.2549149, 35.817607], [-78.0065449, 36.202678], [-77.9120229, 36.382271], [-77.89795, 36.506849], [-77.8997711, 36.544663], [-77.8823569, 36.544737], [-77.8752801, 36.544754], [-77.7777886, 36.5453489], [-77.7671229, 36.545414], [-77.7657785, 36.5454221], [-77.749706, 36.54552], [-77.5906797, 36.5452459], [-77.5801316, 36.5452277], [-77.3566144, 36.5448424], [-77.2968105, 36.5447395], [-77.2632939, 36.5446816], [-77.205156, 36.544581], [-77.1645001, 36.54633], [-77.0660999, 36.486996], [-77.1371241, 36.455604], [-77.2087901, 36.246875], [-77.2331371, 36.214549], [-77.2970519, 36.208774], [-77.2918099, 36.16849], [-77.2297251, 36.105423], [-77.327686, 36.074512], [-77.402701, 36.004933]]] }, "properties": { "ahec": "Area L", "ahec_code": 5 } }] });
 
 /***/ }),
-/* 365 */
+/* 373 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29676,19 +29852,19 @@ var physicianGroups = [{ "physicianGroup": "Administrative Medicine", "areasOfPr
 
 
 /***/ }),
-/* 366 */
+/* 374 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(367)
+  __webpack_require__(375)
 }
 var normalizeComponent = __webpack_require__(7)
 /* script */
-var __vue_script__ = __webpack_require__(369)
+var __vue_script__ = __webpack_require__(377)
 /* template */
-var __vue_template__ = __webpack_require__(370)
+var __vue_template__ = __webpack_require__(378)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -29727,13 +29903,13 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 367 */
+/* 375 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(368);
+var content = __webpack_require__(376);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -29753,7 +29929,7 @@ if(false) {
 }
 
 /***/ }),
-/* 368 */
+/* 376 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(5)(false);
@@ -29767,7 +29943,7 @@ exports.push([module.i, "\n.xAxisText[data-v-2ebfb12a] {\n  font-weight: 600;\n}
 
 
 /***/ }),
-/* 369 */
+/* 377 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29969,7 +30145,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 });
 
 /***/ }),
-/* 370 */
+/* 378 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -30206,19 +30382,19 @@ if (false) {
 }
 
 /***/ }),
-/* 371 */
+/* 379 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(372)
+  __webpack_require__(380)
 }
 var normalizeComponent = __webpack_require__(7)
 /* script */
-var __vue_script__ = __webpack_require__(374)
+var __vue_script__ = __webpack_require__(382)
 /* template */
-var __vue_template__ = __webpack_require__(375)
+var __vue_template__ = __webpack_require__(383)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -30257,13 +30433,13 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 372 */
+/* 380 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(373);
+var content = __webpack_require__(381);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -30283,7 +30459,7 @@ if(false) {
 }
 
 /***/ }),
-/* 373 */
+/* 381 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(5)(false);
@@ -30297,7 +30473,7 @@ exports.push([module.i, "\n.ahecLabel[data-v-49a00d5b]{\r\n  text-anchor:end;\n}
 
 
 /***/ }),
-/* 374 */
+/* 382 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30421,7 +30597,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 });
 
 /***/ }),
-/* 375 */
+/* 383 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -30509,10 +30685,10 @@ if (false) {
 }
 
 /***/ }),
-/* 376 */
+/* 384 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var ckmeans = __webpack_require__(377);
+var ckmeans = __webpack_require__(385);
 
 function d3scaleCluster () {
   var clusters = [];
@@ -30602,7 +30778,7 @@ module.exports = d3scaleCluster;
 
 
 /***/ }),
-/* 377 */
+/* 385 */
 /***/ (function(module, exports) {
 
 /**
@@ -30876,7 +31052,7 @@ module.exports = ckmeans;
 
 
 /***/ }),
-/* 378 */
+/* 386 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -31025,8 +31201,7 @@ if (false) {
 }
 
 /***/ }),
-/* 379 */,
-/* 380 */
+/* 387 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -31198,7 +31373,7 @@ if (false) {
 }
 
 /***/ }),
-/* 381 */
+/* 388 */
 /***/ (function(module, exports, __webpack_require__) {
 
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -34907,15 +35082,15 @@ module.exports = function (index, length) {
 //# sourceMappingURL=vue-tour.umd.js.map
 
 /***/ }),
-/* 382 */
+/* 389 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return store; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(68);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vuex__ = __webpack_require__(58);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_request__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vuex__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_request__ = __webpack_require__(114);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_d3_format__ = __webpack_require__(32);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_d3_array__ = __webpack_require__(3);
 
@@ -35120,13 +35295,13 @@ function updateVariables(state) {
 }
 
 /***/ }),
-/* 383 */
+/* 390 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(384);
+var content = __webpack_require__(391);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -35134,7 +35309,7 @@ var transform;
 var options = {}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(385)(content, options);
+var update = __webpack_require__(392)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -35151,7 +35326,7 @@ if(false) {
 }
 
 /***/ }),
-/* 384 */
+/* 391 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(5)(false);
@@ -35165,7 +35340,7 @@ exports.push([module.i, ".v-step[data-v-570be51d]{background:#50596c;color:#fff;
 
 
 /***/ }),
-/* 385 */
+/* 392 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -35211,7 +35386,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(386);
+var	fixUrls = __webpack_require__(393);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -35524,7 +35699,7 @@ function updateLink (link, options, obj) {
 
 
 /***/ }),
-/* 386 */
+/* 393 */
 /***/ (function(module, exports) {
 
 

@@ -5,6 +5,7 @@
  <script>
 import { saveSvgAsPng } from "save-svg-as-png";
 import { wrap } from "../utility";
+import { svg } from "d3-fetch";
 
 export default {
   name: "DownloadImageButton",
@@ -15,7 +16,7 @@ export default {
   methods: {
     downloadImage() {
       const dashboard = document.querySelector(".dashboard").cloneNode(true);
-      dashboard.setAttribute("viewBox", "0 0 1050 770");
+      dashboard.setAttribute("viewBox", "0 0 1050 810");
 
       const map = dashboard.querySelector("#map-container");
       map.setAttribute("transform", "translate(25,25)");
@@ -29,13 +30,24 @@ export default {
         "text"
       );
       newText.setAttributeNS(null, "font-size", "10px");
-      newText.setAttributeNS(null, "transform", "translate(100,660)");
+      newText.setAttributeNS(null, "transform", "translate(200,660)");
 
       const notes = document.querySelector(".notes-text").innerText;
-      newText.innerHTML = wrap({text: notes, maxCharsPerLine: 200})
+      newText.innerHTML = wrap({text: notes, maxCharsPerLine: 180})
       dashboard.appendChild(newText);
-      
-      saveSvgAsPng(dashboard, "viz.png", { backgroundColor: "#fff" });
+
+      svg('shepsLogoVertical.svg')
+      .then(function(d){
+        const logoSvg = d.childNodes[0];
+        logoSvg.setAttribute("transform", "translate(15,640)");
+        dashboard.appendChild(logoSvg);
+        saveSvgAsPng(dashboard, "viz.png", { backgroundColor: "#fff" });
+      })
+      .catch(function(error) {
+  console.log('Looks like there was a problem: \n', error);
+});
+
+           
     }
   }
 };
