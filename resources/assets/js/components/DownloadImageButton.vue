@@ -36,7 +36,7 @@ export default {
       newText.innerHTML = wrap({text: notes, maxCharsPerLine: 180})
       dashboard.appendChild(newText);
 
-      svg('shepsLogoVertical.svg')
+      svg('ShepsLogoVertical.svg')
       .then(function(d){
         const logoSvg = d.childNodes[0];
         logoSvg.setAttribute("transform", "translate(15,640)");
