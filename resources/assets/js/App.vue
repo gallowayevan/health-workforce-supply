@@ -63,7 +63,7 @@ export default {
         },
         {
           target: ".counties",
-          content: `The map shows all the counties in North Carolina. Darker shades of green indicate higher values.`
+          content: `The map shows all the counties in North Carolina. Darker shades of green indicate higher values. Hover on a county to get the name and value or click to filter the charts to the right.`
         },
         {
           target: ".histogram-legend",
@@ -76,13 +76,13 @@ export default {
         {
           target: "#bar-chart-group",
           content:
-            "These mini charts show longitudinal demographic data for the selected profession and region. For instance, you can see the longitudinal trends for a given county by clicking on the map.",
+            "These mini charts show longitudinal demographic data for the selected profession and region. For instance, you can see the longitudinal trends for a given county by clicking on the map. Click again on the same county to reset.",
           params: {
             placement: "left"
           }
         },
         {
-          target: "#download-buttons",
+          target: "#control-panel",
           content:
             "Down here you can change the mapped year of data, download the dashboard as an image, download the data for the dashboard, or change the unit of geography from county to AHEC.",
           params: {

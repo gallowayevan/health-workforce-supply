@@ -19954,7 +19954,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         content: "Welcome! To begin, you can select a health profession. For some professions, you can also select a specialty or primary area of practice."
       }, {
         target: ".counties",
-        content: "The map shows all the counties in North Carolina. Darker shades of green indicate higher values."
+        content: "The map shows all the counties in North Carolina. Darker shades of green indicate higher values. Hover on a county to get the name and value or click to filter the charts to the right."
       }, {
         target: ".histogram-legend",
         content: "The histogram summarizes the data in the map and also shows the relationship between the colors and values for the map.",
@@ -19963,12 +19963,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         }
       }, {
         target: "#bar-chart-group",
-        content: "These mini charts show longitudinal demographic data for the selected profession and region. For instance, you can see the longitudinal trends for a given county by clicking on the map.",
+        content: "These mini charts show longitudinal demographic data for the selected profession and region. For instance, you can see the longitudinal trends for a given county by clicking on the map. Click again on the same county to reset.",
         params: {
           placement: "left"
         }
       }, {
-        target: "#download-buttons",
+        target: "#control-panel",
         content: "Down here you can change the mapped year of data, download the dashboard as an image, download the data for the dashboard, or change the unit of geography from county to AHEC.",
         params: {
           placement: "top"
@@ -24613,13 +24613,13 @@ function stackValue(d, key) {
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(397)
+  __webpack_require__(251)
 }
 var normalizeComponent = __webpack_require__(7)
 /* script */
 var __vue_script__ = __webpack_require__(253)
 /* template */
-var __vue_template__ = __webpack_require__(399)
+var __vue_template__ = __webpack_require__(254)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -24658,8 +24658,46 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 251 */,
-/* 252 */,
+/* 251 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(252);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(6)("1a56705d", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-a8dffda0\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./BarRect.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-a8dffda0\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./BarRect.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 252 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(5)(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.bars {\n  fill: rgb(173, 221, 142); \n  stroke-width: 2;\n}\n.barHovered {\n  stroke: rgb(90, 90, 90);\n}\n\n", ""]);
+
+// exports
+
+
+/***/ }),
 /* 253 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -24728,20 +24766,50 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 254 */,
+/* 254 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("rect", {
+    staticClass: "bars",
+    class: { barHovered: _vm.isHovered },
+    style: { fill: _vm.fill },
+    attrs: {
+      x: _vm.barData.x,
+      y: _vm.barData.y,
+      width: _vm.barData.width,
+      height: _vm.barData.height
+    },
+    on: { mouseover: _vm.mouseover, mouseout: _vm.mouseout, click: _vm.click }
+  })
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-a8dffda0", module.exports)
+  }
+}
+
+/***/ }),
 /* 255 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(400)
+  __webpack_require__(256)
 }
 var normalizeComponent = __webpack_require__(7)
 /* script */
 var __vue_script__ = __webpack_require__(258)
 /* template */
-var __vue_template__ = __webpack_require__(402)
+var __vue_template__ = __webpack_require__(259)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -24780,8 +24848,46 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 256 */,
-/* 257 */,
+/* 256 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(257);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(6)("1a00a10c", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-c1afc00e\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./BarText.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-c1afc00e\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./BarText.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 257 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(5)(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.bar-text {\n  font-size: 1em; \n  text-anchor:middle;\n}\n.yearLabel {\n  fill: rgb(189, 189, 189);\n}\n\n", ""]);
+
+// exports
+
+
+/***/ }),
 /* 258 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -24830,7 +24936,66 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 259 */,
+/* 259 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("g", [
+    _c(
+      "text",
+      {
+        directives: [
+          {
+            name: "show",
+            rawName: "v-show",
+            value: _vm.showLabel,
+            expression: "showLabel"
+          }
+        ],
+        staticClass: "bar-text",
+        attrs: {
+          x: _vm.barData.x + _vm.barData.width * 0.5,
+          y: _vm.barData.y - 4
+        }
+      },
+      [_vm._v("\n   " + _vm._s(_vm.barData.value) + "\n   ")]
+    ),
+    _vm._v(" "),
+    _c(
+      "text",
+      {
+        directives: [
+          {
+            name: "show",
+            rawName: "v-show",
+            value: _vm.showLabel,
+            expression: "showLabel"
+          }
+        ],
+        staticClass: "bar-text yearLabel",
+        attrs: {
+          x: _vm.barData.x + _vm.barData.width * 0.5,
+          y: _vm.barData.y + _vm.barData.height + 15
+        }
+      },
+      [_vm._v("\n   " + _vm._s(_vm.barData.year) + "\n   ")]
+    )
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-c1afc00e", module.exports)
+  }
+}
+
+/***/ }),
 /* 260 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25514,13 +25679,13 @@ if (false) {
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(406)
+  __webpack_require__(281)
 }
 var normalizeComponent = __webpack_require__(7)
 /* script */
 var __vue_script__ = __webpack_require__(283)
 /* template */
-var __vue_template__ = __webpack_require__(408)
+var __vue_template__ = __webpack_require__(292)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -25559,8 +25724,46 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 281 */,
-/* 282 */,
+/* 281 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(282);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(6)("7bed7a4a", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-5f088244\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./DownloadImageButton.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-5f088244\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./DownloadImageButton.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 282 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(5)(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+
+// exports
+
+
+/***/ }),
 /* 283 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -26186,20 +26389,47 @@ var svg = parser("image/svg+xml");
 
 
 /***/ }),
-/* 292 */,
+/* 292 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "button",
+    {
+      staticClass: "save-image",
+      attrs: { type: "button", id: "save-image" },
+      on: { click: _vm.downloadImage }
+    },
+    [_vm._v("Download as Image")]
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-5f088244", module.exports)
+  }
+}
+
+/***/ }),
 /* 293 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(403)
+  __webpack_require__(294)
 }
 var normalizeComponent = __webpack_require__(7)
 /* script */
 var __vue_script__ = __webpack_require__(296)
 /* template */
-var __vue_template__ = __webpack_require__(405)
+var __vue_template__ = __webpack_require__(297)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -26238,8 +26468,46 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 294 */,
-/* 295 */,
+/* 294 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(295);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(6)("210ff0d5", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-68a4029b\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./DownloadDataButton.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-68a4029b\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./DownloadDataButton.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 295 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(5)(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+
+// exports
+
+
+/***/ }),
 /* 296 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -26307,20 +26575,47 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 297 */,
+/* 297 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "button",
+    {
+      staticClass: "save-data",
+      attrs: { type: "button" },
+      on: { click: _vm.downloadData }
+    },
+    [_vm._v("Download Data")]
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-68a4029b", module.exports)
+  }
+}
+
+/***/ }),
 /* 298 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(394)
+  __webpack_require__(299)
 }
 var normalizeComponent = __webpack_require__(7)
 /* script */
 var __vue_script__ = __webpack_require__(301)
 /* template */
-var __vue_template__ = __webpack_require__(396)
+var __vue_template__ = __webpack_require__(386)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -26359,8 +26654,46 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 299 */,
-/* 300 */,
+/* 299 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(300);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(6)("6f211af8", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-20909bf5\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Map.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-20909bf5\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Map.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 300 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(5)(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.county {\n  stroke: #fff;\n  stroke-width: 1;\n}\n.county:hover{\n  fill: #808080;\n}\n.ahec:hover {\n  fill: #808080;\n  opacity: 0.6;\n}\n.ahec {\n  fill: none;\n  stroke: #2a2a2a;\n  stroke-width: 3;\n  pointer-events: all;\n}\n.selected {\n  stroke: rgb(163, 49, 128);\n  stroke-width: 4px;\n}\n#map-title {\n  text-align: center;\n  font-weight: 600;\n  font-size: 1em;\n}\n\n/* div.tooltip {\n  position: absolute;\n  text-align: center;\t\t\t\n  padding: 8px;\n  font: 12px sans-serif;\n  background: rgb(163, 49, 128);\n  border: 0px;\n  border-radius: 8px;\n  pointer-events: none;\n  opacity: 0.85;\n  color: #fff;\n} */\n\n/* .titleYear {\n  font-size: 1.3em;\n  animation-name: titleYearAnimation;\n  animation-duration: 2s;\n}\n\n@keyframes titleYearAnimation {\n  from {font-size: 1.3em}\n  to {font-size: 2em}\n} */\n", ""]);
+
+// exports
+
+
+/***/ }),
 /* 301 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -30716,7 +31049,155 @@ module.exports = ckmeans;
 
 
 /***/ }),
-/* 386 */,
+/* 386 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "g",
+    { attrs: { id: "map-container" } },
+    [
+      _c("text", {
+        attrs: { id: "map-title", transform: "translate(0,25)" },
+        domProps: { innerHTML: _vm._s(_vm.title) }
+      }),
+      _vm._v(" "),
+      _c(
+        "g",
+        {
+          staticClass: "counties",
+          attrs: {
+            transform:
+              "translate(" +
+              _vm.chartMargin.left +
+              ", " +
+              _vm.chartMargin.top +
+              ")"
+          }
+        },
+        _vm._l(_vm.countyFeatures, function(item) {
+          return _c(
+            "path",
+            {
+              key: item.properties.county,
+              staticClass: "county",
+              class: { selected: item.properties.county == _vm.region },
+              attrs: {
+                d: _vm.generatePath(item.geometry),
+                fill: _vm.colorScale(
+                  _vm.mapData.get(item.properties[_vm.aggregationLevel])
+                )
+              },
+              on: {
+                click: function($event) {
+                  _vm.clicked(item.properties.county)
+                }
+              }
+            },
+            [
+              _c("title", {
+                domProps: {
+                  innerHTML: _vm._s(
+                    item.properties.county +
+                      " County: " +
+                      _vm.valueFormatter(
+                        _vm.mapData.get(item.properties[_vm.aggregationLevel])
+                      )
+                  )
+                }
+              })
+            ]
+          )
+        })
+      ),
+      _vm._v(" "),
+      _c(
+        "g",
+        {
+          directives: [
+            {
+              name: "show",
+              rawName: "v-show",
+              value: _vm.aggregationLevel == "ahec",
+              expression: "aggregationLevel == 'ahec'"
+            }
+          ],
+          staticClass: "ahecs",
+          attrs: {
+            transform:
+              "translate(" +
+              _vm.chartMargin.left +
+              ", " +
+              _vm.chartMargin.top +
+              ")"
+          }
+        },
+        _vm._l(_vm.ahecFeatures, function(item) {
+          return _c(
+            "path",
+            {
+              key: item.properties.county,
+              staticClass: "ahec",
+              class: { selected: item.properties.ahec == _vm.region },
+              attrs: { d: _vm.generatePath(item.geometry) },
+              on: {
+                click: function($event) {
+                  _vm.clicked(item.properties.ahec)
+                }
+              }
+            },
+            [
+              _c("title", {
+                domProps: {
+                  innerHTML: _vm._s(
+                    item.properties.ahec +
+                      ": " +
+                      _vm.valueFormatter(
+                        _vm.mapData.get(item.properties[_vm.aggregationLevel])
+                      )
+                  )
+                }
+              })
+            ]
+          )
+        })
+      ),
+      _vm._v(" "),
+      _vm.aggregationLevel == "county"
+        ? _c("histogram-legend", {
+            staticClass: "histogram-legend",
+            attrs: {
+              transform: "translate(40,325)",
+              colorScale: _vm.colorScale,
+              histogramData: _vm.histogramData,
+              mapData: _vm.mapData
+            }
+          })
+        : _c("row-chart", {
+            attrs: {
+              transform: "translate(200,325)",
+              colorScale: _vm.colorScale,
+              mapData: _vm.mapData
+            }
+          })
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-20909bf5", module.exports)
+  }
+}
+
+/***/ }),
 /* 387 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -35298,502 +35779,6 @@ module.exports = function (css) {
 	return fixedCss;
 };
 
-
-/***/ }),
-/* 394 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(395);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var update = __webpack_require__(6)("6f211af8", content, false, {});
-// Hot Module Replacement
-if(false) {
- // When the styles change, update the <style> tags
- if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-20909bf5\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Map.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-20909bf5\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Map.vue");
-     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-     update(newContent);
-   });
- }
- // When the module is disposed, remove the <style> tags
- module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-/* 395 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(5)(false);
-// imports
-
-
-// module
-exports.push([module.i, "\n.county {\n  stroke: #fff;\n  stroke-width: 1;\n}\n.county:hover{\n  fill: #808080;\n}\n.ahec:hover {\n  fill: #808080;\n  opacity: 0.6;\n}\n.ahec {\n  fill: none;\n  stroke: #2a2a2a;\n  stroke-width: 3;\n  pointer-events: all;\n}\n.selected {\n  stroke: rgb(163, 49, 128);\n  stroke-width: 4px;\n}\n#map-title {\n  text-align: center;\n  font-weight: 600;\n  font-size: 1em;\n}\n\n/* div.tooltip {\n  position: absolute;\n  text-align: center;\t\t\t\n  padding: 8px;\n  font: 12px sans-serif;\n  background: rgb(163, 49, 128);\n  border: 0px;\n  border-radius: 8px;\n  pointer-events: none;\n  opacity: 0.85;\n  color: #fff;\n} */\n\n/* .titleYear {\n  font-size: 1.3em;\n  animation-name: titleYearAnimation;\n  animation-duration: 2s;\n}\n\n@keyframes titleYearAnimation {\n  from {font-size: 1.3em}\n  to {font-size: 2em}\n} */\n", ""]);
-
-// exports
-
-
-/***/ }),
-/* 396 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "g",
-    { attrs: { id: "map-container" } },
-    [
-      _c("text", {
-        attrs: { id: "map-title", transform: "translate(0,25)" },
-        domProps: { innerHTML: _vm._s(_vm.title) }
-      }),
-      _vm._v(" "),
-      _c(
-        "g",
-        {
-          staticClass: "counties",
-          attrs: {
-            transform:
-              "translate(" +
-              _vm.chartMargin.left +
-              ", " +
-              _vm.chartMargin.top +
-              ")"
-          }
-        },
-        _vm._l(_vm.countyFeatures, function(item) {
-          return _c(
-            "path",
-            {
-              key: item.properties.county,
-              staticClass: "county",
-              class: { selected: item.properties.county == _vm.region },
-              attrs: {
-                d: _vm.generatePath(item.geometry),
-                fill: _vm.colorScale(
-                  _vm.mapData.get(item.properties[_vm.aggregationLevel])
-                )
-              },
-              on: {
-                click: function($event) {
-                  _vm.clicked(item.properties.county)
-                }
-              }
-            },
-            [
-              _c("title", {
-                domProps: {
-                  innerHTML: _vm._s(
-                    item.properties.county +
-                      " County: " +
-                      _vm.valueFormatter(
-                        _vm.mapData.get(item.properties[_vm.aggregationLevel])
-                      )
-                  )
-                }
-              })
-            ]
-          )
-        })
-      ),
-      _vm._v(" "),
-      _c(
-        "g",
-        {
-          directives: [
-            {
-              name: "show",
-              rawName: "v-show",
-              value: _vm.aggregationLevel == "ahec",
-              expression: "aggregationLevel == 'ahec'"
-            }
-          ],
-          staticClass: "ahecs",
-          attrs: {
-            transform:
-              "translate(" +
-              _vm.chartMargin.left +
-              ", " +
-              _vm.chartMargin.top +
-              ")"
-          }
-        },
-        _vm._l(_vm.ahecFeatures, function(item) {
-          return _c(
-            "path",
-            {
-              key: item.properties.county,
-              staticClass: "ahec",
-              class: { selected: item.properties.ahec == _vm.region },
-              attrs: { d: _vm.generatePath(item.geometry) },
-              on: {
-                click: function($event) {
-                  _vm.clicked(item.properties.ahec)
-                }
-              }
-            },
-            [
-              _c("title", {
-                domProps: {
-                  innerHTML: _vm._s(
-                    item.properties.ahec +
-                      ": " +
-                      _vm.valueFormatter(
-                        _vm.mapData.get(item.properties[_vm.aggregationLevel])
-                      )
-                  )
-                }
-              })
-            ]
-          )
-        })
-      ),
-      _vm._v(" "),
-      _vm.aggregationLevel == "county"
-        ? _c("histogram-legend", {
-            staticClass: "histogram-legend",
-            attrs: {
-              transform: "translate(40,325)",
-              colorScale: _vm.colorScale,
-              histogramData: _vm.histogramData,
-              mapData: _vm.mapData
-            }
-          })
-        : _c("row-chart", {
-            attrs: {
-              transform: "translate(200,325)",
-              colorScale: _vm.colorScale,
-              mapData: _vm.mapData
-            }
-          })
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-module.exports = { render: render, staticRenderFns: staticRenderFns }
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-20909bf5", module.exports)
-  }
-}
-
-/***/ }),
-/* 397 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(398);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var update = __webpack_require__(6)("1a56705d", content, false, {});
-// Hot Module Replacement
-if(false) {
- // When the styles change, update the <style> tags
- if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-a8dffda0\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./BarRect.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-a8dffda0\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./BarRect.vue");
-     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-     update(newContent);
-   });
- }
- // When the module is disposed, remove the <style> tags
- module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-/* 398 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(5)(false);
-// imports
-
-
-// module
-exports.push([module.i, "\n.bars {\n  fill: rgb(173, 221, 142); \n  stroke-width: 2;\n}\n.barHovered {\n  stroke: rgb(90, 90, 90);\n}\n\n", ""]);
-
-// exports
-
-
-/***/ }),
-/* 399 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c("rect", {
-    staticClass: "bars",
-    class: { barHovered: _vm.isHovered },
-    style: { fill: _vm.fill },
-    attrs: {
-      x: _vm.barData.x,
-      y: _vm.barData.y,
-      width: _vm.barData.width,
-      height: _vm.barData.height
-    },
-    on: { mouseover: _vm.mouseover, mouseout: _vm.mouseout, click: _vm.click }
-  })
-}
-var staticRenderFns = []
-render._withStripped = true
-module.exports = { render: render, staticRenderFns: staticRenderFns }
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-a8dffda0", module.exports)
-  }
-}
-
-/***/ }),
-/* 400 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(401);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var update = __webpack_require__(6)("1a00a10c", content, false, {});
-// Hot Module Replacement
-if(false) {
- // When the styles change, update the <style> tags
- if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-c1afc00e\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./BarText.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-c1afc00e\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./BarText.vue");
-     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-     update(newContent);
-   });
- }
- // When the module is disposed, remove the <style> tags
- module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-/* 401 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(5)(false);
-// imports
-
-
-// module
-exports.push([module.i, "\n.bar-text {\n  font-size: 1em; \n  text-anchor:middle;\n}\n.yearLabel {\n  fill: rgb(189, 189, 189);\n}\n\n", ""]);
-
-// exports
-
-
-/***/ }),
-/* 402 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c("g", [
-    _c(
-      "text",
-      {
-        directives: [
-          {
-            name: "show",
-            rawName: "v-show",
-            value: _vm.showLabel,
-            expression: "showLabel"
-          }
-        ],
-        staticClass: "bar-text",
-        attrs: {
-          x: _vm.barData.x + _vm.barData.width * 0.5,
-          y: _vm.barData.y - 4
-        }
-      },
-      [_vm._v("\n   " + _vm._s(_vm.barData.value) + "\n   ")]
-    ),
-    _vm._v(" "),
-    _c(
-      "text",
-      {
-        directives: [
-          {
-            name: "show",
-            rawName: "v-show",
-            value: _vm.showLabel,
-            expression: "showLabel"
-          }
-        ],
-        staticClass: "bar-text yearLabel",
-        attrs: {
-          x: _vm.barData.x + _vm.barData.width * 0.5,
-          y: _vm.barData.y + _vm.barData.height + 15
-        }
-      },
-      [_vm._v("\n   " + _vm._s(_vm.barData.year) + "\n   ")]
-    )
-  ])
-}
-var staticRenderFns = []
-render._withStripped = true
-module.exports = { render: render, staticRenderFns: staticRenderFns }
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-c1afc00e", module.exports)
-  }
-}
-
-/***/ }),
-/* 403 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(404);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var update = __webpack_require__(6)("210ff0d5", content, false, {});
-// Hot Module Replacement
-if(false) {
- // When the styles change, update the <style> tags
- if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-68a4029b\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./DownloadDataButton.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-68a4029b\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./DownloadDataButton.vue");
-     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-     update(newContent);
-   });
- }
- // When the module is disposed, remove the <style> tags
- module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-/* 404 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(5)(false);
-// imports
-
-
-// module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
-
-// exports
-
-
-/***/ }),
-/* 405 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "button",
-    {
-      staticClass: "save-data",
-      attrs: { type: "button" },
-      on: { click: _vm.downloadData }
-    },
-    [_vm._v("Download Data")]
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-module.exports = { render: render, staticRenderFns: staticRenderFns }
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-68a4029b", module.exports)
-  }
-}
-
-/***/ }),
-/* 406 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(407);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var update = __webpack_require__(6)("7bed7a4a", content, false, {});
-// Hot Module Replacement
-if(false) {
- // When the styles change, update the <style> tags
- if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-5f088244\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./DownloadImageButton.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-5f088244\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./DownloadImageButton.vue");
-     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-     update(newContent);
-   });
- }
- // When the module is disposed, remove the <style> tags
- module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-/* 407 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(5)(false);
-// imports
-
-
-// module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
-
-// exports
-
-
-/***/ }),
-/* 408 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "button",
-    {
-      staticClass: "save-image",
-      attrs: { type: "button", id: "save-image" },
-      on: { click: _vm.downloadImage }
-    },
-    [_vm._v("Download as Image")]
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-module.exports = { render: render, staticRenderFns: staticRenderFns }
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-5f088244", module.exports)
-  }
-}
 
 /***/ })
 /******/ ]);
