@@ -672,6 +672,11 @@ details > ul {
   font-weight: 600;
 }
 
+summary:focus {
+  background: #cfe8f4;
+  outline: none !important;
+}
+
 /*Main Layout
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 body {
