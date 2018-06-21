@@ -7,8 +7,11 @@ img {
   height: auto;
 }
 
-summary {
-  font-size: 1.5em;
+/*Details and Summary
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.summary-header {
+  font-size: 1.4em;
 }
 
 details > ul {
