@@ -1,15 +1,12 @@
 <template>
     <div id="app">
         <specialty-select></specialty-select>
-        <hr class="u-full-width">
-        <div class="row">
-        </div>
         <div v-if="loadFailed" class="failed">We're sorry - we couldn't find that dataset. 
             Please try selecting another profession or try the same profession again.
             If the problem persists, contact us at <a href="mailto:hpds_online@unc.edu?subject=Problem%20with%20HPDS%20website">hpds_online@unc.edu</a>.
         </div>
-        <div v-else class="row">
-            <div v-if="dataLoaded" class="u-full-width scaling-svg-container" id="dashboard" style="padding-bottom: 62%">
+        <div v-else>
+            <div v-if="dataLoaded" class="scaling-svg-container" id="dashboard" style="padding-bottom: 62%">
                 <svg class="scaling-svg dashboard" viewBox="0 0 960 600" >
                         <defs> <pattern id="NApattern" patternUnits="userSpaceOnUse" width="8" height="8"> <image xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc4JyBoZWlnaHQ9JzgnPgogIDxyZWN0IHdpZHRoPSc4JyBoZWlnaHQ9JzgnIGZpbGw9JyNmZmYnLz4KICA8cGF0aCBkPSdNMCAwTDggOFpNOCAwTDAgOFonIHN0cm9rZS13aWR0aD0nMC41JyBzdHJva2U9JyNhYWEnLz4KPC9zdmc+Cg==" x="0" y="0" width="8" height="8"> </image> </pattern> </defs>
                     <Map></Map>
@@ -18,8 +15,8 @@
             </div>
 
         </div>
-        <div class="row">
-            <div class="u-full-width" id="download-buttons">
+       
+            <div id="control-panel">
                 <div id="yearSlider" ><div >Select a Year: {{year}}</div>
                     <input  :min="yearExtent[0]" :max="yearExtent[1]" step="1" :value="year" @input="updateYear" type="range">
                    <label for="scaleCheckBox"><input id="scaleCheckBox" type="checkbox" :value="$store.state.freezeScale" @input="$store.commit('changeFreezeScale')">Freeze Color Scale</label>
@@ -28,12 +25,11 @@
                 <download-data-button></download-data-button>
                 <button type="button" class="aggregate" id="aggregate" @click="changeAggregation">{{aggregationText}}</button>
                 <button type="button" @click="runTutorial">Tutorial</button>
-            </div>
-
+      
         </div>
-          <div class="row">
-            <div class="notes u-full-width"><hr>
-                <p class="notes-text" v-html="noteText"></p></div></div>
+          
+            <div class="notes">
+                <p class="notes-text" v-html="noteText"></p></div>
 
                 <v-tour name="userTour" :steps="steps"></v-tour>
     </div>
@@ -165,15 +161,23 @@ export default {
     font-size: 1.2rem !important;
 }
 
+#control-panel {
+  display:flex;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+
+#control-panel>*{
+  margin-right: 5px;
+}
+
 #yearSlider {
-  display: inline-block;
   margin-bottom: 1rem;
   font: 700 1.3rem sans-serif;
 }
 
 #yearSlider input {
   margin-bottom: 0;
-  margin-right: 10%;
 }
 
 #yearSlider input[type="checkbox"] {
@@ -181,11 +185,11 @@ export default {
   margin-right: 5%;
 }
 
-.barChartGroup {
+/* .barChartGroup {
   margin-left: 0;
   margin-top: 10px;
   min-height: 481px;
-}
+} */
 
 .failed {
   height: 400px;

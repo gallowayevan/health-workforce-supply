@@ -226,7 +226,7 @@ export default {
 </script>
 
 
-<style scoped>
+<style>
 .county {
   stroke: #fff;
   stroke-width: 1;
@@ -258,11 +258,9 @@ export default {
   font-size: 1em;
 }
 
-div.tooltip {
+/* div.tooltip {
   position: absolute;
-  text-align: center;
-  /* width: 80px;					
-    height: 30px;					 */
+  text-align: center;			
   padding: 8px;
   font: 12px sans-serif;
   background: rgb(163, 49, 128);
@@ -271,7 +269,7 @@ div.tooltip {
   pointer-events: none;
   opacity: 0.85;
   color: #fff;
-}
+} */
 
 /* .titleYear {
   font-size: 1.3em;

@@ -1,12 +1,12 @@
 <template>        
-        <div class="row">
-            <div class="five columns profession-select">
+        <div class="profession-specialty-select">
+            <div class="profession-select">
                 <label>Choose a profession</label>
                 <!-- <select class="u-full-width" id="profession"> -->
                  <multiselect :value="value" :options="professions" track-by="code" label="profession" @input="changeSpecialty"></multiselect>
             </div>
             <transition>
-            <div class="five columns" id="specialty-select-group" v-show="showSpecialtyBox">
+            <div class="specialty-select" v-show="showSpecialtyBox">
                 <label>and a specialty</label>
                 <multiselect :value="value" :options="specialties" track-by="code" label="name" @input="changeSpecialty"></multiselect>
             </div>
@@ -77,7 +77,21 @@ export default {
 
 <style src="vue-multiselect/dist/vue-multiselect.min.css"></style>
 
-<style scoped>
+<style>
+.profession-specialty-select {
+    display: flex;
+    flex-wrap: wrap;
+    height: 85px;
+}
+
+.profession-select {
+    flex-basis: 330px;
+    margin-right: 15px;
+}
+
+.specialty-select {
+    flex-basis: 330px;
+}
 
 .v-enter-active, .v-leave-active {
   transition: opacity .5s;
@@ -85,13 +99,6 @@ export default {
 .v-enter, .v-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
 }
-
-div.row {
-    height: 85px
-}
-
-
-
 </style>
   
 

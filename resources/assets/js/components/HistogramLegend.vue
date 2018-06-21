@@ -236,14 +236,14 @@ line {
   stroke: #bdbdbd;
 }
 
-.hoverBox rect {
+/* .hoverBox rect {
   fill: rgb(163, 49, 128);
   opacity: 0.85;
 }
 
 .hoverBox text {
   fill: #fff;
-}
+} */
 
 .selectedCircle {
   stroke: rgb(163, 49, 128);

@@ -1,6 +1,6 @@
  <template>
  <g>
-    <text
+    <text class="bar-text"
     :x="barData.x + barData.width*0.5" 
     :y="barData.y - 4"
     v-show="showLabel"
@@ -12,7 +12,7 @@
     :x="barData.x + barData.width*0.5" 
     :y="barData.y + barData.height + 15"
     v-show="showLabel"
-    class="yearLabel"
+    class="bar-text yearLabel"
     >
     {{barData.year}}
     </text>
@@ -41,15 +41,15 @@ export default {
   }
 </script>
 
-<style scoped>
+<style >
 
 
-  text {
+  .bar-text {
     font-size: 1em; 
     text-anchor:middle;  
   }
 
-  text.yearLabel {
+  .yearLabel {
     fill: rgb(189, 189, 189);
   }
 

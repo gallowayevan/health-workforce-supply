@@ -1,5 +1,5 @@
 <template>
-<rect 
+<rect class="bars"
     :x="barData.x" 
     :y="barData.y"
     :width="barData.width" 
@@ -8,7 +8,7 @@
     @mouseout="mouseout"
     @click="click"
     :style= "{ fill:fill }"
-    :class="{hovered:isHovered}"
+    :class="{barHovered:isHovered}"
      >
     </rect>
 </template>
@@ -62,13 +62,13 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-  rect {
+<style>
+  .bars {
   fill: rgb(173, 221, 142); 
   stroke-width: 2;
   }
 
-.hovered {
+.barHovered {
   stroke: rgb(90, 90, 90); 
 }
 
