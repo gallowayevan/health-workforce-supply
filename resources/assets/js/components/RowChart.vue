@@ -7,7 +7,7 @@
         :fill="item[0] == 'North Carolina' ? '#007fae': colorScale(+item[1])" 
         >
 </rect> 
-<text class="ahecLabel" dx=-10 dy=1.1em>{{item[0] == "Wake AHEC" ? "Wake" : item[0]}}</text>
+<text class="ahecLabel" dx=-10 dy=1em>{{item[0] == "Wake AHEC" ? "Wake" :  item[0] == 'North Carolina' ? ncText : item[0]}}</text>
 </g>
 <g class="xAxis" v-for="(item, index) in xTicks" :transform="`translate(${xScale(item)},${height-5})`">
             <line   :y1="-height + 10"></line>
@@ -84,7 +84,7 @@ export default {
         ? txt + "Rate"
         : this.variable == "total" ? txt + "Median" : txt + "Percentage";
 
-        return `${txt}: ${this.valueFormatter(this.ncData.value)}`
+        return txt;
     },
     valueFormatter: function(){
         return formatter(this.variable)

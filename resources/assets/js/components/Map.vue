@@ -10,7 +10,7 @@
           :fill="colorScale(mapData.get(item.properties[aggregationLevel]))"
           @click="clicked(item.properties.county)"
           >
-          <title v-html="`${item.properties.county} County: ${valueFormatter(mapData.get(item.properties[aggregationLevel]))}`"></title> 
+          <title v-html="`${item.properties.county} County: ${hoverValueText(mapData.get(item.properties[aggregationLevel]))}`"></title> 
         </path>
         
 </g>
@@ -22,7 +22,7 @@
           :class="{selected: item.properties.ahec == region}" 
           @click="clicked(item.properties.ahec)"
           > 
-          <title v-html="`${item.properties.ahec}: ${valueFormatter(mapData.get(item.properties[aggregationLevel]))}`"></title>
+          <title v-html="`${item.properties.ahec == 'Wake AHEC' ? 'Wake' : item.properties.ahec}: ${hoverValueText(mapData.get(item.properties[aggregationLevel]))}`"></title>
           </path>
 </g>
 <histogram-legend class="histogram-legend" transform="translate(40,325)" :colorScale="colorScale" :histogramData="histogramData" :mapData="mapData" v-if="aggregationLevel=='county'"></histogram-legend>
@@ -52,7 +52,7 @@ export default {
   data() {
     return {
       width: 675,
-      chartMargin: { top: -35, right: 37, bottom: 21, left: 10 },
+      chartMargin: { top: -25, right: 37, bottom: 21, left: 10 },
       mapGeojson: mapGeojson,
       ahecGeojson: ahecGeojson,
       showTooltip: false,
@@ -91,7 +91,7 @@ export default {
       return features;
     },
     title: function() {
-      let title = `${professionChartTitle(this.variable, this.specialty)}, North Carolina, ${this.year}`;
+      let title = `${professionChartTitle(this.variable, this.specialty)} by ${this.aggregationLevel == 'county' ? 'County' : 'AHEC region'}, North Carolina, ${this.year}`;
       // console.log(wrap(title))
       return wrap({text: title, maxCharsPerLine: 85});
     },
@@ -205,6 +205,32 @@ export default {
     },
     valueFormatter: function(){
         return formatter(this.variable)
+    },
+    hoverValueText() {
+      let variableText = "";
+       switch (this.variable) {
+        case "providerRate":
+          variableText = "per 10,000 population";
+          break;
+        case "percentFemale":
+          variableText = "female";
+          break;
+        case "percentAge":
+          variableText = "65 or older";
+          break;
+        case "percentUnderrepresented":
+          variableText = "underrepresented minority";
+          break;
+        case "total":
+          variableText = "total";
+          break;
+      }
+
+      return function(valueToFormat) {
+      const formattedValue = this.valueFormatter(valueToFormat);
+      return `${formattedValue} ${variableText}`;
+      }
+
     },
     ...mapState([
       "data",

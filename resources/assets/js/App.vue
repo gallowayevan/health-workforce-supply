@@ -42,7 +42,6 @@ import DownloadImageButton from "./components/DownloadImageButton";
 import DownloadDataButton from "./components/DownloadDataButton";
 import Map from "./components/Map";
 import { getSourceText, getPhysicianGroupText } from "./chart-text";
-// import { cookie, createCookie } from "./cookie-manager";
 // import debounce from "lodash/debounce";
 
 export default {
@@ -59,7 +58,7 @@ export default {
       steps: [
         {
           target: ".profession-select",
-          content: `Welcome! To begin, you can select a health profession. For some professions, you can also select a specialty or primary area of practice.`
+          content: `Welcome!<br>To begin, you can select a health profession. For some professions, you can also select a specialty or primary area of practice.`
         },
         {
           target: ".counties",
@@ -155,6 +154,8 @@ export default {
 <style>
 .v-step {
   background: #006837 !important;
+  font-size: 18px !important;
+  line-height: 1.3 !important;
 }
 
 .v-step__button {
