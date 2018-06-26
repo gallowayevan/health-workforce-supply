@@ -14,6 +14,7 @@ let mix = require('laravel-mix');
 let jsOutputDir = 'public/js/hpds.js';
 let cssOutputDir = 'public/css/hpds.css';
 
+
 if (mix.inProduction()) {
     let jsOutputDir = 'public/js/hpds.js';//'/mnt/c/Users/emg33/Code/workforceblog/source/supply/hpds.js';
     cssOutputDir = 'public/css/hpds.css';

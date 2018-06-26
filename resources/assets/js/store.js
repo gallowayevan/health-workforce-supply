@@ -3,6 +3,7 @@ import Vuex from 'vuex';
 import { csv } from 'd3-request'
 import { format } from 'd3-format'
 import { median, range} from 'd3-array'
+import env from './env'
 
 
 Vue.use(Vuex);
@@ -111,7 +112,7 @@ export const store = new Vuex.Store({
         changeSpecialty: function ({ commit, state }, specialtyObject) {
             state.specialty = specialtyObject;
 
-            csv("data/region/" + "spec" + format("03")(state.specialty.code) + ".csv", function (error, data) {
+            csv(env("ROOT_API") + "spec" + format("03")(state.specialty.code) + ".csv", function (error, data) {
                 if (error) {
                     state.loadFailed = true;
                 } else {

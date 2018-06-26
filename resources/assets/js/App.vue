@@ -122,7 +122,6 @@ export default {
   },
   mounted() {
     const currIntro = localStorage.getItem("intro");
-  
     if(currIntro != "seen"){
       this.$tours["userTour"].start();
       localStorage.setItem("intro", "seen");
