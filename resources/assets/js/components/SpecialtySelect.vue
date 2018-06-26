@@ -18,6 +18,7 @@
 import Multiselect from 'vue-multiselect'
 import {sortStrings} from '../utility'
 import {csv} from 'd3-request'
+import env from '../env'
 
 export default {
   name: 'SpecialtySelect',
@@ -52,7 +53,7 @@ export default {
   },
   created() {
       const that = this;
-      csv("data/specialties.csv", function(data){
+      csv(env("ROOT_API") + "specialties.csv", function(data){
         //Format data a bit
         that.data = data.map(function(d){
             return {

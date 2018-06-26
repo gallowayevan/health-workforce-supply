@@ -112,7 +112,7 @@ export const store = new Vuex.Store({
         changeSpecialty: function ({ commit, state }, specialtyObject) {
             state.specialty = specialtyObject;
 
-            csv(env("ROOT_API") + "spec" + format("03")(state.specialty.code) + ".csv", function (error, data) {
+            csv(env("ROOT_API") + "region/spec" + format("03")(state.specialty.code) + ".csv", function (error, data) {
                 if (error) {
                     state.loadFailed = true;
                 } else {
