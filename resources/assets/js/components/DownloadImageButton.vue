@@ -17,12 +17,13 @@ export default {
     downloadImage() {
       const dashboard = document.querySelector(".dashboard").cloneNode(true);
       dashboard.setAttribute("viewBox", "0 0 1050 810");
+      dashboard.style.fontFamily = "Helvetica, Arial, sans-serif";
 
       const map = dashboard.querySelector("#map-container");
       map.setAttribute("transform", "translate(25,25)");
 
       const barcharts = dashboard.querySelector("#bar-chart-group");
-      barcharts.setAttribute("transform", "translate(750,115)");
+      barcharts.setAttribute("transform", "translate(720,115)");
       barcharts.setAttribute("font-size", "1em");
 
       const newText = document.createElementNS(
@@ -33,7 +34,7 @@ export default {
       newText.setAttributeNS(null, "transform", "translate(200,660)");
 
       const notes = document.querySelector(".notes-text").innerText;
-      newText.innerHTML = wrap({text: notes, maxCharsPerLine: 180})
+      newText.innerHTML = wrap({text: notes, maxCharsPerLine: 160})
       dashboard.appendChild(newText);
 
       svg('ShepsLogoVertical.svg')
@@ -41,7 +42,7 @@ export default {
         const logoSvg = d.childNodes[0];
         logoSvg.setAttribute("transform", "translate(15,640)");
         dashboard.appendChild(logoSvg);
-        saveSvgAsPng(dashboard, "viz.png", { backgroundColor: "#fff" });
+        saveSvgAsPng(dashboard, "viz.png", { backgroundColor: "#fff", encoderOptions: 1});
       })
       .catch(function(error) {
   console.log('Looks like there was a problem: \n', error);
