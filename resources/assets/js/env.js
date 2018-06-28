@@ -3,7 +3,7 @@ let globalEnv = {
       ROOT_API: "data/"
     },
    production: {
-    ROOT_API: "https://workforceblog-dept-healthworkforce.cloudapps.unc.edu/supply/data/"
+    ROOT_API: "https://data-dept-healthworkforce.cloudapps.unc.edu/data/"
     }
   };
   
