@@ -165,7 +165,7 @@ export default {
       const currRange = schemeYlGn[numberOfColorBins + 1].slice(1); //get rid of yellow as it is too light
       const currBinWidth = this.histogramData[1].x1 - this.histogramData[1].x0; //max(this.histogramData, d=>d.x1 - d.x0);
       const clusterScale = scaleCluster().domain(currDomain).range(currRange);
-      // console.log(clusterScale.clusters());
+      console.log(clusterScale.clusters());
       
       const clusters = clusterScale.clusters();
       const matchedClusters = clusters.map(function(d, i){
@@ -183,10 +183,10 @@ export default {
       // console.log(matchedClusters)
       const allClusters = [0, Number.EPSILON, ...matchedClusters].filter((d,i, arr)=>d != arr[i-1]);
       const allRange = ["url(#NApattern)", "#e3e3e3", ...currRange];
-      // console.log(allClusters)
 
+      //Use set to ensure only unique values
       const colorScale = scaleThreshold()
-        .domain(allClusters)
+        .domain([...new Set(allClusters)])
         .range(allRange);
 
         return colorScale;
