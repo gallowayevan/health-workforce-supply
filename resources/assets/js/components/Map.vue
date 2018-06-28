@@ -165,7 +165,7 @@ export default {
       const currRange = schemeYlGn[numberOfColorBins + 1].slice(1); //get rid of yellow as it is too light
       const currBinWidth = this.histogramData[1].x1 - this.histogramData[1].x0; //max(this.histogramData, d=>d.x1 - d.x0);
       const clusterScale = scaleCluster().domain(currDomain).range(currRange);
-      console.log(clusterScale.clusters());
+      // console.log(clusterScale.clusters());
       
       const clusters = clusterScale.clusters();
       const matchedClusters = clusters.map(function(d, i){
