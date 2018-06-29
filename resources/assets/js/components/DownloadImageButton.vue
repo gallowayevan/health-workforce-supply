@@ -44,7 +44,7 @@ export default {
         logoSvg.setAttribute("transform", `translate(15,640), ${currentTransform}`);
         dashboard.appendChild(logoSvg);
         // dashboard.appendChild(logoSvg).setAttributeNS(null,"transform", "translate(15,640)");
-        console.log(dashboard)
+
         saveSvgAsPng(dashboard, "viz.png", { backgroundColor: "#fff", encoderOptions: 1});
       })
       .catch(function(error) {
