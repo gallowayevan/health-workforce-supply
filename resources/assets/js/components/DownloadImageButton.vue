@@ -39,9 +39,12 @@ export default {
 
       svg('ShepsLogoVertical.svg')
       .then(function(d){
-        const logoSvg = d.childNodes[0];
-        logoSvg.setAttribute("transform", "translate(15,640)");
+        const logoSvg = d.childNodes[0].childNodes[2];
+        const currentTransform = logoSvg.getAttribute("transform");
+        logoSvg.setAttribute("transform", `translate(15,640), ${currentTransform}`);
         dashboard.appendChild(logoSvg);
+        // dashboard.appendChild(logoSvg).setAttributeNS(null,"transform", "translate(15,640)");
+        console.log(dashboard)
         saveSvgAsPng(dashboard, "viz.png", { backgroundColor: "#fff", encoderOptions: 1});
       })
       .catch(function(error) {
