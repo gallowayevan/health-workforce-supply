@@ -1,5 +1,5 @@
 <template>
-<g transform="translate(648, 90)" id="bar-chart-group">
+<g transform="translate(643, 90)" id="bar-chart-group">
     <text class="barChartHeader" transform="translate(0,-65)" v-html="barChartHeader"></text>
     <!-- <transition name="fade">
     <g class="ncLineLegend" transform="translate(0,-35)" v-if="region != 'North Carolina'">
