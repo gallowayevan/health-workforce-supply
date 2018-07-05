@@ -19,7 +19,7 @@
             <div id="control-panel">
                 <div id="yearSlider" ><div >Select a Year: {{year}}</div>
                     <input  :min="yearExtent[0]" :max="yearExtent[1]" step="1" :value="year" @input="updateYear" type="range">
-                   <label for="scaleCheckBox"><input id="scaleCheckBox" type="checkbox" :value="$store.state.freezeScale" @input="$store.commit('changeFreezeScale')">Freeze Color Scale</label>
+                   <!-- <label for="scaleCheckBox"><input id="scaleCheckBox" type="checkbox" :value="$store.state.freezeScale" @input="$store.commit('changeFreezeScale')">Freeze Color Scale</label> -->
                  </div>
                 <download-image-button></download-image-button>
                 <download-data-button></download-data-button>

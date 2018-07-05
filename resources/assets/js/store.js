@@ -51,9 +51,12 @@ export const store = new Vuex.Store({
 
             state.year = year;
 
-            if (!state.freezeScale) {
-                state.scaleYear = year;
-            }
+            // if (!state.freezeScale) {
+            //     state.scaleYear = year;
+            // }
+        },
+        changeScaleYear(state, year) {
+            state.scaleYear = year;
         },
         changeVariable(state, variable) {
             if (state.variable != variable) {
@@ -152,6 +155,7 @@ export const store = new Vuex.Store({
                     commit('changeAHECMedians', ahecMedians);
                     commit('changeData', data);
                     commit('changeYear', yearMax);
+                    commit('changeScaleYear', yearMax);
                     commit("changeYearExtent", [yearMin, yearMax]);
 
                     updateVariables(state);
