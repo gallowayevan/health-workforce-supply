@@ -100,7 +100,7 @@ export default {
     },
     aggregationText() {
       const aggReverse = this.aggregationLevel == "county" ? "ahec" : "county";
-      return `Aggregate by ${aggReverse}`;
+      return `See Data by ${aggReverse}`;
     },
     aggregationLevel() {
       return this.$store.state.aggregationLevel;
