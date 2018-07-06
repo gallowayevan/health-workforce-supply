@@ -65,7 +65,7 @@
  <script>
 import { extent, range, max } from "d3-array";
 import { scaleLinear, scaleLog, domain, rangeRound } from "d3-scale";
-// import {format} from "d3-format";
+import {format} from "d3-format";
 import {formatter} from "../utility";
 
 export default {
@@ -186,9 +186,11 @@ export default {
       let formatted = currValue;
       if (this.variable.indexOf("percent") > -1) {
         formatted = Math.round(currValue * 100) + "%";
+      } else if(this.variable == "providerRate"){
+        formatted = format("")(currValue);
       } else {
         formatted = this.valueFormatter(currValue)
-      } 
+      }
       return formatted;
     }
   }

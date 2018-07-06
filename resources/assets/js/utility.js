@@ -1,7 +1,7 @@
 import {format} from 'd3-format'
 
 const formatters = {
-    rate: format(".2r"), 
+    rate: format(".3r"),
     percent: format(".1%"),
     total: format(",.0f")  
 }

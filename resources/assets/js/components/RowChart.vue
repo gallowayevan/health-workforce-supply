@@ -4,24 +4,30 @@
 <rect 
         :width="xScale(+item[1])"
         :height="yScale.bandwidth()"
-        :fill="item[0] == 'North Carolina' ? '#007fae': colorScale(+item[1])" 
+        :fill="colorScale(+item[1])" 
         >
 </rect> 
-<text class="ahecLabel" dx=-10 dy=1em>{{item[0] == "Wake AHEC" ? "Wake" :  item[0] == 'North Carolina' ? ncText : item[0]}}</text>
+<text class="ahecLabel" dx=-10 dy=1em>{{item[0] == "Wake AHEC" ? "Wake" : item[0]}}</text>
 </g>
 <g class="xAxis" v-for="(item, index) in xTicks" :transform="`translate(${xScale(item)},${height-5})`">
-            <line   :y1="-height + 10"></line>
+            <line   :y1="-height + 20"></line>
             <text dy=1.1em v-if="index % 2== 0">{{axisValueFormatter(item)}}</text>
         </g> 
 
-        <text class="chartTitle" :x="chartMargin.left + (xScale.range()[1] - xScale.range()[0])/2" :dy="height + 40">{{chartTitle}}</text>   
+        <text class="chartTitle" :x="chartMargin.left + (xScale.range()[1] - xScale.range()[0])/2" :dy="height + 40">{{chartTitle}}</text> 
+
+        <g class="ncLine">
+  <line :x2="xScale(ncData.value)" :x1="xScale(ncData.value)" y1=5 :y2="height - 5"></line>
+  <text :x="xScale(ncData.value)">{{ncText}}</text>
+  </g>  
 </g>
  </template>
 
  <script>
 import { extent, range, max } from "d3-array";
 import { scaleLinear, scaleBand } from "d3-scale";
-import {formatter} from "../utility";
+import { format } from "d3-format";
+import { formatter } from "../utility";
 
 export default {
   name: "RowChart",
@@ -34,8 +40,8 @@ export default {
   },
   props: ["colorScale", "mapData"],
   computed: {
-    mapDataArray(){
-      return [...this.mapData.entries(), ["North Carolina", +this.ncData.value]].sort((a,b)=>a[1]-b[1]);
+    mapDataArray() {
+      return [...this.mapData.entries()].sort((a, b) => a[1] - b[1]);
     },
     ncData() {
       return this.$store.getters
@@ -43,17 +49,18 @@ export default {
         .filter(d => d.year == this.$store.state.year)[0];
     },
     xScale: function() {
-      const currDomain = this.mapDataArray.map(d=>d[1]);
+      const currDomain = this.mapDataArray.map(d => d[1]);
       return scaleLinear()
-        .domain([0, Math.max(...currDomain)]).nice()
+        .domain([0, Math.max(...currDomain)])
+        .nice()
         .range([this.chartMargin.left, this.width - this.chartMargin.right]);
     },
-    xTicks(){
+    xTicks() {
       return this.xScale.ticks();
     },
     yScale() {
       return scaleBand()
-        .domain(this.mapDataArray.map(d=>d[0]))
+        .domain(this.mapDataArray.map(d => d[0]))
         .range([this.height - this.chartMargin.bottom, this.chartMargin.top])
         .paddingInner(0.1);
     },
@@ -80,14 +87,16 @@ export default {
     },
     ncText() {
       let txt = "State ";
-      txt = this.variable == "providerRate"
-        ? txt + "Rate"
-        : this.variable == "total" ? txt + "Median" : txt + "Percentage";
+      txt =
+        this.variable == "providerRate"
+          ? txt + "Rate"
+          : this.variable == "total" ? "Median" : txt + "Percentage";
 
-        return txt;
+      return `${txt}: ${this.valueFormatter(this.ncData.value)}`;
     },
-    valueFormatter: function(){
-        return formatter(this.variable)
+
+    valueFormatter: function() {
+      return formatter(this.variable);
     },
     variable: function() {
       return this.$store.state.variable;
@@ -95,12 +104,16 @@ export default {
     aggregationLevel: function() {
       return this.$store.state.aggregationLevel;
     }
-  }, 
+  },
   methods: {
     axisValueFormatter(currValue) {
       let formatted = currValue;
       if (this.variable.indexOf("percent") > -1) {
         formatted = Math.round(currValue * 100) + "%";
+      } else if (this.variable == "providerRate") {
+        formatted = format("")(currValue);
+      } else {
+        formatted = this.valueFormatter(currValue);
       }
       return formatted;
     }
@@ -109,8 +122,20 @@ export default {
 </script>
 
 <style scoped>
-.ahecLabel{
-  text-anchor:end; 
+.ncLine text {
+  fill: #007fae;
+  font-weight: 600;
+  font-size: 1em;
+  text-anchor: middle;
+}
+
+.ncLine line {
+  stroke: #007fae;
+  stroke-width: 3px;
+}
+
+.ahecLabel {
+  text-anchor: end;
 }
 
 .xAxis line {
@@ -126,6 +151,5 @@ export default {
   font-weight: 600;
   text-anchor: middle;
 }
-
 </style>
  

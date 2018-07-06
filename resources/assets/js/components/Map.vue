@@ -26,7 +26,7 @@
           </path>
 </g>
 <histogram-legend class="histogram-legend" transform="translate(40,325)" :colorScale="colorScale" :histogramData="histogramData" :mapData="mapData" v-if="aggregationLevel=='county'"></histogram-legend>
-<row-chart v-else transform="translate(200,325)" :colorScale="colorScale" :mapData="mapData"></row-chart>
+<row-chart v-else transform="translate(140,325)" :colorScale="colorScale" :mapData="mapData"></row-chart>
 </g>
 
 </template>
