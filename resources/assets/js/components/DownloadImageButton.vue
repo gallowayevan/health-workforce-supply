@@ -31,19 +31,19 @@ export default {
         "text"
       );
       newText.setAttributeNS(null, "font-size", "10px");
-      newText.setAttributeNS(null, "transform", "translate(200,660)");
+      newText.setAttributeNS(null, "transform", "translate(270,660)");
 
       const notes = document.querySelector(".notes-text").innerText;
-      newText.innerHTML = wrap({text: notes, maxCharsPerLine: 160})
+      newText.innerHTML = wrap({text: notes, maxCharsPerLine: 155})
       dashboard.appendChild(newText);
 
-      svg('ShepsLogoVertical.svg')
+      svg('sheps_workforce_nc_for_web.svg')
       .then(function(d){
-        const logoSvg = d.childNodes[0].childNodes[2];
-        const currentTransform = logoSvg.getAttribute("transform");
-        logoSvg.setAttribute("transform", `translate(15,640), ${currentTransform}`);
+        const defs = d.childNodes[0].childNodes[0];
+        dashboard.appendChild(defs);
+        const logoSvg = d.childNodes[0].childNodes[1];
+        logoSvg.setAttribute("transform", `translate(15,655), scale(0.4)`);
         dashboard.appendChild(logoSvg);
-        // dashboard.appendChild(logoSvg).setAttributeNS(null,"transform", "translate(15,640)");
 
         saveSvgAsPng(dashboard, "viz.png", { backgroundColor: "#fff", encoderOptions: 1});
       })

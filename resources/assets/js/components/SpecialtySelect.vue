@@ -82,7 +82,7 @@ export default {
 .profession-specialty-select {
     display: flex;
     flex-wrap: wrap;
-    height: 85px;
+    min-height: 85px;
 }
 
 .profession-select {
