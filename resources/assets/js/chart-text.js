@@ -229,7 +229,7 @@ export function getSourceText(currentSpecialty) {
       text = physicianGroups[index].areasOfPractice.join(", ")
       text = `<p class="paop-note">${specialtyObject.profession}s with a primary area of practice of ${specialtyObject.name} include the following: ${text}.`;
 
-      if(specialtyObject.specialty == "Primary Care Classic" || specialtyObject.specialty == "Generalist Physician"){
+      if(specialtyObject.specialty == "Primary Care Classic" || specialtyObject.specialty == "Generalist Physician" || specialtyObject.specialty == "Psychiatry, All Specialties"){
         text += " This category overlaps with other categories, i.e., it is not exclusive of the other categories."
       }
 

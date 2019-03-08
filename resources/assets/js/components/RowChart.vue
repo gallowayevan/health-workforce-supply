@@ -5,7 +5,7 @@
         :width="xScale(+item[1])"
         :height="yScale.bandwidth()"
         :fill="colorScale(+item[1])" 
-        >
+        ><title>{{hoverValueText(+item[1])}}</title>
 </rect> 
 <text class="ahecLabel" dx=-10 dy=1em>{{item[0] == "Wake AHEC" ? "Wake" : item[0]}}</text>
 </g>
@@ -63,7 +63,31 @@ export default {
         .domain(this.mapDataArray.map(d => d[0]))
         .range([this.height - this.chartMargin.bottom, this.chartMargin.top])
         .paddingInner(0.1);
-    },
+    },    
+    hoverValueText() {
+      let variableText = "";
+       switch (this.variable) {
+        case "providerRate":
+          variableText = "per 10,000 population";
+          break;
+        case "percentFemale":
+          variableText = "female";
+          break;
+        case "percentAge":
+          variableText = "65 or older";
+          break;
+        case "percentUnderrepresented":
+          variableText = "underrepresented minority";
+          break;
+        case "total":
+          variableText = "total";
+          break;
+      }
+
+      return function(valueToFormat) {
+      const formattedValue = this.valueFormatter(valueToFormat);
+      return `${formattedValue} ${variableText}`;
+      }},
     chartTitle() {
       let currentChartTitle = "Histogram";
       switch (this.variable) {

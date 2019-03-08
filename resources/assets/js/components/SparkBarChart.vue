@@ -1,7 +1,8 @@
 <template>
 <transition name="fade">
-<g :id="variable">
-<text class="title" transform="translate(0, -5)">{{title}}</text>
+<g :id="variable" >
+  <rect :width="width" :height="width*0.4" fill="#fff"  @click="click" transform="translate(0, -20)"></rect>
+<text class="title" transform="translate(0, -5)" @click="click">{{title}}</text>
 <g :transform="`translate(${chartMargin.left}, ${chartMargin.top})`">
     <bar-rect 
         v-for="(item, index) in chartData" 
@@ -143,6 +144,9 @@ export default {
     },
   },
   methods: {
+    click: function(){
+      this.$store.commit('changeVariable', this.variable)
+    },
     calculateYMax: function() {
       const regionMax = Math.max(
         max(this.chartData, d => d.value),

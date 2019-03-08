@@ -6,7 +6,7 @@
         :width="binWidth"
         :height="yScale(0) - yScale(zeroRegions)"
         :fill="colorScale(0)" 
-        >
+        ><title>{{zeroRegions + " counties"}}</title>
 </rect>
 <line :x2="binWidth" x1=0></line>
 <text dy=30 :dx="binWidth/2" >0</text>
@@ -18,7 +18,7 @@
         :width="binWidth"
         :height="yScale(0) - yScale(item.length)"
         :fill="colorScale(item.x0)" 
-        >
+        ><title>{{item.length + " counties"}}</title>
 </rect>
 </g>
 </template>
@@ -28,7 +28,7 @@
         :width="binWidth"
         :height="yScale(0) - yScale(missingRegions)"
         :fill="colorScale(-9)" 
-        >
+        ><title>{{missingRegions + " counties"}}</title>
 </rect>
 <line :x2="binWidth" x1="0"></line>
 <text dy=30 :dx="binWidth/2" >NA</text>
