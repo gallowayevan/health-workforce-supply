@@ -3,12 +3,12 @@
             <div class="profession-select">
                 <label>Choose a profession</label>
                 <!-- <select class="u-full-width" id="profession"> -->
-                 <multiselect :value="value" :options="professions" track-by="code" label="profession" @input="changeSpecialty" :showLabels="false"></multiselect>
+                 <multiselect :value="value" :options="professions" track-by="code" label="profession" @input="changeSpecialty" :showLabels="false" :allow-empty="false"></multiselect>
             </div>
             <transition>
             <div class="specialty-select" v-show="showSpecialtyBox">
                 <label>and a specialty</label>
-                <multiselect :value="value" :options="specialties" track-by="code" label="name" @input="changeSpecialty" :showLabels="false"></multiselect>
+                <multiselect :value="value" :options="specialties" track-by="code" label="name" @input="changeSpecialty" :showLabels="false" :allow-empty="false"></multiselect>
             </div>
             </transition>
         </div>
@@ -48,6 +48,7 @@ export default {
   },
   methods: {
       changeSpecialty: function(specialtyObject){
+          console.log(specialtyObject)
           this.$store.dispatch('changeSpecialty', specialtyObject)
       }
   },
