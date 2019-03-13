@@ -10,7 +10,7 @@
           :fill="colorScale(mapData.get(item.properties[aggregationLevel]))"
           @click="clicked(item.properties.county)"
           >
-          <title v-html="`${item.properties.county} County: ${hoverValueText(mapData.get(item.properties[aggregationLevel]))}`"></title> 
+          <title v-html="`${item.properties.county} County\n${hoverValueText(mapData.get(item.properties[aggregationLevel]))}${variable == `providerRate` ? `\n(` + totalMap.get(item.properties[aggregationLevel]) + ` total)` : ``}`"></title> 
         </path>
         
 </g>
@@ -22,7 +22,7 @@
           :class="{selected: item.properties.ahec == region}" 
           @click="clicked(item.properties.ahec)"
           > 
-          <title v-html="`${item.properties.ahec == 'Wake AHEC' ? 'Wake' : item.properties.ahec}: ${hoverValueText(mapData.get(item.properties[aggregationLevel]))}`"></title>
+          <title v-html="`${item.properties.ahec == 'Wake AHEC' ? 'Wake' : item.properties.ahec}\n${hoverValueText(mapData.get(item.properties[aggregationLevel]))}${variable == `providerRate` ? `\n(` + totalMap.get(item.properties[aggregationLevel]) + ` total)` : ``}`"></title>
           </path>
 </g>
 <histogram-legend class="histogram-legend" transform="translate(40,325)" :colorScale="colorScale" :histogramData="histogramData" :mapData="mapData" v-if="aggregationLevel=='county'"></histogram-legend>
@@ -101,6 +101,15 @@ export default {
           .filter(d => d.year == this.year && d.type == this.aggregationLevel)
           .map(d => {
             return [d.region, d[this.variable]];
+          })
+      );
+    },
+    totalMap(){
+      return new Map(
+        this.data
+          .filter(d => d.year == this.year && d.type == this.aggregationLevel)
+          .map(d => {
+            return [d.region, d.total];
           })
       );
     },
@@ -210,7 +219,7 @@ export default {
       let variableText = "";
        switch (this.variable) {
         case "providerRate":
-          variableText = "per 10,000 population";
+          variableText = "per 10,000 population"
           break;
         case "percentFemale":
           variableText = "female";
