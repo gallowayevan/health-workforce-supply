@@ -9,6 +9,7 @@
             <div v-if="dataLoaded" class="scaling-svg-container" id="dashboard" style="padding-bottom: 62%">
                 <svg class="scaling-svg dashboard" viewBox="0 0 960 600" >
                         <defs> <pattern id="NApattern" patternUnits="userSpaceOnUse" width="8" height="8"> <image xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc4JyBoZWlnaHQ9JzgnPgogIDxyZWN0IHdpZHRoPSc4JyBoZWlnaHQ9JzgnIGZpbGw9JyNmZmYnLz4KICA8cGF0aCBkPSdNMCAwTDggOFpNOCAwTDAgOFonIHN0cm9rZS13aWR0aD0nMC41JyBzdHJva2U9JyNhYWEnLz4KPC9zdmc+Cg==" x="0" y="0" width="8" height="8"> </image> </pattern> </defs>
+                    <rect width=960 height=600 fill="#fff" @click="rectClicked"></rect>
                     <Map></Map>
                     <spark-bar-chart-group></spark-bar-chart-group>
                 </svg>
@@ -128,6 +129,9 @@ export default {
     }
   },
   methods: {
+    rectClicked: function() {
+      this.$store.commit("changeRegion", "North Carolina");
+    },
     changeAggregation() {
       this.$store.commit("changeAggregation");
     },
